@@ -26,7 +26,7 @@
          "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/roy1_900x.jpg?v=1721994413",
          "image":"RHTLASH.webp"
       }
-   }
+   },
    {
       "pk":3,
       "model":"products.product",
@@ -39,6 +39,62 @@
          "rating":4.3,
          "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/roy4_900x.jpg?v=1722000499",
          "image":"RHCLOCK.webp"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "sku":"LCRBWL",
+         "name":"Small Rose Bowl",
+         "description":'Small Rose Bowl with sgraffito decoration. Each of these small rose bowls features an intricate slip decoration. Leitrim is also known as the "Wild Rose County", which inspired this design. Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Firstly, the bottom half of the outside of the bowl is dipped in cream slip. A winding rose stem is then carved into the surface, with slip dots added along the stem. Each slip dot is carved into a delicate rose, with green slip leaves added for a touch of color. The combination of the smooth glaze and the sgraffito decoration, which means "to scratch", results in delicate raised lines. The decoration can be felt by running fingers over it, adding a tactile element to the experience of using the small rose bowl. Dimensions: Approx 19cm x 6cm',
+         "price":50.00,
+         "category":4,
+         "rating":4.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/lichen5_900x.jpg?v=1721912617",
+         "image":"LCRBWL.webp"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "sku":"LCLLS",
+         "name":"Love Leitrim Spinner",
+         "description":'A charming decoration of Leitrim, this exquisite ceramic spinner from Lichen Ceramics is a unique piece features "Leitrim" elegantly inscribed on one side, and a beautifully detailed wild rose flower on the other, celebrating the essence of the "Wild Rose County." Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Handcrafted with meticulous care, this spinner captures the natural beauty and heritage of Leitrim. Perfect as a decorative piece or a thoughtful gift, it brings a touch of elegance and local pride to any space. The smooth, tactile finish invites you to spin and admire the delicate artistry from every angle. Dimensions: 10.5 cm x 8.5cm',
+         "price":18.00,
+         "category":4,
+         "rating":4.6,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/lichen7_900x.jpg?v=1721993314",
+         "image":"LCLLS.webp"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "sku":"JH1441",
+         "name":"Cashmere Throw Red Large Block",
+         "description":'Cashmere Throw Red Large Block. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm',
+         "price":149.50,
+         "category":4,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/johnhanly3_900x.jpg?v=1722007671",
+         "image":"JH1441.webp"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "sku":"JH1442",
+         "name":"Cashmere Throw Purple Large Block",
+         "description":'Cashmere Throw Purple Large Block. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm',
+         "price":149.50,
+         "category":4,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/john_hanly_5_900x.jpg?v=1722008961",
+         "image":"JH1442.webp"
       }
    }
 ]
