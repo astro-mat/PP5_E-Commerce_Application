@@ -1,0 +1,47 @@
+[
+    {
+        "pk": 1,
+        "model": "products.maker",
+        "fields": {
+            "name": "roy_humphreys_woodturner",
+            "friendly_name": "Roy Humphreys Woodturner"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.maker",
+        "fields": {
+            "name": "lichen_ceramics",
+            "friendly_name": "Lichen Ceramics"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.maker",
+        "fields": {
+            "name": "john_hanly",
+            "friendly_name": "John Hanly"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.maker",
+        "fields": {
+            "name": "millet_wade",
+            "friendly_name": "Millet Wade"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.maker",
+        "fields": {
+            "name": "miriam_wade_jewellery",
+            "friendly_name": "Miriam Wade Jewellery"
+        }
+    }
+]
+
+
+
+
+

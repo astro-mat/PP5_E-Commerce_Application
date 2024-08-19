@@ -5,6 +5,7 @@
       "fields":{
          "sku":"RHASHB",
          "name":"Ash Bowl",
+         "maker":"Roy Humphreys Woodturner",
          "description":"Beautifully crafted, Ash salad bowl made from home grown wood, Finished with food safe oil. After use please use a damp cloth, Do not immerse in water and also do not place hot objects on it. Made from sustainable wood.  Please note that as each of these pieces is individually handcrafted, the piece you receive may differ slightly from the image shown here. Dimensions: 31cm x 13cm",
          "price":110.00,
          "category":4,
@@ -19,6 +20,7 @@
       "fields":{
          "sku":"RHTLASH",
          "name":"Ash Wood Table Lamp",
+         "maker":"Roy Humphreys Woodturner",
          "description":"Beautifully crafted, Beech Table Lamp made from homegrown wood. Finished with Matt Lacquer. Made with care and finished with food safe oil. Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Dimensions: 400mm x 150mm without shade",
          "price":199.00,
          "category":4,
@@ -33,6 +35,7 @@
       "fields":{
          "sku":"RHCLOCK",
          "name":"Yew Free Standing Clock",
+         "maker":"Roy Humphreys Woodturner",
          "description":"Beautifully crafted Yew Clock. Finished with Danish oil & wax. Made from sustainable wood grown. Made with care and finished with food safe oil. Please note that as each of these pieces is individually handcrafted, the piece you receive may differ slightly from the image shown here. Dimensions: 9cm x 7.5cm x 4cm",
          "price":40.00,
          "category":4,
@@ -47,6 +50,7 @@
       "fields":{
          "sku":"LCRBWL",
          "name":"Small Rose Bowl",
+         "maker":"Lichen Ceramics",
          "description":"Small Rose Bowl with sgraffito decoration. Each of these small rose bowls features an intricate slip decoration. Leitrim is also known as the 'Wild Rose County', which inspired this design. Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Firstly, the bottom half of the outside of the bowl is dipped in cream slip. A winding rose stem is then carved into the surface, with slip dots added along the stem. Each slip dot is carved into a delicate rose, with green slip leaves added for a touch of color. The combination of the smooth glaze and the sgraffito decoration, which means 'to scratch', results in delicate raised lines. The decoration can be felt by running fingers over it, adding a tactile element to the experience of using the small rose bowl. Dimensions: Approx 19cm x 6cm",
          "price":50.00,
          "category":4,
@@ -61,6 +65,7 @@
       "fields":{
          "sku":"LCLLS",
          "name":"Love Leitrim Spinner",
+         "maker":"Lichen Ceramics",
          "description":"A charming decoration of Leitrim, this exquisite ceramic spinner from Lichen Ceramics is a unique piece features 'Leitrim' elegantly inscribed on one side, and a beautifully detailed wild rose flower on the other, celebrating the essence of the 'Wild Rose County.' Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Handcrafted with meticulous care, this spinner captures the natural beauty and heritage of Leitrim. Perfect as a decorative piece or a thoughtful gift, it brings a touch of elegance and local pride to any space. The smooth, tactile finish invites you to spin and admire the delicate artistry from every angle. Dimensions: 10.5 cm x 8.5cm",
          "price":18.00,
          "category":4,
@@ -75,6 +80,7 @@
       "fields":{
          "sku":"JH1441",
          "name":"Cashmere Throw Red Large Block",
+         "maker":"John Hanly",
          "description":"Cashmere Throw Red Large Block. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm",
          "price":149.50,
          "category":4,
@@ -89,12 +95,178 @@
       "fields":{
          "sku":"JH1442",
          "name":"Cashmere Throw Purple Large Block",
+         "maker":"John Hanly",
          "description":"Cashmere Throw Purple Large Block. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm",
          "price":149.50,
          "category":4,
          "rating":4.2,
          "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/john_hanly_5_900x.jpg?v=1722008961",
          "image":"JH1442.webp"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "sku":"JHLW100",
+         "name":"Large Irish Picnic Blanket Denim Green Camel Burgundy Plaid",
+         "maker":"John Hanly",
+         "description":"Large Irish Picnic Blanket Denim Green Camel Burgundy Plaid. Large Irish Picnic Blanket – rugged and hard wearing, reflecting the rich and varied colours of the Irish countryside, the perfect partner for days out, beach trips and picnics creating memories. 100% Pure Wool. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 137 x 182cm",
+         "price":79.45,
+         "category":4,
+         "rating":3.9,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/johnhanly2_900x.jpg?v=1722004489",
+         "image":"JJHLW100.webp"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "sku":"JH1491",
+         "name":"Cashmere Throw Green Herringbone",
+         "maker":"John Hanly",
+         "description":"Cashmere Throw Green Herringbone. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm",
+         "price":149.50,
+         "category":4,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/johnhanly1_900x.jpg?v=1722003211",
+         "image":"JH1491.webp"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "sku":"MWMS",
+         "name":"Shamrock Lapel Pin",
+         "maker":"Millet Wade",
+         "description":"Show your identity with this solid brass shamrock lapel pin, or browse our other icon pins to find yours. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
+         "price":40.00,
+         "category":5,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/shamrock_square_900x.jpg?v=1723742049",
+         "image":"MWMS.webp"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "sku":"MWMS",
+         "name":"Shamrock Lapel Pin",
+         "maker":"Millet Wade",
+         "description":"Show your identity with this solid brass shamrock lapel pin, or browse our other icon pins to find yours. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
+         "price":40.00,
+         "category":5,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/shamrock_square_900x.jpg?v=1723742049",
+         "image":"MWMS.webp"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "sku":"MWMBO",
+         "name":"Brass Bottle Opener",
+         "maker":"Millet Wade",
+         "description":"Solid brass bottle opener with leather tie. Brass was chosen by Millet Wade for its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. ",
+         "price":80.00,
+         "category":5,
+         "rating":4.4,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/money_clip_front_whitesq_900x.jpg?v=1723741326",
+         "image":"MWMBO.webp"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "sku":"FLW02",
+         "name":"Flow Pendant",
+         "maker":"Miriam Wade Jewellery",
+         "description":"An elegant geometric pendant inspired by the flow and movement of water. As a child Miriam spent many afternoons playing by the shore of Lough Ennell. The intricate pattern mimics the ever-changing ripples that formed from swimming by the shore inspired this piece. This brightly polished sterling silver pendant hangs from a 18 inch chain and is finished with a lobster catch. This piece is Irish hallmarked guaranteed and is the perfect pendant for that added sparkle for any occasion. An ideal gift for yourself or a loved one. Dimensions: Pendant measures 25mm x 25mm",
+         "price":120.00,
+         "category":5,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/FLW02_900x.jpg?v=1723739375",
+         "image":"FLW02.webp"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "sku":"LC03",
+         "name":"'Le Chéile' Linked Bracelet",
+         "maker":"Miriam Wade Jewellery",
+         "description":"These sterling silver linked earrings beautifully embody the deep and unbreakable bond between two special individuals. They are a timeless symbol of a connection so strong that nothing can ever break it. Irish hallmarked guaranteed, These brightly polished sterling silver earrings are hallmarked by the Irish Assay office and beautifully hang from a handmade earring hook at 30mm, a stunning piece of jewellery to wear everyday or for that special occasion. Dimensions: 50mm x 10mm including ear hook",
+         "price":80.00,
+         "category":5,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Flare_linked_bracelet-FLR03_900x.jpg?v=1723734678",
+         "image":"LC03.webp"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "sku":"LC10",
+         "name":"'Le Chéile' Large Linked Pendant",
+         "maker":"Miriam Wade Jewellery",
+         "description":"These sterling silver linked earrings beautifully embody the deep and unbreakable bond between two special individuals. They are a timeless symbol of a connection so strong that nothing can ever break it. Irish hallmarked guaranteed, These brightly polished sterling silver earrings are hallmarked by the Irish Assay office and beautifully hang from a handmade earring hook at 30mm, a stunning piece of jewellery to wear everyday or for that special occasion. Dimensions: 50mm x 10mm including ear hook",
+         "price":80.00,
+         "category":5,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Studio_Session-084_900x.jpg?v=1723734042",
+         "image":"LC10.webp"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "sku":"LC09",
+         "name":"'Le Chéile' Linked Earrings",
+         "maker":"Miriam Wade Jewellery",
+         "description":"These sterling silver linked earrings beautifully embody the deep and unbreakable bond between two special individuals. They are a timeless symbol of a connection so strong that nothing can ever break it. Irish hallmarked guaranteed, These brightly polished sterling silver earrings are hallmarked by the Irish Assay office and beautifully hang from a handmade earring hook at 30mm, a stunning piece of jewellery to wear everyday or for that special occasion. Dimensions: 50mm x 10mm including ear hook",
+         "price":95.00,
+         "category":5,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/FLR09_900x.jpg?v=1723733864",
+         "image":"LC09.webp"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "sku":"MWMPL",
+         "name":"Plane Lapel Pin",
+         "maker":"Millet Wade",
+         "description":"Show your identity with this solid brass Plane lapel pin. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
+         "price":40.00,
+         "category":5,
+         "rating":4.6,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/plane_900x.jpg?v=1717672880",
+         "image":"MWMPL.webp"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "sku":"MWMG",
+         "name":"Gamer Lapel Pin",
+         "maker":"Millet Wade",
+         "description":"Show your identity with this solid brass gamer lapel pin. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
+         "price":40.00,
+         "category":5,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/game_900x.jpg?v=1717672724",
+         "image":"MWMG.webp"
       }
    }
 ]
