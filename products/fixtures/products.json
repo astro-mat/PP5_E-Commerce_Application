@@ -240,7 +240,7 @@
       }
    },
    {
-      "pk":16,
+      "pk":17,
       "model":"products.product",
       "fields":{
          "sku":"MWMPL",
@@ -255,7 +255,7 @@
       }
    },
    {
-      "pk":17,
+      "pk":18,
       "model":"products.product",
       "fields":{
          "sku":"MWMG",
@@ -267,6 +267,276 @@
          "rating":4.7,
          "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/game_900x.jpg?v=1717672724",
          "image":"MWMG.webp"
+      }
+   },
+   {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW6400XCSSPE",
+         "name":"Seapoint Edge Graphic Clutch",
+         "maker":"Wild By Water",
+         "description":"This super-sized waterproof clutch (now 9.5 x 7 inches / 18 x 24cms) features Dublin's own Seapoint in graphic form. The reverse side of the clutch is black vegan leather and inside it's fully lined with a secure zipped pocket. Perfect for everyday adventures, occasional and exceptional wear - and weather, of course. Dimensions: 18 x 24cm",
+         "price":55.00,
+         "category":6,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/wbwclutch3_900x.jpg?v=1722091362",
+         "image":"WBW6400XCSSPE.webp"
+      }
+   },
+   {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW6400XCSCWS",
+         "name":"Causeway Coast Clutch",
+         "maker":"Wild By Water",
+         "description":"This super-sized waterproof clutch (now 9.5 x 7 inches / 18 x 24cms) features the Giant's Causeway on Co Antrim's Causeway Coast. The reverse is black vegan leather and inside it's fully lined with a secure zipped pocket. Perfect for everyday adventures, occasional and exceptional wear - and weather, of course. Dimensions: 18 x 24cm",
+         "price":55.00,
+         "category":6,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/wbwclutch2_900x.jpg?v=1722091102",
+         "image":"WBW6400XCSCWS.webp"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW6400XCSSLB",
+         "name":"Seaside Seat Clutch",
+         "maker":"Wild By Water",
+         "description":"This super-sized waterproof clutch features Marram grass and a pebbled foreshore that we caught on camera near Ballyliffen on the north-western tip of Inishowen, County Donegal. The reverse side of the clutch is black vegan leather and inside it's fully lined with a secure zipped pocket. Dimensions: 18 x 24cm",
+         "price":55.00,
+         "category":6,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/wbwclutch1_900x.jpg?v=1722090159",
+         "image":"WBW6400XCSSLB.webp"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW700BPCWG",
+         "name":"Causeway Geographics Backpack/Cross-body Pack",
+         "maker":"Wild By Water",
+         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. This transformation from "bag to pack" also sees the printed image of the Giant's Causeway geometric basalt rocks transform from textured abstract image to their more recognisable rock formations. The Giant's Causeway, a UNESCO World Heritage site and a natural nature reserve was formed as a result of an ancient volcanic fissure eruption and are remarkable in their structure. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
+         "price":85.00,
+         "category":6,
+         "rating":4.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/wbw_causeway_900x.jpg?v=1722091849",
+         "image":"WBW700BPCWG.webp"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW700BPSLM",
+         "name":"Sliabh Liag Backpack/Cross-body Pack",
+         "maker":"Wild By Water",
+         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. This transformation from "bag to pack" also sees the printed image of the Giant's Causeway geometric basalt rocks transform from textured abstract image to their more recognisable rock formations. The Giant's Causeway, a UNESCO World Heritage site and a natural nature reserve was formed as a result of an ancient volcanic fissure eruption and are remarkable in their structure. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
+         "price":85.00,
+         "category":6,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/ezgif.com-webp-to-jpg-converter_3_900x.jpg?v=1722088077",
+         "image":"WBW700BPSLM.webp"
+      }
+   },
+   {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW700BPREEDS",
+         "name":"Reeds Backpack/Cross-body Pack",
+         "maker":"Wild By Water",
+         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap.  Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
+         "price":85.00,
+         "category":6,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/wbwreeds_900x.jpg?v=1722087643",
+         "image":"WBW700BPREEDS.webp"
+      }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"WBW700BPFOXGL",
+         "name":"Foxglove Backpack/Cross-body Pack",
+         "maker":"Wild By Water",
+         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
+         "price":85.00,
+         "category":6,
+         "rating":4.4,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/wbw_foxglove_900x.jpg?v=1722086089",
+         "image":"WBW700BPFOXGL.webp"
+      }
+   },
+   {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"BMSCLG",
+         "name":"Stocaí Cashmere Blend - Light Grey",
+         "maker":"Bernie Murphy",
+         "description":"Cashmere Blend socks knit from Donegal yarns manufactured in Donegal. Sizes: UK Shoe Size 4-7 | EUR Shoe Size 37-41 | US 5½ – 8½. Wash care Instructions: Hand wash or machine wash wool cycle",
+         "price":22.00,
+         "category":6,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/berniemurphy8_900x.jpg?v=1716309748",
+         "image":"BMSCLG.webp"
+      }
+   },
+   {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"BMSCMG",
+         "name":"Stocaí Cashmere Blend - Marl Grey",
+         "maker":"Bernie Murphy",
+         "description":"Cashmere Blend socks knit from Donegal yarns manufactured in Donegal. Sizes: UK Shoe Size 4-7 | EUR Shoe Size 37-41 | US 5½ – 8½. Wash care Instructions: Hand wash or machine wash wool cycle",
+         "price":22.00,
+         "category":6,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/berniemurphy6_900x.jpg?v=1716371838",
+         "image":"BMSCMG.webp"
+      }
+   },
+   {
+      "pk":28,
+      "model":"products.product",
+      "fields":{
+         "sku":"MHRG36",
+         "name":"Mouse Organic Cotton Romper",
+         "maker":"Cotton Hill Lane",
+         "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
+         "price":32.00,
+         "category":7,
+         "rating":4.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/cottonhilllane6_900x.jpg?v=1718736575",
+         "image":"MHRG36.webp"
+      }
+   },
+   {
+      "pk":29,
+      "model":"products.product",
+      "fields":{
+         "sku":"RHRP69",
+         "name":"Rabbit Organic Cotton Romper",
+         "maker":"Cotton Hill Lane",
+         "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
+         "price":32.00,
+         "category":7,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/cottonhilllane5_900x.jpg?v=1718735915",
+         "image":"RHRP69.webp"
+      }
+   },
+   {
+      "pk":30,
+      "model":"products.product",
+      "fields":{
+         "sku":"EHRO69",
+         "name":"Elephant Organic Cotton Romper",
+         "maker":"Cotton Hill Lane",
+         "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
+         "price":32.00,
+         "category":7,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/cottonhilllane5_900x.jpg?v=1718735915",
+         "image":"EHRO69.webp"
+      }
+   },
+   {
+      "pk":31,
+      "model":"products.product",
+      "fields":{
+         "sku":"BHRB36",
+         "name":"Bear Organic Cotton Romper",
+         "maker":"Cotton Hill Lane",
+         "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
+         "price":32.00,
+         "category":7,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/cottonhilllane3_900x.jpg?v=1718718490",
+         "image":"BHRB36.webp"
+      }
+   },
+   {
+      "pk":32,
+      "model":"products.product",
+      "fields":{
+         "sku":"FHR036",
+         "name":"Fox Organic Cotton Romper",
+         "maker":"Cotton Hill Lane",
+         "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
+         "price":32.00,
+         "category":7,
+         "rating":4.4,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/cottonhilllane2_900x.jpg?v=1718717554",
+         "image":"FHR036.webp"
+      }
+   },
+   {
+      "pk":33,
+      "model":"products.product",
+      "fields":{
+         "sku":"FBCD12",
+         "name":"Little Bear Dungarees",
+         "maker":"Cotton Hill Lane",
+         "description":"Irish made Corduroy dungarees handmade with soft oekotex cotton fabric with embroidered patch on pocket. The patch is one of Cotton Hill Lane's handrawn animal drawings. Corduroy has lots of stretch in it for lots of comfort. Dungarees comes in screenprinted cotton drawstring bag. All fabric is cut by hand and overlocked stitched with love and care. The dungarees have good leg length so can be rolled up and rolled down as needed as your little one grows and buckles are adjustable too. It is perfect to wear with a long sleeved top in colder weather or t-shirt in summer months.",
+         "price":42.95,
+         "category":7,
+         "rating":5.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/cottonhilllane1_900x.jpg?v=1718712717",
+         "image":"BCD12.webp"
+      }
+   },
+   {
+      "pk":34,
+      "model":"products.product",
+      "fields":{
+         "sku":"BMCSP",
+         "name":"‘Baby Love’ Hand Knit Hoodie Cardigan - Pink Tweed",
+         "maker":"Bernie Murphy",
+         "description":"Introducing the Baby Love Aran hand-knitted hoodie cardigan to collection. This beautiful 100% merino lambswool wool is spun in Donegal. Each cardigan takes over hundreds of hours to knit by hand in Ireland. Material: 100% Merino Lambswool manufactured in Donegal Length: 88cm approx. Woven in Donegal, Ireland. Wash Care Instructions: Dry Clean Only",
+         "price":55.00,
+         "category":7,
+         "rating":4.8,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/berniemurphy11_900x.jpg?v=1716372700",
+         "image":"BMCSP.webp"
+      }
+   },
+   {
+      "pk":35,
+      "model":"products.product",
+      "fields":{
+         "sku":"BMCMC",
+         "name":"‘Baby Love’ Hand Knit Hoodie Cardigan - Ecru tweed",
+         "maker":"Bernie Murphy",
+         "description":"Introducing the Baby Love Aran hand-knitted hoodie cardigan to collection. This beautiful 100% merino lambswool wool is spun in Donegal. Each cardigan takes over hundreds of hours to knit by hand in Ireland. Material: 100% Merino Lambswool manufactured in Donegal. Length: 88cm approx. Woven in Donegal, Ireland. Wash Care Instructions: Dry Clean Only",
+         "price":65.00,
+         "category":7,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/berniemurphy9_900x.jpg?v=1716372671",
+         "image":"BMCMC.webp"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "sku":"BBMCSB",
+         "name":"‘Baby Love’ Hand Knit Hoodie Cardigan - Blue Tweed",
+         "maker":"Bernie Murphy",
+         "description":"Introducing the Baby Love Aran hand-knitted hoodie cardigan to collection. This beautiful 100% merino lambswool wool is spun in Donegal. Each cardigan takes over hundreds of hours to knit by hand in Ireland. Material: 100% Merino Lambswool manufactured in Donegal. Length: 88cm approx. Woven in Donegal, Ireland. Wash Care Instructions: Dry Clean Only",
+         "price":55.00,
+         "category":7,
+         "rating":4.6,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/berniemurphy13_900x.jpg?v=1716375896",
+         "image":"BMCSB.webp"
       }
    }
 ]

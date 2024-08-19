@@ -38,6 +38,30 @@
             "name": "miriam_wade_jewellery",
             "friendly_name": "Miriam Wade Jewellery"
         }
+    },
+    {
+        "pk": 6,
+        "model": "products.maker",
+        "fields": {
+            "name": "wild_by_water",
+            "friendly_name": "Wild By Water"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.maker",
+        "fields": {
+            "name": "bernie_murphy",
+            "friendly_name": "Bernie Murphy"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.maker",
+        "fields": {
+            "name": "cotton_hill_lane",
+            "friendly_name": "Cotton Hill Lane"
+        }
     }
 ]
 
