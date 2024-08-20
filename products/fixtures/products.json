@@ -5,7 +5,7 @@
       "fields":{
          "sku":"RHASHB",
          "name":"Ash Bowl",
-         "maker":"Roy Humphreys Woodturner",
+         "maker":1,
          "description":"Beautifully crafted, Ash salad bowl made from home grown wood, Finished with food safe oil. After use please use a damp cloth, Do not immerse in water and also do not place hot objects on it. Made from sustainable wood.  Please note that as each of these pieces is individually handcrafted, the piece you receive may differ slightly from the image shown here. Dimensions: 31cm x 13cm",
          "price":110.00,
          "category":4,
@@ -20,7 +20,7 @@
       "fields":{
          "sku":"RHTLASH",
          "name":"Ash Wood Table Lamp",
-         "maker":"Roy Humphreys Woodturner",
+         "maker":1,
          "description":"Beautifully crafted, Beech Table Lamp made from homegrown wood. Finished with Matt Lacquer. Made with care and finished with food safe oil. Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Dimensions: 400mm x 150mm without shade",
          "price":199.00,
          "category":4,
@@ -35,7 +35,7 @@
       "fields":{
          "sku":"RHCLOCK",
          "name":"Yew Free Standing Clock",
-         "maker":"Roy Humphreys Woodturner",
+         "maker":1,
          "description":"Beautifully crafted Yew Clock. Finished with Danish oil & wax. Made from sustainable wood grown. Made with care and finished with food safe oil. Please note that as each of these pieces is individually handcrafted, the piece you receive may differ slightly from the image shown here. Dimensions: 9cm x 7.5cm x 4cm",
          "price":40.00,
          "category":4,
@@ -50,7 +50,7 @@
       "fields":{
          "sku":"LCRBWL",
          "name":"Small Rose Bowl",
-         "maker":"Lichen Ceramics",
+         "maker":2,
          "description":"Small Rose Bowl with sgraffito decoration. Each of these small rose bowls features an intricate slip decoration. Leitrim is also known as the 'Wild Rose County', which inspired this design. Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Firstly, the bottom half of the outside of the bowl is dipped in cream slip. A winding rose stem is then carved into the surface, with slip dots added along the stem. Each slip dot is carved into a delicate rose, with green slip leaves added for a touch of color. The combination of the smooth glaze and the sgraffito decoration, which means 'to scratch', results in delicate raised lines. The decoration can be felt by running fingers over it, adding a tactile element to the experience of using the small rose bowl. Dimensions: Approx 19cm x 6cm",
          "price":50.00,
          "category":4,
@@ -65,7 +65,7 @@
       "fields":{
          "sku":"LCLLS",
          "name":"Love Leitrim Spinner",
-         "maker":"Lichen Ceramics",
+         "maker":2,
          "description":"A charming decoration of Leitrim, this exquisite ceramic spinner from Lichen Ceramics is a unique piece features 'Leitrim' elegantly inscribed on one side, and a beautifully detailed wild rose flower on the other, celebrating the essence of the 'Wild Rose County.' Please note that as each piece is individually handcrafted, the piece you receive may differ slightly from the image shown here. Handcrafted with meticulous care, this spinner captures the natural beauty and heritage of Leitrim. Perfect as a decorative piece or a thoughtful gift, it brings a touch of elegance and local pride to any space. The smooth, tactile finish invites you to spin and admire the delicate artistry from every angle. Dimensions: 10.5 cm x 8.5cm",
          "price":18.00,
          "category":4,
@@ -80,7 +80,7 @@
       "fields":{
          "sku":"JH1441",
          "name":"Cashmere Throw Red Large Block",
-         "maker":"John Hanly",
+         "maker":3,
          "description":"Cashmere Throw Red Large Block. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm",
          "price":149.50,
          "category":4,
@@ -95,7 +95,7 @@
       "fields":{
          "sku":"JH1442",
          "name":"Cashmere Throw Purple Large Block",
-         "maker":"John Hanly",
+         "maker":3,
          "description":"Cashmere Throw Purple Large Block. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm",
          "price":149.50,
          "category":4,
@@ -110,7 +110,7 @@
       "fields":{
          "sku":"JHLW100",
          "name":"Large Irish Picnic Blanket Denim Green Camel Burgundy Plaid",
-         "maker":"John Hanly",
+         "maker":3,
          "description":"Large Irish Picnic Blanket Denim Green Camel Burgundy Plaid. Large Irish Picnic Blanket – rugged and hard wearing, reflecting the rich and varied colours of the Irish countryside, the perfect partner for days out, beach trips and picnics creating memories. 100% Pure Wool. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 137 x 182cm",
          "price":79.45,
          "category":4,
@@ -125,7 +125,7 @@
       "fields":{
          "sku":"JH1491",
          "name":"Cashmere Throw Green Herringbone",
-         "maker":"John Hanly",
+         "maker":3,
          "description":"Cashmere Throw Green Herringbone. Made with a blend of Cashmere and Merino wool. A truly soft and luxurious throw with a vibrant colour palette across the collection. 95% Merino Wool 5% Cashmere. Woven in Tipperary from a rich tradition, the story of this heritage brand started back in 1893. All energy used in the weaving of this throw is from renewable sources as the John Hanley mill generates its own electricity. Dimensions: 136 x 180cm",
          "price":149.50,
          "category":4,
@@ -140,7 +140,7 @@
       "fields":{
          "sku":"MWMS",
          "name":"Shamrock Lapel Pin",
-         "maker":"Millet Wade",
+         "maker":4,
          "description":"Show your identity with this solid brass shamrock lapel pin, or browse our other icon pins to find yours. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
          "price":40.00,
          "category":5,
@@ -155,7 +155,7 @@
       "fields":{
          "sku":"MWMS",
          "name":"Shamrock Lapel Pin",
-         "maker":"Millet Wade",
+         "maker":4,
          "description":"Show your identity with this solid brass shamrock lapel pin, or browse our other icon pins to find yours. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
          "price":40.00,
          "category":5,
@@ -170,7 +170,7 @@
       "fields":{
          "sku":"MWMBO",
          "name":"Brass Bottle Opener",
-         "maker":"Millet Wade",
+         "maker":4,
          "description":"Solid brass bottle opener with leather tie. Brass was chosen by Millet Wade for its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. ",
          "price":80.00,
          "category":5,
@@ -185,7 +185,7 @@
       "fields":{
          "sku":"FLW02",
          "name":"Flow Pendant",
-         "maker":"Miriam Wade Jewellery",
+         "maker":5,
          "description":"An elegant geometric pendant inspired by the flow and movement of water. As a child Miriam spent many afternoons playing by the shore of Lough Ennell. The intricate pattern mimics the ever-changing ripples that formed from swimming by the shore inspired this piece. This brightly polished sterling silver pendant hangs from a 18 inch chain and is finished with a lobster catch. This piece is Irish hallmarked guaranteed and is the perfect pendant for that added sparkle for any occasion. An ideal gift for yourself or a loved one. Dimensions: Pendant measures 25mm x 25mm",
          "price":120.00,
          "category":5,
@@ -200,7 +200,7 @@
       "fields":{
          "sku":"LC03",
          "name":"'Le Chéile' Linked Bracelet",
-         "maker":"Miriam Wade Jewellery",
+         "maker":5,
          "description":"These sterling silver linked earrings beautifully embody the deep and unbreakable bond between two special individuals. They are a timeless symbol of a connection so strong that nothing can ever break it. Irish hallmarked guaranteed, These brightly polished sterling silver earrings are hallmarked by the Irish Assay office and beautifully hang from a handmade earring hook at 30mm, a stunning piece of jewellery to wear everyday or for that special occasion. Dimensions: 50mm x 10mm including ear hook",
          "price":80.00,
          "category":5,
@@ -215,7 +215,7 @@
       "fields":{
          "sku":"LC10",
          "name":"'Le Chéile' Large Linked Pendant",
-         "maker":"Miriam Wade Jewellery",
+         "maker":5,
          "description":"These sterling silver linked earrings beautifully embody the deep and unbreakable bond between two special individuals. They are a timeless symbol of a connection so strong that nothing can ever break it. Irish hallmarked guaranteed, These brightly polished sterling silver earrings are hallmarked by the Irish Assay office and beautifully hang from a handmade earring hook at 30mm, a stunning piece of jewellery to wear everyday or for that special occasion. Dimensions: 50mm x 10mm including ear hook",
          "price":80.00,
          "category":5,
@@ -230,7 +230,7 @@
       "fields":{
          "sku":"LC09",
          "name":"'Le Chéile' Linked Earrings",
-         "maker":"Miriam Wade Jewellery",
+         "maker":5,
          "description":"These sterling silver linked earrings beautifully embody the deep and unbreakable bond between two special individuals. They are a timeless symbol of a connection so strong that nothing can ever break it. Irish hallmarked guaranteed, These brightly polished sterling silver earrings are hallmarked by the Irish Assay office and beautifully hang from a handmade earring hook at 30mm, a stunning piece of jewellery to wear everyday or for that special occasion. Dimensions: 50mm x 10mm including ear hook",
          "price":95.00,
          "category":5,
@@ -245,7 +245,7 @@
       "fields":{
          "sku":"MWMPL",
          "name":"Plane Lapel Pin",
-         "maker":"Millet Wade",
+         "maker":4,
          "description":"Show your identity with this solid brass Plane lapel pin. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
          "price":40.00,
          "category":5,
@@ -260,7 +260,7 @@
       "fields":{
          "sku":"MWMG",
          "name":"Gamer Lapel Pin",
-         "maker":"Millet Wade",
+         "maker":4,
          "description":"Show your identity with this solid brass gamer lapel pin. Brass is the material of choice for the Millett Wade men's products because of its warm appearance, subtle lustre, engaging weight and it’s ability to suitably complement any attire. All these icon lapel pins are hand-finished and coated in a high quality metal lacquer to preserve finish and minimise tarnishing.",
          "price":40.00,
          "category":5,
@@ -275,7 +275,7 @@
       "fields":{
          "sku":"WBW6400XCSSPE",
          "name":"Seapoint Edge Graphic Clutch",
-         "maker":"Wild By Water",
+         "maker":6,
          "description":"This super-sized waterproof clutch (now 9.5 x 7 inches / 18 x 24cms) features Dublin's own Seapoint in graphic form. The reverse side of the clutch is black vegan leather and inside it's fully lined with a secure zipped pocket. Perfect for everyday adventures, occasional and exceptional wear - and weather, of course. Dimensions: 18 x 24cm",
          "price":55.00,
          "category":6,
@@ -290,7 +290,7 @@
       "fields":{
          "sku":"WBW6400XCSCWS",
          "name":"Causeway Coast Clutch",
-         "maker":"Wild By Water",
+         "maker":6,
          "description":"This super-sized waterproof clutch (now 9.5 x 7 inches / 18 x 24cms) features the Giant's Causeway on Co Antrim's Causeway Coast. The reverse is black vegan leather and inside it's fully lined with a secure zipped pocket. Perfect for everyday adventures, occasional and exceptional wear - and weather, of course. Dimensions: 18 x 24cm",
          "price":55.00,
          "category":6,
@@ -305,7 +305,7 @@
       "fields":{
          "sku":"WBW6400XCSSLB",
          "name":"Seaside Seat Clutch",
-         "maker":"Wild By Water",
+         "maker":6,
          "description":"This super-sized waterproof clutch features Marram grass and a pebbled foreshore that we caught on camera near Ballyliffen on the north-western tip of Inishowen, County Donegal. The reverse side of the clutch is black vegan leather and inside it's fully lined with a secure zipped pocket. Dimensions: 18 x 24cm",
          "price":55.00,
          "category":6,
@@ -320,8 +320,8 @@
       "fields":{
          "sku":"WBW700BPCWG",
          "name":"Causeway Geographics Backpack/Cross-body Pack",
-         "maker":"Wild By Water",
-         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. This transformation from "bag to pack" also sees the printed image of the Giant's Causeway geometric basalt rocks transform from textured abstract image to their more recognisable rock formations. The Giant's Causeway, a UNESCO World Heritage site and a natural nature reserve was formed as a result of an ancient volcanic fissure eruption and are remarkable in their structure. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
+         "maker":6,
+         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. This transformation from 'bag to pack' also sees the printed image of the Giant's Causeway geometric basalt rocks transform from textured abstract image to their more recognisable rock formations. The Giant's Causeway, a UNESCO World Heritage site and a natural nature reserve was formed as a result of an ancient volcanic fissure eruption and are remarkable in their structure. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
          "price":85.00,
          "category":6,
          "rating":4.0,
@@ -335,8 +335,8 @@
       "fields":{
          "sku":"WBW700BPSLM",
          "name":"Sliabh Liag Backpack/Cross-body Pack",
-         "maker":"Wild By Water",
-         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. This transformation from "bag to pack" also sees the printed image of the Giant's Causeway geometric basalt rocks transform from textured abstract image to their more recognisable rock formations. The Giant's Causeway, a UNESCO World Heritage site and a natural nature reserve was formed as a result of an ancient volcanic fissure eruption and are remarkable in their structure. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
+         "maker":6,
+         "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. This transformation from 'bag to pack' also sees the printed image of the Giant's Causeway geometric basalt rocks transform from textured abstract image to their more recognisable rock formations. The Giant's Causeway, a UNESCO World Heritage site and a natural nature reserve was formed as a result of an ancient volcanic fissure eruption and are remarkable in their structure. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
          "price":85.00,
          "category":6,
          "rating":4.1,
@@ -350,7 +350,7 @@
       "fields":{
          "sku":"WBW700BPREEDS",
          "name":"Reeds Backpack/Cross-body Pack",
-         "maker":"Wild By Water",
+         "maker":6,
          "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap.  Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
          "price":85.00,
          "category":6,
@@ -365,7 +365,7 @@
       "fields":{
          "sku":"WBW700BPFOXGL",
          "name":"Foxglove Backpack/Cross-body Pack",
-         "maker":"Wild By Water",
+         "maker":6,
          "description":"These water-resistant backpacks can be worn cross-body like a messenger bag or on your back. You choose – simply re-loop the strap. Wild by Water backpacks are ethically made using sustainable fabrics. They have a watertight shell and are fully-lined with a water-resistant lining and an inside zipped pocket. Dimensions: Flat 30cm x 43cm. Folded: 30cm x 21cm. Weight: 345g",
          "price":85.00,
          "category":6,
@@ -380,7 +380,7 @@
       "fields":{
          "sku":"BMSCLG",
          "name":"Stocaí Cashmere Blend - Light Grey",
-         "maker":"Bernie Murphy",
+         "maker":7,
          "description":"Cashmere Blend socks knit from Donegal yarns manufactured in Donegal. Sizes: UK Shoe Size 4-7 | EUR Shoe Size 37-41 | US 5½ – 8½. Wash care Instructions: Hand wash or machine wash wool cycle",
          "price":22.00,
          "category":6,
@@ -395,7 +395,7 @@
       "fields":{
          "sku":"BMSCMG",
          "name":"Stocaí Cashmere Blend - Marl Grey",
-         "maker":"Bernie Murphy",
+         "maker":7,
          "description":"Cashmere Blend socks knit from Donegal yarns manufactured in Donegal. Sizes: UK Shoe Size 4-7 | EUR Shoe Size 37-41 | US 5½ – 8½. Wash care Instructions: Hand wash or machine wash wool cycle",
          "price":22.00,
          "category":6,
@@ -410,7 +410,7 @@
       "fields":{
          "sku":"MHRG36",
          "name":"Mouse Organic Cotton Romper",
-         "maker":"Cotton Hill Lane",
+         "maker":8,
          "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
          "price":32.00,
          "category":7,
@@ -425,7 +425,7 @@
       "fields":{
          "sku":"RHRP69",
          "name":"Rabbit Organic Cotton Romper",
-         "maker":"Cotton Hill Lane",
+         "maker":8,
          "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
          "price":32.00,
          "category":7,
@@ -440,7 +440,7 @@
       "fields":{
          "sku":"EHRO69",
          "name":"Elephant Organic Cotton Romper",
-         "maker":"Cotton Hill Lane",
+         "maker":8,
          "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
          "price":32.00,
          "category":7,
@@ -455,7 +455,7 @@
       "fields":{
          "sku":"BHRB36",
          "name":"Bear Organic Cotton Romper",
-         "maker":"Cotton Hill Lane",
+         "maker":8,
          "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
          "price":32.00,
          "category":7,
@@ -470,7 +470,7 @@
       "fields":{
          "sku":"FHR036",
          "name":"Fox Organic Cotton Romper",
-         "maker":"Cotton Hill Lane",
+         "maker":8,
          "description":"Irish made two toned Harem Romper handmade from soft Organic cotton Jersey. Grey fabric is brushed fleece on inside. All fabric is cut by hand then screen printed by hand with eco friendly inks and overlocked stitched with love and care. Harem romper is fastened with two snaps on each shoulder so easy to get on and off for nappy changes and partially lined at the top. Harem style so generous fit for nappies/diapers. It is perfect to wear with a long sleeved top in colder weather or on its own in the summer months. Cuffed at the bottom which can be folded up if they are slightly too long. Romper should be washed on cool wash inside out and air dried. Do not tumble dry as may cause fabric to shrink. Romper comes in bio degradable gift box.",
          "price":32.00,
          "category":7,
@@ -485,7 +485,7 @@
       "fields":{
          "sku":"FBCD12",
          "name":"Little Bear Dungarees",
-         "maker":"Cotton Hill Lane",
+         "maker":8,
          "description":"Irish made Corduroy dungarees handmade with soft oekotex cotton fabric with embroidered patch on pocket. The patch is one of Cotton Hill Lane's handrawn animal drawings. Corduroy has lots of stretch in it for lots of comfort. Dungarees comes in screenprinted cotton drawstring bag. All fabric is cut by hand and overlocked stitched with love and care. The dungarees have good leg length so can be rolled up and rolled down as needed as your little one grows and buckles are adjustable too. It is perfect to wear with a long sleeved top in colder weather or t-shirt in summer months.",
          "price":42.95,
          "category":7,
@@ -500,7 +500,7 @@
       "fields":{
          "sku":"BMCSP",
          "name":"‘Baby Love’ Hand Knit Hoodie Cardigan - Pink Tweed",
-         "maker":"Bernie Murphy",
+         "maker":7,
          "description":"Introducing the Baby Love Aran hand-knitted hoodie cardigan to collection. This beautiful 100% merino lambswool wool is spun in Donegal. Each cardigan takes over hundreds of hours to knit by hand in Ireland. Material: 100% Merino Lambswool manufactured in Donegal Length: 88cm approx. Woven in Donegal, Ireland. Wash Care Instructions: Dry Clean Only",
          "price":55.00,
          "category":7,
@@ -515,7 +515,7 @@
       "fields":{
          "sku":"BMCMC",
          "name":"‘Baby Love’ Hand Knit Hoodie Cardigan - Ecru tweed",
-         "maker":"Bernie Murphy",
+         "maker":7,
          "description":"Introducing the Baby Love Aran hand-knitted hoodie cardigan to collection. This beautiful 100% merino lambswool wool is spun in Donegal. Each cardigan takes over hundreds of hours to knit by hand in Ireland. Material: 100% Merino Lambswool manufactured in Donegal. Length: 88cm approx. Woven in Donegal, Ireland. Wash Care Instructions: Dry Clean Only",
          "price":65.00,
          "category":7,
@@ -530,13 +530,433 @@
       "fields":{
          "sku":"BBMCSB",
          "name":"‘Baby Love’ Hand Knit Hoodie Cardigan - Blue Tweed",
-         "maker":"Bernie Murphy",
+         "maker":7,
          "description":"Introducing the Baby Love Aran hand-knitted hoodie cardigan to collection. This beautiful 100% merino lambswool wool is spun in Donegal. Each cardigan takes over hundreds of hours to knit by hand in Ireland. Material: 100% Merino Lambswool manufactured in Donegal. Length: 88cm approx. Woven in Donegal, Ireland. Wash Care Instructions: Dry Clean Only",
          "price":55.00,
          "category":7,
          "rating":4.6,
          "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/berniemurphy13_900x.jpg?v=1716375896",
          "image":"BMCSB.webp"
+      }
+   },
+   {
+      "pk":36,
+      "model":"products.product",
+      "fields":{
+         "sku":"KARESB",
+         "name":"Shampoo Bar Rosemary & Geranium",
+         "maker":9,
+         "description":"Be part of the hair care  revolution! This luxurious solid shampoo bar cleanses deeply, yet gently, without the use of harsh chemicals. Containing carefully selected ingredients, rich in natural goodness this shampoo experience will amaze you. Fabulously foamy and with the fragrance of rosemary and geranium essential oils, your hair washing experience will delight the senses. Zero waste. No plastic bottles and no packaging. It’s packaging is a simple, elegant organza bag which doubles up to store the bar between uses. Left hanging to dry, away from a water source, prolongs the shelf life of your shampoo bar, and makes it last longer. Cleans and conditions. It can also be used as a body soap. No SLS or parabens. More skin friendly ingredients including SCI, SLSA, white clay, coconut milk powder, coconut oil, calendula oil and cocoa butter. Directions for use: Rub bar between your hands to get a lather or rub the bar directly on hair and scalp until you get lather. Wash and rinse as you would with shop bought bottled shampoo. Repeat the process. Weight: 85g",
+         "price":13.00,
+         "category":8,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Karuna6_900x.jpg?v=1714493477",
+         "image":"KARESB.webp"
+      }
+   },
+   {
+      "pk":37,
+      "model":"products.product",
+      "fields":{
+         "sku":"KAREMM",
+         "name":"Mangala Face Cream for Men",
+         "maker":9,
+         "description":"Ageless and naturally powerful, this superior face cream for men soothes, nourishes and moisturises. Mangala for men contains an unique proprietary blend of carefully chosen, and carefully sourced natural ingredients. Powerfully active, yet delicate enough for even sensitive skin types With the aromatherapy oils of myrrh and lime this elixir has a very pleasing scent. Suitable for all skin types and all ages of man. Ingredients: Calendula oil, apricot kernel oil, cocoa butter, ionic silver hydrosol, aloe vera, vitamin E, silica hydride, beeswax, ecosilk and essential oils of myrrh and lime. 70g",
+         "price":33.00,
+         "category":8,
+         "rating":4.4,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Karuna5_900x.jpg?v=1714493417",
+         "image":"KAREMM.webp"
+      }
+   },
+   {
+      "pk":38,
+      "model":"products.product",
+      "fields":{
+         "sku":"KAREMG",
+         "name":"Men’s Gift Box",
+         "maker":9,
+         "description":"Ageless and naturally powerful. Mangala face cream for men and Hot Cloth Cleanser work very well on the skin. People with dry, sensitive and/or problem skin have derived great results from these products. Nurture the man, give him the best. Click on individual item links above for more details on each product. Mangala Face Cream Ingredients: Calendula oil, apricot kernel oil, cocoa butter, ionic silver hydrosol, aloe vera, vitamin E,  silica hydride, beeswax, ecosilk and essential oils of myrrh and lime. 70g Hot Cloth Cleanser Ingredients: Calendula  Oil, Castor oil, Cocoa Butter, Beeswax, Ecosilk, Vitamin E, Essential oils. 60g. A soft, 100% cotton face flannel for use with the Hot Cloth Cleanser is included in this special pack, and all is contained in a special gift box.",
+         "price":63.00,
+         "category":8,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Karuna4_900x.jpg?v=1714493206",
+         "image":"KAREMG.webp"
+      }
+   },
+   {
+      "pk":39,
+      "model":"products.product",
+      "fields":{
+         "sku":"KAREFB",
+         "name":"Lemon Meringue Foot Butter",
+         "maker":9,
+         "description":"Containing 50% Shea Butter, Cocoa Butter and Calendula Oil, this is a skin softener supreme. Highly moisturising, it is fantastic for dry skin. A real treat for the feet after a hard working day…or any day. The delicious lemon meringue fragrance of May Chang essential oil provides a refreshing and uplifting aromatherapy experience. Can be used as a rich moisturising body experience also. Ingredients: Shea Butter, Cocoa Butter, Karuna Essentials Calendula Oil, Vitamin E, May Chang essential oil. 70g",
+         "price":20.00,
+         "category":8,
+         "rating":4.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Karuna3_900x.jpg?v=1714492959",
+         "image":"KAREFB.webp"
+      }
+   },
+   {
+      "pk":40,
+      "model":"products.product",
+      "fields":{
+         "sku":"KARECOE",
+         "name":"Calendula Oil with Vit E",
+         "maker":9,
+         "description":"Pure and Natural. Hand picked Calendula flowers, grown organically, and  infused in oil for several weeks deliver this simple, yet powerful product richly abundant in the healing botanical. With the addition of 12% Vitamin E, this product may be of  support to people wanting to minimise scarring on the skin. Very suitable for use in pregnancy as a massage oil.",
+         "price":16.50,
+         "category":8,
+         "rating":4.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Karuna2_900x.jpg?v=1714492225",
+         "image":"KARECOE.webp"
+      }
+   },
+   {
+      "pk":41,
+      "model":"products.product",
+      "fields":{
+         "sku":"KARELCB",
+         "name":"Calendula Balm",
+         "maker":9,
+         "description":"100% Pure. 100% Natural. 100% Effective. As diverse as the types of petal heads calendula flowers have are the amount of uses this little pot of gold has. It really can be your ‘Go To Balm’ for many skin issues including minor irritations, itch and dryness. It may be of support to people who are prone to excema and psoriasis. Brilliant to have with you if you are travelling abroad, this ‘magic’ balm may take care of so many discomforts-soothing sunburn and itch from mosquito bites.  Mums and Dads find it great for babies’ bums too! Can you afford not to have a little pot of gold in your house? With lavender and geranium essential oil, it also smells beautiful and promotes a calming, relaxed effect.",
+         "price":25.00,
+         "category":8,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/Karuna1_900x.jpg?v=1714491889",
+         "image":"KARELCB.webp"
+      }
+   },
+   {
+      "pk":42,
+      "model":"products.product",
+      "fields":{
+         "sku":"SLLRBB",
+         "name":"Whipped Body Butter",
+         "maker":10,
+         "description":"An indulgent and highly hydrating body butter made from infused oils of homegrown calendula and rose petals. Calendula oil is soothing to sensitive and inflamed skin, while rose oil calms and uplifts. Combined with organic shea and cocoa butters and whipped for a light and smooth finish. This product is made in small batches with love and care. From the flowers to the finished product it is all grown and created from my home at the foot of the Sugarloaf. 120m",
+         "price":21.50,
+         "category":8,
+         "rating":4.8,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/sugarloaf5_900x.jpg?v=1698535855",
+         "image":"SLLRBB.webp"
+      }
+   },
+   {
+      "pk":43,
+      "model":"products.product",
+      "fields":{
+         "sku":"SSLHHS",
+         "name":"Herbal Hair Serum",
+         "maker":10,
+         "description":"A nourishing serum made from organic oils of Argan, olive with extracts of nettle, horsetail, lavender and rosemary. A little goes along way to condition and nourish the roots and tips of the hair! 10ml",
+         "price":27.00,
+         "category":8,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/sugarloaf4_900x.jpg?v=1698535083",
+         "image":"SLHHS.webp"
+      }
+   },
+   {
+      "pk":44,
+      "model":"products.product",
+      "fields":{
+         "sku":"SLLMLB",
+         "name":"Lemon Balm & Marshmallow Lip Balm",
+         "maker":10,
+         "description":"A bright and crisp citrus lip balm made from organic Wicklow grown lemon balm and marshmallow root. A year round nourishing must have for your lips! 15ml",
+         "price":8.50,
+         "category":8,
+         "rating":4.5,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/sugarloaf1_900x.jpg?v=1698535129",
+         "image":"SLLMLB.webp"
+      }
+   },
+   {
+      "pk":45,
+      "model":"products.product",
+      "fields":{
+         "sku":"TCTGB",
+         "name":"The Clainings Tree By Gerry Bohan (Signed Edition)",
+         "maker":11,
+         "description":"Positioned on the cusp of a 'New Ireland' and embedded in the Leitrim landscape these stories bring forward and revive ancient lore. This book is a social commentary refracted through the prism of traditional customs and practices still alive in Leitrim today. Bohan injects new life into what we thought was long dead. Paperback, signed by the author",
+         "price":12.00,
+         "category":9,
+         "rating":4.5,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/gb_900x.jpg?v=1722437388",
+         "image":"TCTGB.webp"
+      }
+   },
+   {
+      "pk":46,
+      "model":"products.product",
+      "fields":{
+         "sku":"EM06",
+         "name":"Galway Print",
+         "maker":12,
+         "description":"The landscape in Galway is unrivalled for its Irish Romanticism.  Its translation, Stoney, conjures up images of the rugged rolling hills of Connemara, enclosed by iconic dry stone walls, not to mention its lakes and rivers that stretch to the sea, all surrounded majestically by both the Twelve Bens and the Maumturks. Each print is signed, numbered and individually copper leafed* Dimensions: 54.5cm x 72.5cm Framed, limited edition of 32. Printed to archival quality on 210gsm Hahnemühle Fine Art paper *Each print is individually copper leafed and variations will occur",
+         "price":198.00,
+         "category":9,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/emma_loughlin_galway_900x.jpg?v=1722334617",
+         "image":"EM06.webp"
+      }
+   },
+   {
+      "pk":47,
+      "model":"products.product",
+      "fields":{
+         "sku":"BCPCP",
+         "name":"Parkes Castle Print",
+         "maker":13,
+         "description":"This artwork exclusive to The Leitrim Design House is a limited edition print of 200, masterfully reproduced on Archival Hahnemuhle Fine Art paper using professional light-fast inks, ensuring a lasting impression. Each print is a testament to quality and craftsmanship, individually titled, numbered, and personally signed by the acclaimed artist, Bernice Cooke. Dimensions: Art 17cmx12cm, with border 15.5cmx20cm. Please note that this print is sold unframed and unmounted, giving you the freedom to customize its display to suit your taste.",
+         "price":25.00,
+         "category":9,
+         "rating":4.0,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/bernicecooke3_900x.jpg?v=1717678814",
+         "image":"BCPCP.webp"
+      }
+   },
+   {
+      "pk":48,
+      "model":"products.product",
+      "fields":{
+         "sku":"BCHLP",
+         "name":"Hag's Leap Print",
+         "maker":13,
+         "description":"This artwork exclusive to The Leitrim Design House is a limited edition print of 200, masterfully reproduced on Archival Hahnemuhle Fine Art paper using professional light-fast inks, ensuring a lasting impression. Each print is a testament to quality and craftsmanship, individually titled, numbered, and personally signed by the acclaimed artist, Bernice Cooke. Dimensions: Art 17cmx12cm, with border 15.5cmx20cm. Please note that this print is sold unframed and unmounted, giving you the freedom to customize its display to suit your taste.",
+         "price":25.00,
+         "category":9,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/bernicecooke5_3334e2f0-8ee9-4d03-a390-ac6271935303_900x.jpg?v=1717678309",
+         "image":"BCHLP.webp"
+      }
+   },
+   {
+      "pk":49,
+      "model":"products.product",
+      "fields":{
+         "sku":"BCFAP",
+         "name":"Fenagh Abbey Print",
+         "maker":13,
+         "description":"This artwork exclusive to The Leitrim Design House is a limited edition print of 200, masterfully reproduced on Archival Hahnemuhle Fine Art paper using professional light-fast inks, ensuring a lasting impression. Each print is a testament to quality and craftsmanship, individually titled, numbered, and personally signed by the acclaimed artist, Bernice Cooke. Dimensions: Art 17cmx12cm, with border 15.5cmx20cm. Please note that this print is sold unframed and unmounted, giving you the freedom to customize its display to suit your taste.",
+         "price":25.00,
+         "category":9,
+         "rating":4.1,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/bernicecooke1_900x.jpg?v=1717678362",
+         "image":"BCFAP.webp"
+      }
+   },
+   {
+      "pk":50,
+      "model":"products.product",
+      "fields":{
+         "sku":"BCCAP",
+         "name":"Creevelea Abbey Print",
+         "maker":13,
+         "description":"This artwork exclusive to The Leitrim Design House is a limited edition print of 200, masterfully reproduced on Archival Hahnemuhle Fine Art paper using professional light-fast inks, ensuring a lasting impression. Each print is a testament to quality and craftsmanship, individually titled, numbered, and personally signed by the acclaimed artist, Bernice Cooke. Dimensions: Art 17cmx12cm, with border 15.5cmx20cm. Please note that this print is sold unframed and unmounted, giving you the freedom to customize its display to suit your taste.",
+         "price":25.00,
+         "category":9,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/bernicecooke4_900x.jpg?v=1717678385",
+         "image":"BCCAP.webp"
+      }
+   },
+   {
+      "pk":51,
+      "model":"products.product",
+      "fields":{
+         "sku":"BCCCP",
+         "name":"Costello Chapel Print",
+         "maker":13,
+         "description":"This artwork exclusive to The Leitrim Design House is a limited edition print of 200, masterfully reproduced on Archival Hahnemuhle Fine Art paper using professional light-fast inks, ensuring a lasting impression. Each print is a testament to quality and craftsmanship, individually titled, numbered, and personally signed by the acclaimed artist, Bernice Cooke. Dimensions: Art 17cmx12cm, with border 15.5cmx20cm. Please note that this print is sold unframed and unmounted, giving you the freedom to customize its display to suit your taste.",
+         "price":25.00,
+         "category":9,
+         "rating":4.8,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/bernicecooke6_900x.jpg?v=1717678553",
+         "image":"BCCCP.webp"
+      }
+   },
+   {
+      "pk":52,
+      "model":"products.product",
+      "fields":{
+         "sku":"EM05",
+         "name":"Wexford Print",
+         "maker":12,
+         "description":"The 32 Series. Loch Garman  - Veisafjordr. Ironically, Wexford’s Irish translation refers to Garman’s Lake, when in reality Wexford has no significant freshwater lakes at all. It is said that Wexford native Garman Garbh, drowned on the mud flats of the River Slaney by an enchantress, flooding the area and forming the mouth of the river. However to Emma, Wexford is more synonymous with golden sandy beaches that stretch down the Sunny South East to the iconic and rugged Hook Head peninsula. Each print is signed, numbered and individually gold leafed* Dimensions: 54.5cm x 72.5cm Framed, limited edition of 32. Printed to archival quality on 210gsm Hahnemühle Fine Art paper *Each print is individually gold leafed and variations will occur",
+         "price":198.00,
+         "category":9,
+         "rating":4.9,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/emmaloughlinwexford_900x.jpg?v=1715267229",
+         "image":"EM05.webp"
+      }
+   },
+   {
+      "pk":53,
+      "model":"products.product",
+      "fields":{
+         "sku":"CMCLB",
+         "name":"Butterfly Print",
+         "maker":14,
+         "description":"How does one become a butterfly? You must want to fly so much that you are willing to give up being a caterpiller. Dimensions: 29.7 x 21 cm",
+         "price":17.00,
+         "category":9,
+         "rating":4.9,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/carol10_900x.jpg?v=1714490483",
+         "image":"CMCLB.webp"
+      }
+   },
+   {
+      "pk":54,
+      "model":"products.product",
+      "fields":{
+         "sku":"CMCLB",
+         "name":"Butterfly Print",
+         "maker":14,
+         "description":"How does one become a butterfly? You must want to fly so much that you are willing to give up being a caterpiller. Dimensions: 29.7 x 21 cm",
+         "price":17.00,
+         "category":9,
+         "rating":4.9,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/carol10_900x.jpg?v=1714490483",
+         "image":"CMCLB.webp"
+      }
+   },
+   {
+      "pk":55,
+      "model":"products.product",
+      "fields":{
+         "sku":"BARK",
+         "name":"Bark",
+         "maker":15,
+         "description":"Paul lives in a quiet part of North Leitrim, where he is surrounded by meadows and woodlands that nurture a variety of wildlife; animal, vegetable, fungal and algal. The paintings in this series are inspired by his local environment. In this series, a cold beeswax paste is mixed with his paints to give his paint extra body and thickness. Bark - Oil on canvas. Signed by the Artist. Canvas dimensions:  60x60cm. We are happy to accept deposits on all works, they may be paid off over several weeks. If you have any questions feel free to contact us. Thank you for supporting Irish artists.",
+         "price":750.00,
+         "category":10,
+         "rating":4.8,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/paulstockwellweb_04842d6d-03e9-4737-b330-1940742d98fe_900x.jpg?v=1723201413",
+         "image":"BARK.webp"
+      }
+   },
+   {
+      "pk":56,
+      "model":"products.product",
+      "fields":{
+         "sku":"LICH",
+         "name":"Lichen",
+         "maker":15,
+         "description":"Paul lives in a quiet part of North Leitrim, where he is surrounded by meadows and woodlands that nurture a variety of wildlife; animal, vegetable, fungal and algal. The paintings in this series are inspired by his local environment. In this series, a cold beeswax paste is mixed with his paints to give his paint extra body and thickness. Lichen - Oil on canvas. Signed by the Artist. Canvas dimensions:  60x60cm. We are happy to accept deposits on all works, they may be paid off over several weeks. If you have any questions feel free to contact us. Thank you for supporting Irish artists.",
+         "price":750.00,
+         "category":10,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/paulstockwellweb_900x.jpg?v=1723200870",
+         "image":"LICH.webp"
+      }
+   },
+   {
+      "pk":57,
+      "model":"products.product",
+      "fields":{
+         "sku":"ABWS",
+         "name":"Windswept",
+         "maker":16,
+         "description":"Windswept by Ann Brennan is a one of a kind artwork. Presented in an unglazed contemporary white wooden box frame and ready to hang. Oil painting on Canvas, Signed by the Artist. Art size: 20cm x 20cm. Frame size: 33cm x 33cm. Ann Brennan is a self-taught artist working from her home studio in Ballingarry, South Tipperary. She focuses on the natural beauty of our mountains and the ruggedness of the western coast with inspiration coming from her regular hikes on the west coast and nearer to home in the Comeragh mountains.",
+         "price":295.00,
+         "category":10,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/AnnBrennan6_900x.jpg?v=1716038874",
+         "image":"ABWS.webp"
+      }
+   },
+   {
+      "pk":58,
+      "model":"products.product",
+      "fields":{
+         "sku":"ABTD",
+         "name":"The Descent",
+         "maker":16,
+         "description":"The Descent by Ann Brennan is a one of a kind artwork. Presented in an unglazed contemporary white wooden box frame and ready to hang. Oil painting on Canvas, Signed by the Artist. Art size: 30cm x 20cm. Frame size: 43cm x 33cm. Ann Brennan is a self-taught artist working from her home studio in Ballingarry, South Tipperary. She focuses on the natural beauty of our mountains and the ruggedness of the western coast with inspiration coming from her regular hikes on the west coast and nearer to home in the Comeragh mountains.",
+         "price":450.00,
+         "category":10,
+         "rating":4.2,
+         "image_url":"hhttps://leitrimdesignhouse.ie/cdn/shop/files/AnnBrennan8_900x.jpg?v=1716039108",
+         "image":"ABTD.webp"
+      }
+   },
+   {
+      "pk":59,
+      "model":"products.product",
+      "fields":{
+         "sku":"ABWATLANTIC",
+         "name":"Wild Atlantic Cliffs",
+         "maker":16,
+         "description":"Wild Atlantic Cliffs by Ann Brennan is a one of a kind artwork. Presented in an unglazed contemporary white wooden box frame and ready to hang. Oil painting on Canvas, Signed by the Artist. Art size: 30cm x 23cm. Frame size: 43cm x 38cm. Ann Brennan is a self-taught artist working from her home studio in Ballingarry, South Tipperary. She focuses on the natural beauty of our mountains and the ruggedness of the western coast with inspiration coming from her regular hikes on the west coast and nearer to home in the Comeragh mountains.",
+         "price":550.00,
+         "category":10,
+         "rating":4.6,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/AnnBrennan7_900x.jpg?v=1716039193",
+         "image":"ABWATLANTIC.webp"
+      }
+   },
+   {
+      "pk":60,
+      "model":"products.product",
+      "fields":{
+         "sku":"ASMF11",
+         "name":"Fragments 11",
+         "maker":17,
+         "description":"Working with acrylic paint and gesso, her paintings are built up through multiple layers. Many of her compositions are based on photos and drawings but are often derived from a combination of memories and imagination. Andrea’s techniques are best enjoyed up close, in person. Fragments - Acrylic on Board. Signed by the Artist. Canvas dimensions:  30x30cm. We are happy to accept deposits on all works, they may be paid off over several weeks. If you have any questions feel free to contact us. Thank you for supporting Irish artists.",
+         "price":250.00,
+         "category":10,
+         "rating":4.2,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/f11_900x.jpg?v=1715078111",
+         "image":"ASMF11.webp"
+      }
+   },
+   {
+      "pk":61,
+      "model":"products.product",
+      "fields":{
+         "sku":"ASMF10",
+         "name":"Fragments 10",
+         "maker":17,
+         "description":"Working with acrylic paint and gesso, her paintings are built up through multiple layers. Many of her compositions are based on photos and drawings but are often derived from a combination of memories and imagination. Andrea’s techniques are best enjoyed up close, in person. Fragments - Acrylic on Board. Signed by the Artist. Canvas dimensions:  30x30cm. We are happy to accept deposits on all works, they may be paid off over several weeks. If you have any questions feel free to contact us. Thank you for supporting Irish artists.",
+         "price":250.00,
+         "category":10,
+         "rating":4.3,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/f11_900x.jpg?v=1715078111",
+         "image":"ASMF10.webp"
+      }
+   },
+   {
+      "pk":62,
+      "model":"products.product",
+      "fields":{
+         "sku":"ASMF9",
+         "name":"Fragments 9",
+         "maker":17,
+         "description":"Working with acrylic paint and gesso, her paintings are built up through multiple layers. Many of her compositions are based on photos and drawings but are often derived from a combination of memories and imagination. Andrea’s techniques are best enjoyed up close, in person. Fragments - Acrylic on Board. Signed by the Artist. Canvas dimensions:  30x30cm. We are happy to accept deposits on all works, they may be paid off over several weeks. If you have any questions feel free to contact us. Thank you for supporting Irish artists.",
+         "price":250.00,
+         "category":10,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/f9_900x.jpg?v=1715078063",
+         "image":"ASMF9.webp"
+      }
+   },
+   {
+      "pk":63,
+      "model":"products.product",
+      "fields":{
+         "sku":"ASMF8",
+         "name":"Fragments 8",
+         "maker":17,
+         "description":"Working with acrylic paint and gesso, her paintings are built up through multiple layers. Many of her compositions are based on photos and drawings but are often derived from a combination of memories and imagination. Andrea’s techniques are best enjoyed up close, in person. Fragments - Acrylic on Board. Signed by the Artist. Canvas dimensions:  30x30cm. We are happy to accept deposits on all works, they may be paid off over several weeks. If you have any questions feel free to contact us. Thank you for supporting Irish artists.",
+         "price":250.00,
+         "category":10,
+         "rating":4.7,
+         "image_url":"https://leitrimdesignhouse.ie/cdn/shop/files/f8_900x.jpg?v=1715078038",
+         "image":"ASMF8.webp"
       }
    }
 ]

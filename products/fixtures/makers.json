@@ -62,6 +62,78 @@
             "name": "cotton_hill_lane",
             "friendly_name": "Cotton Hill Lane"
         }
+    },
+    {
+        "pk": 9,
+        "model": "products.maker",
+        "fields": {
+            "name": "karuna_essentials",
+            "friendly_name": "Karuna Essentials"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.maker",
+        "fields": {
+            "name": "sugarloaf_botanics",
+            "friendly_name": "Sugarloaf Botanics"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.maker",
+        "fields": {
+            "name": "gerry_bohan",
+            "friendly_name": "Gerry Bohan"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.maker",
+        "fields": {
+            "name": "emma_loughlin",
+            "friendly_name": "Emma Loughlin"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.maker",
+        "fields": {
+            "name": "bernice_cooke",
+            "friendly_name": "Bernice Cooke"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.maker",
+        "fields": {
+            "name": "carol_mc_loughlin_calligraphy",
+            "friendly_name": "Carol Mc Loughlin Calligraphy"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.maker",
+        "fields": {
+            "name": "paul_stockwell",
+            "friendly_name": "Paul Stockwell"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.maker",
+        "fields": {
+            "name": "ann_brennan",
+            "friendly_name": "Ann Brennan"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.maker",
+        "fields": {
+            "name": "andrea_szabo_moloney",
+            "friendly_name": "Andrea Szabó Moloney"
+        }
     }
 ]
 
