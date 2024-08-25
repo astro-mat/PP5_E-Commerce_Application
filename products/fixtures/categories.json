@@ -78,10 +78,157 @@
             "name": "one_of_a_kind_pieces",
             "friendly_name": "One of a Kind Pieces"
         }
+    },
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "candles_and_diffusers",
+            "friendly_name": "Candles & Diffusers"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "ceramics",
+            "friendly_name": "Ceramics"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+            "name": "tableware",
+            "friendly_name": "Tableware"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+            "name": "textiles",
+            "friendly_name": "Textiles"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.category",
+        "fields": {
+            "name": "wall_art",
+            "friendly_name": "Wall Art"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.category",
+        "fields": {
+            "name": "wood",
+            "friendly_name": "Wood"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.category",
+        "fields": {
+            "name": "pendants_and_earrings",
+            "friendly_name": "Pendants & Earrings"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.category",
+        "fields": {
+            "name": "cufflinks_tieclips_lapelpins",
+            "friendly_name": "Cufflinks, Tie clips & Lapel Pins"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.category",
+        "fields": {
+            "name": "scarves",
+            "friendly_name": "Scarves"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.category",
+        "fields": {
+            "name": "bags",
+            "friendly_name": "Bags"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.category",
+        "fields": {
+            "name": "irish_tweed_caps",
+            "friendly_name": "Irish Tweed Caps"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.category",
+        "fields": {
+            "name": "face_body_bath_balms",
+            "friendly_name": "Face, Body, Bath & Balms"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.category",
+        "fields": {
+            "name": "soap_and_shaving_soaps",
+            "friendly_name": "Soap & Shaving soaps"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.category",
+        "fields": {
+            "name": "prints",
+            "friendly_name": "Prints"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.category",
+        "fields": {
+            "name": "greeting_cards",
+            "friendly_name": "Greeting Cards"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.category",
+        "fields": {
+            "name": "notebooks",
+            "friendly_name": "Notebooks"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.category",
+        "fields": {
+            "name": "pens",
+            "friendly_name": "Pens"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.category",
+        "fields": {
+            "name": "books",
+            "friendly_name": "Books"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.category",
+        "fields": {
+            "name": "socks",
+            "friendly_name": "Socks"
+        }
     }
 ]
-
-
-
-
-

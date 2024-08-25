@@ -17,9 +17,10 @@
                 Homewares
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="" class="dropdown-item">All Homeware</a>
+                <a href="{% url 'products' %}?category=ceramics" class="dropdown-item">Ceramics</a>
+                <a href="{% url 'products' %}?category=textiles" class="dropdown-item">Textiles</a>
+                <a href="{% url 'products' %}?category=wood" class="dropdown-item">Wood</a>
+                <a href="{% url 'products' %}?category=wood,ceramics,textiles" class="dropdown-item">All Homeware</a>
             </div>
         </li>
 
@@ -28,8 +29,9 @@
                 Jewellery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Pendants &amp; Earrings</a>
-                <a href="" class="dropdown-item">Cufflinks, Tie clips &amp; Lapel Pins</a>
+                <a href="{% url 'products' %}?category=pendants,earrings" class="dropdown-item">Pendants &amp; Earrings</a>
+                <a href="{% url 'products' %}?category=cufflinks,tie clips,lapel pins" class="dropdown-item">Cufflinks, Tie clips &amp; Lapel Pins</a>
+                <a href="{% url 'products' %}?category=cufflinks,tie clips,lapel pins,pendants,earrings" class="dropdown-item">All Jewellery</a>
             </div>
         </li>
 
@@ -38,13 +40,14 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Scarves</a>
-                <a href="" class="dropdown-item">Bags</a>
+                <a href="{% url 'products' %}?category=scarves" class="dropdown-item">Scarves</a>
+                <a href="{% url 'products' %}?category=bags" class="dropdown-item">Bags</a>
+                <a href="{% url 'products' %}?category=bags,scarves" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="babyandkids-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a href="{% url 'products' %}?category=baby_and_kids" class="logo-font font-weight-bold nav-link text-black mr-5" id="babyandkids-link" aria-haspopup="true" aria-expanded="false">
                 Baby &amp; Kids
             </a>
         </li>
@@ -54,13 +57,14 @@
                 Skincare
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Face, Body, Bath &amp; Balms</a>
-                <a href="" class="dropdown-item">Soap &amp; Shaving Soaps</a>
+                <a href="{% url 'products' %}?category=face_body_bath_balms" class="dropdown-item">Face, Body, Bath &amp; Balms</a>
+                <a href="{% url 'products' %}?category=soap_and_shaving_soaps" class="dropdown-item">Soap &amp; Shaving Soaps</a>
+                <a href="{% url 'products' %}?category=face_body_bath_balms,soap_and_shaving_soaps" class="dropdown-item">All Skincare</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="babyandkids-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="{% url 'products' %}?category=one_of_a_kind_pieces" class="logo-font font-weight-bold nav-link text-black mr-5" id="babyandkids-link" aria-haspopup="true" aria-expanded="false">
                 One of a Kind Pieces
             </a>
         </li>
@@ -70,11 +74,12 @@
                 Prints, Stationary &amp; Books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Prints</a>
-                <a href="" class="dropdown-item">Greeting Cards</a>
-                <a href="" class="dropdown-item">Notebooks</a>
-                <a href="" class="dropdown-item">Pens</a>
-                <a href="" class="dropdown-item">Books</a>
+                <a href="{% url 'products' %}?category=prints" class="dropdown-item">Prints</a>
+                <a href="{% url 'products' %}?category=greetings_cards" class="dropdown-item">Greeting Cards</a>
+                <a href="{% url 'products' %}?category=notebooks" class="dropdown-item">Notebooks</a>
+                <a href="{% url 'products' %}?category=pens" class="dropdown-item">Pens</a>
+                <a href="{% url 'products' %}?category=books" class="dropdown-item">Books</a>
+                <a href="{% url 'products' %}?category=prints,greetings_cards,notebooks,pens,books" class="dropdown-item">All Prints, Stationary & Books</a>
             </div>
         </li>
 
@@ -84,10 +89,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
