@@ -5,9 +5,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -29,9 +29,9 @@
                 Jewellery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=pendants,earrings" class="dropdown-item">Pendants &amp; Earrings</a>
-                <a href="{% url 'products' %}?category=cufflinks,tie clips,lapel pins" class="dropdown-item">Cufflinks, Tie clips &amp; Lapel Pins</a>
-                <a href="{% url 'products' %}?category=cufflinks,tie clips,lapel pins,pendants,earrings" class="dropdown-item">All Jewellery</a>
+                <a href="{% url 'products' %}?category=pendants_and_earrings" class="dropdown-item">Pendants &amp; Earrings</a>
+                <a href="{% url 'products' %}?category=cufflinks_tieclips_lapelpins" class="dropdown-item">Cufflinks, Tie clips &amp; Lapel Pins</a>
+                <a href="{% url 'products' %}?category=pendants_and_earrings,cufflinks_tieclips_lapelpins" class="dropdown-item">All Jewellery</a>
             </div>
         </li>
 
