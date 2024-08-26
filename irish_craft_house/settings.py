@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-fuey8fo_d7bl8p)ir!%w(8nxwx#-2n0q2rq%aukd^gt0mc8ch-'
+SECRET_KEY = 'django-insecure-!+6)gvg%!j=wuu9a47+xu(9m-%!jj)94urzn(rk9q$=08563h-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -70,9 +70,10 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request', #REQUIRED BY ALLAUTH
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bag.contexts.bag_contents',
             ],
         },
     },
@@ -159,4 +160,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-astromat-pp5ecommerceap-v0pe6hewqea.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = ['https://8000-astromat-boutiqueadov1-xxtwdkl96ce.ws.codeinstitute-ide.net']
+
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
