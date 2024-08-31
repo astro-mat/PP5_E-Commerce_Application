@@ -160,7 +160,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-astromat-boutiqueadov1-xxtwdkl96ce.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = ['https://8000-astromat-pp5ecommerceap-v0pe6hewqea.ws.codeinstitute-ide.net']
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
