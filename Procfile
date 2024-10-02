@@ -1,0 +1,1 @@
+web: gunicorn irish_craft_house.wsgi:application
