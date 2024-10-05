@@ -46,3 +46,9 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+# class ProductBundle(Product):
+
+
+
+# class ProductWishList(models.Model):
