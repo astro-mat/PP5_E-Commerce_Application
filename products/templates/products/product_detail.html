@@ -28,7 +28,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
-                    <p class="mb-0">{{ product.name }}</p>
+                    <h2 class="mb-0">{{ product.name }}</h2>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                     {% if product.category %}
                     <p class="small mt-1 mb-0">
@@ -101,6 +101,9 @@
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                    {% if user.is_authenticated %}
+                                        <button onclick="addToWishlist(this)" data-product-id="{{ product.id }}">Add to Wishlist</button>
+                                    {% endif %}
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             {% endwith %}
@@ -113,6 +116,25 @@
 {% endblock %}
 
 {% block postloadjs %}
-{{ block.super }}
+    {{ block.super }}
+    <script>
+        function addToWishlist(button) {
+            var productId = button.getAttribute('data-product-id');
+            fetch('/add-to-wishlist/' + productId + '/')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.created) {
+                        alert('Added to wishlist!');
+                    } else {
+                        alert('Already in wishlist!');
+                    }
+                });
+        }
+    </script>
+
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
+
+
+
+

@@ -1,0 +1,21 @@
+<h2>Your Wish List</h2>
+<ul>
+{% for wishlist in wishlists %}
+    <li>{{ wishlist.item.title }} ({{ wishlist.added_date }})</li>
+{% endfor %}
+</ul>
+<button onclick="removeFromWishlist(this)" data-wishlist-id="{{ wishlist.id }}">Remove from Wishlist</button>
+
+<script>
+function removeFromWishlist(button) {
+    var wishlistId = button.getAttribute('data-wishlist-id');
+    fetch('/remove-from-wishlist/' + wishlistId + '/')
+        .then(response => response.json())
+        .then(data => {
+            if (data.deleted) {
+                alert('Removed from wishlist!');
+                window.location.reload();
+            }
+        });
+}
+</script>
