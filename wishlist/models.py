@@ -10,4 +10,4 @@ class Wishlist(models.Model):
     added_date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.user.username}'s wishlist - {self.item.title}"
+        return f"{self.user.username}'s wishlist - {self.item.name}"
