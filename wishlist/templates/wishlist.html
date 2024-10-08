@@ -1,6 +1,28 @@
+{% extends "base.html" %}
 {% load static %}
-{% if user.is_authenticated %}
-    <h2>Your Wishlists</h2>
+{% load bag_tools %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container mb-2">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Your Wishlists</h2>
+                <hr>
+            </div>
+        </div>
+
+
+    {% if user.is_authenticated %}
     {% for wishlist in wishlists %}
         <div class="wishlist-item">
             <h3>{{ wishlist.wishlist_name }}</h3>
@@ -16,6 +38,11 @@
 {% else %}
     <p>Please log in to view your wishlists.</p>
 {% endif %}
+{% endblock %}
+
+
+
+
 
 <script>
 function removeFromWishlist(button) {
