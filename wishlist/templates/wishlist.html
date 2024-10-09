@@ -40,20 +40,19 @@
 {% endif %}
 {% endblock %}
 
-
-
-
-
-<script>
-function removeFromWishlist(button) {
-    var wishlistId = button.getAttribute('data-wishlist-id');
-    fetch('/remove-from-wishlist/' + wishlistId + '/')
-        .then(response => response.json())
-        .then(data => {
-            if (data.deleted) {
-                alert('Removed from wishlist!');
-                window.location.reload();
-            }
-        });
-}
-</script>
+{% block postloadjs %}
+    {{ block.super }}
+    <script>
+    function removeFromWishlist(button) {
+        var wishlistId = button.getAttribute('data-wishlist-id');
+        fetch('/remove-from-wishlist/' + wishlistId + '/')
+            .then(response => response.json())
+            .then(data => {
+                if (data.deleted) {
+                    alert('Removed from wishlist!');
+                    window.location.reload();
+                }
+            });
+    }
+    </script>
+{% endblock %}

@@ -67,16 +67,16 @@
         "pk": 9,
         "model": "products.category",
         "fields": {
-            "name": "prints_stationary_and_books",
-            "friendly_name": "Prints, Stationary & Books"
+            "name": "prints_and_books",
+            "friendly_name": "Prints & Books"
         }
     },
     {
         "pk": 10,
         "model": "products.category",
         "fields": {
-            "name": "one_of_a_kind_pieces",
-            "friendly_name": "One of a Kind Pieces"
+            "name": "Unique_pieces",
+            "friendly_name": "Unique Pieces"
         }
     },
     {
