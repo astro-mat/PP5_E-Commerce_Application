@@ -28,5 +28,6 @@ urlpatterns = [
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
     path('', include('wishlist.urls')),
+    path('', include('faq.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'irish_craft_house.views.handler404'
