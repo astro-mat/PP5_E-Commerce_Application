@@ -265,6 +265,12 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Removes lines from nav menu */
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+  border-top: none;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
