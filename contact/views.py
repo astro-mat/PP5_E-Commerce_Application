@@ -26,6 +26,31 @@ def contact_view(request):
                 fail_silently=False,
             )
 
+            # Send confirmation email to user
+            user_email = contact.email
+            user_message = f"""
+            Dear {contact.name},
+
+            Thank you for contacting us. We have received your message and will respond soon.
+
+            Details of your submission:
+            Name: {contact.name}
+            Email: {contact.email}
+            Message: {contact.message}
+
+            Our team will review your inquiry and get back to you shortly.
+
+            Best regards,
+            [Your Company Name]
+            """
+            send_mail(
+                'Thank you for your message',
+                user_message,
+                settings.EMAIL_HOST_USER,
+                [user_email],
+                fail_silently=False,
+            )
+
             return redirect('success')
     else:
         form = ContactForm()
