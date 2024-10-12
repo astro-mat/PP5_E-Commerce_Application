@@ -27,21 +27,21 @@ def contact_view(request):
             )
 
             # Send confirmation email to user
-            user_email = contact.email
+            user_email = Contact.email
             user_message = f"""
-            Dear {contact.name},
+            Dear {Contact.name},
 
             Thank you for contacting us. We have received your message and will respond soon.
 
             Details of your submission:
-            Name: {contact.name}
-            Email: {contact.email}
-            Message: {contact.message}
+            Name: {Contact.name}
+            Email: {Contact.email}
+            Message: {Contact.message}
 
             Our team will review your inquiry and get back to you shortly.
 
             Best regards,
-            [Your Company Name]
+            The Irish Craft House
             """
             send_mail(
                 'Thank you for your message',
