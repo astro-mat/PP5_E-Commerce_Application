@@ -7,6 +7,23 @@ def contact_view(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
+            
+            # Send email
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            message = form.cleaned_data['message']
+
+            subject = f'Contact Form Submission - {name}'
+            body = f'From: {name}\nEmail: {email}\nMessage:\n{message}'
+
+            send_mail(
+                subject,
+                body,
+                settings.EMAIL_HOST_USER,
+                [settings.ADMIN_EMAIL],
+                fail_silently=False,
+            )
+
             return redirect('success')
     else:
         form = ContactForm()
