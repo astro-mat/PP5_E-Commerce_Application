@@ -29,14 +29,14 @@ def contact_view(request):
             # Send confirmation email to user
             user_email = Contact.email
             user_message = f"""
-            Dear {Contact.name},
+            Dear {name},
 
             Thank you for contacting us. We have received your message and will respond soon.
 
             Details of your submission:
-            Name: {Contact.name}
-            Email: {Contact.email}
-            Message: {Contact.message}
+            Name: {name}
+            Email: {email}
+            Message: {message}
 
             Our team will review your inquiry and get back to you shortly.
 
