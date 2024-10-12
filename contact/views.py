@@ -47,7 +47,7 @@ def contact_view(request):
                 'Thank you for your message',
                 user_message,
                 settings.EMAIL_HOST_USER,
-                [user_email],
+                [email],
                 fail_silently=False,
             )
 
