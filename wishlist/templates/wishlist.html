@@ -27,6 +27,7 @@
         <div class="wishlist-item">
             <h3>{{ wishlist.wishlist_name }}</h3>
             <h4>{{ wishlist.item }}</h4>
+            <h5>Date Added: {{ wishlist.added_date }}</h5>
             <ul>
                 {% for item in wishlist.item_set.all %}
                     <li>{{ item.title }} - {{ item.price }}</li>
