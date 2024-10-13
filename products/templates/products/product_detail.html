@@ -125,11 +125,12 @@
             fetch('/add-to-wishlist/' + productId + '/')
                 .then(response => response.json())
                 .then(data => {
-                    if (data.created) {
-                        alert('Added to wishlist!');
-                    } else {
-                        alert('Already in wishlist!');
-                    }
+                    // if (data.created) {
+                    //     alert('Added to wishlist!');
+                    // } else {
+                    //     alert('Already in wishlist!');
+                    // }
+                    window.location.href = "{% url 'product_detail' product.id %}"
                 });
         }
     </script>
