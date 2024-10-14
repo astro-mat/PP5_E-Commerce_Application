@@ -1,12 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
 
-
-<h1>{{ title }}</h1>
-<p>{{ heading }}</p>
-{{ content }}
-
-
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -26,7 +20,7 @@
         </div>
     </div>
 <ul>
-
+<p>{{ about.content }}</p>
 </ul>
 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
     <span class="icon">
