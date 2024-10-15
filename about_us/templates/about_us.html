@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -19,14 +19,14 @@
             <hr>
         </div>
     </div>
-<ul>
-<p>{{ about.content }}</p>
-</ul>
-<a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
-    <span class="icon">
-        <i class="fas fa-chevron-left"></i>
-    </span>
-    <span class="text-uppercase">Back to shop</span>
-</a>
+    <ul>
+        <p>{{ about.content }}</p>
+    </ul>
+    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+        <span class="icon">
+            <i class="fas fa-chevron-left"></i>
+        </span>
+        <span class="text-uppercase">Back to shop</span>
+    </a>
 
-{% endblock %}
+    {% endblock %}
