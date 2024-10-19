@@ -356,7 +356,7 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/) of the home page an
 #### Products page
 ![](docs/images/wireframe-products.png)
 
-<!--
+
 
 ## Features
 
@@ -364,58 +364,96 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/) of the home page an
 
 #### Navigation bar
 
-![Navigation bar as a not logged in user](doc/navbar-not-logged-in.PNG)
+![Navigation bar as a not logged in user](docs/images/navbar.PNG)
+
 
 - The navigation bar makes it easy for the user to navigate the site. 
-- The user can find the different parts of the home page (and will include more in future versions) and enables the user to login to the portal and log out.
 - The navbar is fixed to the top of all pages to allow easy navigation
+- The Navbar contains dropdown menus to browse the shop, the website logo and a search bar
+- There is a "My Account" dropdown which looks different depending on the user
 
-![Navigation bar as a logged in user](doc/navbar-logged-in.PNG)
+A non logged in user sees an option to either register or login
 
-Once the user is logged in, the navbar changes. "Register/Login" changes to "Logout"
+![Navigation bar as a not logged in user](docs/images/navbar-not-logged-in.PNG)
+
+A logged in shopper sees a link to view their profile, to view wish-lists and to logout
+
+![Navigation bar as a logged in shopper](docs/images/navbar-logged-in-shopper.PNG)
+
+A logged in admin level user sees the same but with the addition of a product management link
+
+![Navigation bar as a logged in shopper](docs/images/navbar-logged-in-admin.PNG)
+
+
 
 ### Index page
 
-#### Hero image
+![Hero image at index page](docs/images/hero-image.PNG)
 
-![Hero image at index page](doc/hero-image.PNG)
-
-- The hero image is a simple backdrop of the stone walls of the studio outlining the opening theme of the site. Over the top of this is a bold large transparent version of the studio logo in white.
+- The index page is dominated by the hero image is a simple lifestyle shot which conforms to the overall theme of the site. Over the top of this is a bold statement for the webshop and contains core keywords for SEO purposes
 - This section provides the user with a clear visual opening to the site and what to expect
-- Below the logo is a call to action button inviting the user to "click to make booking"
+- Below the statement is a call to action button inviting the user to "SHop Now" and enter the main shop
+
+### Product Pages
+
+#### All products page
+
+- The all products page is arrived at after the main call to action button on the hero image.
+
+![All products page](docs/images/all-products.PNG)
+
+- There is a drop down filter menu to allow the user to filter the displayed products by various different categories.
+
+![Drop down filter menu](docs/images/all-products-filter.PNG)
+
+- A logged in admin user sees the same information, except for the options to edit or delete each product.
+
+![Admin All products page](docs/images/all-products-admin.PNG)
+
+#### Product detail page
+
+- When product is clicked, the user is taken to the product detail page
+- 
+
+![Product detail page](docs/images/product-detail.PNG)
+
+
+
+
+<!--
 
 #### About Us Section
 
-![About us Section at index page](doc/about-us.PNG)
+![About us Section at index page](docs/images/about-us.PNG)
 
 - Next up is a short section of text giving a brief description of the studio and its origins.
 
 #### Gallery Section
 
-![Gallery at index page](doc/gallery.PNG)
+![Gallery at index page](docs/images/gallery.PNG)
 
 ### Booking Info Page
 
-![Booking Info page](doc/booking-info.PNG)
+![Booking Info page](docs/images/booking-info.PNG)
 
 - The site user is brought to a page after clicking the hero image call to action button that details the studio opening hours
 - The user is then invited to click another to log in to the Client portal in order to see studio availability and make a booking.
 
 ### Sign In Page
 
-![Sign in page with fields for email and password](doc/sign-in.PNG)
+![Sign in page with fields for email and password](docs/images/sign-in.PNG)
 
 The sign-in page allows existing users to log in, enhancing the user experience by eliminating the need to enter their email each time they want to make a booking. It also enables users to view all their bookings in one place.
 
 ### Register Page
 
-![Register page with fields for email, username, password and password again](doc/register.PNG)
+![Register page with fields for email, username, password and password again](docs/images/register.PNG)
 
 The Register page includes fields for the user to enter their email, username, password, and password confirmation. This ensures the user registers a contact method and avoids typos in the password.
 
 ### Booking Detail Page
 
-![Booking detail page](doc/booking-detail.PNG)
+![Booking detail page](docs/images/booking-detail.PNG)
 
 - This is the main page that the user is brought to after logging in
 - At the top of the page, the user is invited to make a new booking. There is text inputs for Artist name, date of booking and booking requirements.
@@ -426,7 +464,7 @@ The Register page includes fields for the user to enter their email, username, p
 
 ### Booking Successful Page
 
-![Booking Success page](doc/booking-success.PNG)
+![Booking Success page](docs/images/booking-success.PNG)
 
 - After the user has made a booking, they are brought to this page.
 - A simple summary of their booking is displayed
@@ -434,7 +472,7 @@ The Register page includes fields for the user to enter their email, username, p
 
 ### Edit Booking page
 
-![Edit Booking page](doc/edit-booking.PNG)
+![Edit Booking page](docs/images/edit-booking.PNG)
 
 - Once a user decides to edit a booking from the booking detail page, they are brought here.
 - The current details of the booking are displayed in text boxes. 
@@ -444,7 +482,7 @@ The Register page includes fields for the user to enter their email, username, p
 
 ### Booking delete page
 
-![Edit Booking page](doc/booking-delete.PNG)
+![Edit Booking page](docs/images/booking-delete.PNG)
 
 - When a user clicks on "Delete" button on booking detail page, they are bought to this page.
 - The booking details are displayed and the user is asked if they are sure they want to delete or cancel the deleting process.
@@ -453,7 +491,7 @@ The Register page includes fields for the user to enter their email, username, p
 
 ### Log Out Page
 
-![Log Out page](doc/logout.PNG)
+![Log Out page](docs/images/logout.PNG)
 
 - Once the user is finished, they can click the Logout button
 - They are then taken to the Log out page where they are asked to confirm that they want to log out
@@ -462,7 +500,7 @@ The Register page includes fields for the user to enter their email, username, p
 
 ### Footer
 
-![footer](doc/footer.PNG)
+![footer](docs/images/footer.PNG)
 
 - The footer section includes links to Studio Moo Moo's Facebook, Instagram and twitter pages.
 - The design colour and styling reflect those of the header
@@ -472,19 +510,19 @@ The Register page includes fields for the user to enter their email, username, p
 
 ### Password Reset Page
 
-![password Reset Page](doc/password-reset.PNG)
+![password Reset Page](docs/images/password-reset.PNG)
 
 - In the event of a user forgetting their password and being unable to login, on the login page, there is a link labeled "forgot password?"
 - On clicking this link, they are brought to this page.
 - Here they are prompted to enter their email. once submitted, an email is sent with instructions on how to change password.
 
-![Password reset email sent](doc/password-reset-sent.PNG)
+![Password reset email sent](docs/images/password-reset-sent.PNG)
 
 - Once the request to reset has been submitted, the user is taken to this page and they are instructed to follow the institutions on the email when they receive it.
 
 ### Alerts
 
-![Alert](doc/alert.PNG)
+![Alert](docs/images/alert.PNG)
 
 - When major changes are made by the user, a high contrast alert is visible just below the header
 -->
@@ -513,23 +551,23 @@ Several features can be added in the future.
 
 #### HTML
 
-![Screenshot of HTML validation of index page](doc/index-html-valid.PNG)
+![Screenshot of HTML validation of index page](docs/images/index-html-valid.PNG)
 
 All the pages were tested at the [W3C Markup Validation Service](https://validator.w3.org/). The index page validation is above, all the other validations are linked below.
 
-- [Sign In Page](doc/sign-in-html-valid.PNG)
-- [Login Page](doc/register-html-valid.PNG)
+- [Sign In Page](docs/images/sign-in-html-valid.PNG)
+- [Login Page](docs/images/register-html-valid.PNG)
 - This page showed 4 errors. These seem to originated from AllAuth injected html and as such are not available for me to edit
-- [Booking Detail Page](doc/booking-detail-html-valid.PNG)
-- [Booking Successful Page](doc/booking-successful-html-valid.PNG)
-- [Edit Booking page](doc/edit-booking-html-valid.PNG)
-- [Booking delete page](doc/booking-delete-html-valid.PNG)
-- [Log Out Page](doc/log-out-html-valid.PNG)
-- [Password Reset Page](doc/password-reset-html-valid.PNG)
+- [Booking Detail Page](docs/images/booking-detail-html-valid.PNG)
+- [Booking Successful Page](docs/images/booking-successful-html-valid.PNG)
+- [Edit Booking page](docs/images/edit-booking-html-valid.PNG)
+- [Booking delete page](docs/images/booking-delete-html-valid.PNG)
+- [Log Out Page](docs/images/log-out-html-valid.PNG)
+- [Password Reset Page](docs/images/password-reset-html-valid.PNG)
 
 #### CSS
 
-![Screenshot of CSS validation](doc/css-valid.PNG)
+![Screenshot of CSS validation](docs/images/css-valid.PNG)
 
 The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The process completed without errors but generated one warning: "Imported style sheets are not checked in direct input and file upload modes." This warning pertains to fonts imported from Google Fonts.
 
@@ -539,27 +577,27 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 **Booking - views.py**
 
-![Python validation of views.py in bookings](doc/pep8-booking-views.PNG)
+![Python validation of views.py in bookings](docs/images/pep8-booking-views.PNG)
 
 **Booking - models.py**
 
-![Python validation of models.py in booking](doc/pep8-booking-models.PNG)
+![Python validation of models.py in booking](docs/images/pep8-booking-models.PNG)
 
 **Booking - admin.py**
 
-![Python validation of admin.py in booking](doc/pep8-booking-admin.PNG)
+![Python validation of admin.py in booking](docs/images/pep8-booking-admin.PNG)
 
 **Booking - forms.py**
 
-![Python validation of forms.py in booking](doc/pep8-booking-forms.PNG)
+![Python validation of forms.py in booking](docs/images/pep8-booking-forms.PNG)
 
 **Booking - urls.py**
 
-![Python validation of urls.py in booking](doc/pep8-booking-urls.PNG)
+![Python validation of urls.py in booking](docs/images/pep8-booking-urls.PNG)
 
 **Booking - apps.py**
 
-![Python validation of apps.py in booking](doc/pep8-booking-apps.PNG)
+![Python validation of apps.py in booking](docs/images/pep8-booking-apps.PNG)
 
 ### Lighthouse
 
@@ -567,13 +605,13 @@ Tests in Lighthouse were performed for both desktop and mobile.
 
 #### Desktop
 
-![Lighthouse test for desktop](doc/lighthouse-desktop.PNG)
+![Lighthouse test for desktop](docs/images/lighthouse-desktop.PNG)
 
 The test for desktop resulted in scores all over 90.
 
 #### Mobile
 
-![Lighthouse test for mobile](doc/lighthouse-mobile.PNG)
+![Lighthouse test for mobile](docs/images/lighthouse-mobile.PNG)
 
 The test for mobile resulted in scores all over 90. The performance rating could be further improved by adopting responsive images in order to reduce mobile load time.
 
@@ -583,23 +621,23 @@ The accessibility test at [Wave Webaim](https://wave.webaim.org/) resulted witho
 
 #### Index page
 
-![Wave webaim test of index page](doc/wave-webaim.PNG)
+![Wave webaim test of index page](docs/images/wave-webaim.PNG)
 
 #### Sign In
 
-![Wave webaim test of Sign In page](doc/wave-webaim-sign-in.PNG)
+![Wave webaim test of Sign In page](docs/images/wave-webaim-sign-in.PNG)
 
 #### Register page
 
-![Wave webaim test of Login page](doc/wave-webaim-Register.PNG)
+![Wave webaim test of Login page](docs/images/wave-webaim-Register.PNG)
 
 #### Booking Detail page
 
-![Wave webaim test of Booking Detail page](doc/wave-webaim-booking-detail.PNG)
+![Wave webaim test of Booking Detail page](docs/images/wave-webaim-booking-detail.PNG)
 
 #### Booking Successful page
 
-![Wave webaim test of Booking Successful page](doc/wave-webaim-booking-successful.PNG)
+![Wave webaim test of Booking Successful page](docs/images/wave-webaim-booking-successful.PNG)
 
 #### Edit Booking page
 
@@ -607,7 +645,7 @@ This page would not load with webAID. See Bugs section
 
 #### Booking delete page
 
-![Wave webaim test of Booking delete page](doc/wave-webaim-booking-delete.PNG)
+![Wave webaim test of Booking delete page](docs/images/wave-webaim-booking-delete.PNG)
 
 #### Log Out page
 
@@ -615,13 +653,13 @@ This page would not load with webAID. See Bugs section
 
 #### Password Reset page
 
-![Wave webaim test of Password Reset page](doc/wave-webaim-password-reset.PNG)
+![Wave webaim test of Password Reset page](docs/images/wave-webaim-password-reset.PNG)
 
 ### Contrast Grid
 
 The [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23CACACA%2C%20%20Background%20color%0D%0A%23353535%2C%20Text%0D%0A%23411919%2C%20Cancel%20btn%20-%20background%0D%0A%23FFFFFF%2C%20Cancel%2Fconfirm%2Fdelete%20btn%20-%20text%0D%0A%23193A18%2C%20Confirm%20btn%20-%20background%0D%0A%238d3838%2C%20Delete%20btn%20-%20background%0D%0A%23000000%2C%20Footer%20icons&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA results for the combination used on the webpage. The main combination throughout the page is #000000 and #FFFFFF which has a value of 7+ which is the best result available.
 
-![Contrast Grid of the webpage](doc/contrast-grid.PNG)
+![Contrast Grid of the webpage](docs/images/contrast-grid.PNG)
 -->
 
 ### Search Engine Optimization (SEO) & Social Media Marketing
@@ -712,18 +750,55 @@ Based on this, the top keywords could be identified:
 - Irish heritage crafts
 
 
-#### Metadata
+#### General steps to improve SEO Results
 based on this research base.html and index.html were changed in order to better represent the identified keywords. The main logo was changed from a H1 tag to a span so that our H1 could be used in the hero image with two of our identified keywords.
 
-![Span version of header logo](docs/SEO-header-logo.PNG)
+![Span version of header logo](docs/images/SEO-header-logo.PNG)
+
+![New hero image H2 text](docs/images/SEO-hero-text.PNG)
+
+#### Metadata
+I included Metadata to help with SEO results. Keywords, description and title were all used as opportunities to improve SEO.
 
 #### Sitemap
 
+I've used [XML-Sitemaps](https://www.xml-sitemaps.com) to generate a sitemap.xml file.
+This was generated using my deployed site URL: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/
+
+After it finished crawling the entire site, it created a
+[sitemap.xml](sitemap.xml) which I've downloaded and included in the root of the repository.
+
 #### Robots
+
+I've created the [robots.txt](robots.txt) file at the root-level.
+Inside, I've included the settings:
+
+```
+User-agent: *
+Disallow: /profile/
+Disallow: /bag/
+Sitemap: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/sitemap.xml
+```
+
+Further links for future implementation:
+- [Google search console](https://search.google.com/search-console)
+- [Creating and submitting a sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
+- [Managing your sitemaps and using sitemaps reports](https://support.google.com/webmasters/answer/7451001)
+- [Testing the robots.txt file](https://support.google.com/webmasters/answer/6062598)
 
 #### Social Media Marketing
 
-#### Newsletter Marketing
+I included links in on the contact page which could be used for potential Facebook, Twitter, Instagram and TikTok presences for the business.
+
+I've created a mockup Facebook business account using the
+[Balsamiq template](https://code-institute-org.github.io/5P-Assessments-Handbook/files/Facebook_Mockups.zip)
+provided by Code Institute.
+
+![](docs/images/facebook-mockup.png)
+
+
+For this business I envision a lot of the social media marketing being very visual, using the current most popular formats like Instagram Reels and TikTok. As these are primarily video based I did not mock any for the purposes of this coding project.
+
 
 
 <!-- 
@@ -1038,6 +1113,22 @@ BUGS
 
 FUTURE ADDITIONS
 Special offers menu item
+more text on home page for better SEO results
+footer to include social links
+Hero image could be upgraded to an image slider
+
+SEO
+Further keywords additions are limited here due to the lack of text on our home page. Future improvements of the site would be to include more text. Keywords were included in the about us text. This text can be edited by the shop editors if they feel they need to.
+
+Future additions could also include external links to further improve our SEO results.
+
+Further improvements could be made to the images on the site. Currently, they are all named after the stock code of the item. This is not helpfull for search engine optimisation. WOrk could be done in renaming these to more meaningful descriptions of the items. Also, there is no allowance for alt tags and this should be added in future versions.
+
+The Meta data does not yet include an imgae to be displayed when the site is shared on social media
+
+
+
+
 
 
 Concepts that will be required for your final project include:
