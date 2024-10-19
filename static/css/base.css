@@ -106,6 +106,13 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* Image size in wishlist */
+
+.wishlistimg {
+    width: 300px;
+    height: 300px;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

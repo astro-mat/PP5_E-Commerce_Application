@@ -4,6 +4,10 @@
 [![](docs/images/devices-mockup.png)](https://irish-craft-house-shop.herokuapp.com/)
 [Link to Live Site](https://irishdesignhousepp5-45c81a68233a.herokuapp.com/)
 
+## Table of Contents
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Introduction
 
 The project is an e-commerce website for a shop that offers designer craft items made in Ireland.
@@ -12,157 +16,328 @@ Both guests and registered users can explore products and add items to their sho
 
 Registered users have the ability to place orders, create a wishlist, save their details for future visits, and view their past orders.
 
-## Table of Contents
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## User Experience
 
 ### User Goals
 
-The main user goal would be to be able to book sessions in the studio. Additionally, the user should have a seamless experience with full CRUD (Create, Read, Update, and Delete) functionality for managing their bookings. Further aims include allowing the user to listen to and download their projects that have been recorded in the studio such as rough mixes and stems and to view details about past bookings.
+The main user goal would be to allow users to browse items easily on the site. The user should be able to view details of chosen items before deciding to buy. They should be able to add or remove items to their shopping basket and change the amount they would like. Users should be able to view and edit details about their account when logged in and change details.
 
 ### Site Owner Goals
 
-The site owner goal is to reduce communication needed when clients need to make bookings and access their data. It also aims to project a professional image and added value to the clients. A serrvice that would not normally be provided by competing studios
-<!--
+The site owners main goal would be to be able to have full CRUD (Create, Read, Update, and Delete) functionality for products on the site. They should also be able to edit other content via the admin panel and to communicate with customers via email.
+
 ### User Stories
 
-Six Epics were decided upon with a total of 39 user stories. All user stories can be viewed here [Projects board](https://github.com/users/astro-mat/projects/2/views/1). Each user story was categorized into one of the following classes: Must have, Should have, Could have, or Won't have. Points were given to each user story based on the estimated time required for completion.
+Seven Epics were decided upon with a total of 30 user stories. All user stories can be viewed here [Projects board](https://github.com/users/astro-mat/projects/4/views/1). Each user story was categorized into one of the following classes: Must have, Should have, Could have, or Won't have. Points were given to each user story based on the estimated time required for completion.
 
 | Class | Points | Percentage of total points |
 | -------------- | --------- | --------------- |
-| Must have | 46 p | 59 % |
-| Should have | 4 p | 5 % |
+| Must have | 65 p | 54 % |
+| Should have | 51 p | 43 % |
 | Could have | 0 p | 0 % |
-| Won't have | 28 p | 36 % |
+| Won't have | 4 p | 3 % |
 
-The following user stories were completed in the first release of Studio Moo Moo Client Portal. To view the Won't have, they are listed here [Projects board](https://github.com/users/astro-mat/projects/2/views/1).
+The following user stories were completed in the first release of the Irish craft house website. To view the Won't have, they are listed here [Projects board](https://github.com/users/astro-mat/projects/4/views/1).
 
-#### Epic 1 - Initial project setup
+#### Epic 1: Viewing and navigation
+**User Story - View a list of products**
 
-**User Story - Django installation and configuration**
+As a shopper, I can view a list of products so that I can select some to purchase						
 
-As a developer, I can install Django and support libraries so that I have the appropriate environment ready to be able to proceed with the development
+Acceptance Criteria 1 - When I navigate to the main product page, I see a grid or list of products.
 
-- Acceptance Criteria 1  
-When the project is opened in the browser the web page shows that there has been a successful installation.
+**User Story - View a specific category of products**
 
-**User Story - Hosting setup and configuration**
+As a shopper, I can view a specific category of products so that I can quickly find products I'm interested in without having to search though all products.						
 
-As a developer, I can create a hosting environment so that I can present the site to the end user
+Acceptance Criteria 1 - Users can find and select from a list of available product categories.
 
-- Acceptance Criteria 1  
-When the project app is opened on Heroku, the browser the web page shows that there has been a successful installation. 
+Acceptance Criteria 2 - Only products belonging to the selected category appear in the results.
 
-#### Epic 2 - User Account Creation
+Acceptance Criteria 3 - The display accurately reflects the category's contents.
 
-**User Story - Access the registration page**
+**User Story - I can View individual product details**
 
-As a new user, I can easily find the registration page so that I can create an account
+As a Shopper, I can View individual product details so that I can identify the price, description, product rating, product image and available sizes.
 
-- Acceptance Criteria 1  
-When I enter the client portal of the website and I am not logged in I should see a register button
+Acceptance Criteria 1 - The product page shows all relevant details such as name, description, price
 
-- Acceptance Criteria 2  
-When I click the Register button I should be brought to a registration form
+Acceptance Criteria 2 - High-quality images of the product are presented.
 
-**User Story - Complete the registration form**
+Acceptance Criteria 3 - "Add to Cart" and "Buy Now" buttons are prominently displayed.
 
-As a new user, I can enter my personal details so that I can register a new account.
+**User Story - Quickly identify deals, clearance items and special offers**
 
-- Acceptance Criteria 1  
-The  registration form includes fields for necessary information such as email, password etc.
-- Acceptance Criteria 2  
-The registration form has input validation.
-- Acceptance Criteria 3  
-Once the user has registered, they receive confirmation that they have successfully registered.
+As a Shopper, I can Quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I'd like to purchase.
 
-#### Epic 3 - User Login
+Acceptance Criteria 1 - Prominent visual indicators for deals and discounts
 
-**User Story - Account Sign In**
+Acceptance Criteria 2 - Easy-to-access deal listings
 
-As a registered user, I can sign in with my username/password so that I can access the portal
+Acceptance Criteria 3 - Clear product information about promotions
 
-- Acceptance Criteria 1  
-As a registered user when I click log in and enter in the relevant log in criteria i should be logged into the website
-- Acceptance Criteria 2  
-If I am not a registered user and I try to log in I will see an error message of invalid credentials and will be prompted to register
-- Acceptance Criteria 3  
-Once the user is logged in, they receive confirmation that they have.
+**User Story - Easily view the total of my purchases at any time**
 
-**User Story - Reset forgotten password**
+As a Shopper, Easily view the total of my purchases at any time so that I can avoid spending too much.
 
-As a registered user, I can securely obtain Forgotten Password so that I can gain access if password is forgotten
+Acceptance Criteria 1 - The total is displayed prominently and updates in real-time as purchases are made.
 
-There is a clear option visible to click if you have forgotten your password
+Acceptance Criteria 2 - Shopper	find out information about the organisation	Decide if I like this company and what they stand for
 
-- Acceptance Criteria 1  
-There is a clear option visible to click if you have forgotten your password
-- Acceptance Criteria 2  
-Once necessary information is given by user, there is a clear procedure to follow that results in access being given 
+Acceptance Criteria 3 - An "About Us" or similar section is prominently linked in the footer or header of every page.
 
-#### Epic 4 - Studio booking system
+**User Story - find answers to questions I may have**
 
-**User Story - Creating a new booking**
+As a Shopper, find answers to questions I may have so that I can be more informed before I decide to purchase.
 
-As a registered user, I can book a slot so that I can secure my place to use the studio.
+Acceptance Criteria 1 - A dedicated FAQ page is easily accessible from the main navigation menu.
 
-- Acceptance Criteria 1  
-The user can specify when they would like to use the studio.
-- Acceptance Criteria 2  
-The user can specify equipment requirements.
-- Acceptance Criteria 3  
-There is confirmation of the booking
+#### Epic 2: Registration and user accounts	
 
-**User Story - Viewing My Booking**
+**User Story - Easily register for an account**
 
-As a registered user, I can view my bookings so that i can choose what to do with them
+As a Site User, easily register for an account so that I can have a personal account and be able to view my profile.
 
-- Acceptance Criteria 1  
-The user can see all bookings that they have made
-- Acceptance Criteria 2  
-The user can modify any future bookings they have made
-- Acceptance Criteria 3  
-There is confirmation of the modification
+Acceptance Criteria 1 - The registration form is concise and requires minimal information.
 
-**User Story - Cancel A Booking**
+Acceptance Criteria 2 - The registration form submits promptly without unnecessary delays.
 
-As a registered user, I can cancel my book so that I can let the studio know if I cannot make it
+Acceptance Criteria 3 - After successful registration, users are shown a confirmation message.
+							
+**User Story - Easily login or logout**
 
-- Acceptance Criteria 1  
-The user can cancel a booking they have made
-- Acceptance Criteria 2  
-There is a confirmation of the cancellation
+As a Site User, easily login or logout so that I can access my personal account information.
 
-#### Epic 6 - Enhancing Website Aesthetics
+Acceptance Criteria 1 - The login form is easily accessible and prominently displayed.
 
-**User Story - Design is consistent with existing site**
+Acceptance Criteria 2 - Users receive immediate confirmation of successful login or logout.
 
-As a user, all areas of site should be consistent in appearance so that I have a great user experience.
+Acceptance Criteria 3 - The interface clearly indicates whether the user is logged in or logged out.
 
-- Acceptance Criteria 1  
-When navigating between portal and existing website, they should look similar in design
+**User Story - Easily recover my password in case I forget it**
 
-**User Story - Design is responsive**
+As a Site User, easily recover my password in case I forget it so that I can recover access to my account.
 
-As a site user, I can easily navigate and view content using wide range of devices so that I have a great user experience
+Acceptance Criteria 1 - A clear "Forgot Password" link is visible on the login page.
 
-- Acceptance Criteria 1  
-The layout automatically adjusts based on screen size and orientation
-- Acceptance Criteria 2  
-All elements such as text, images, buttons etc are easily viewed and visible on a range of devices
-- Acceptance Criteria 3  
-All navigation elements are optimised for touch devices
+Acceptance Criteria 2 - The system sends a password reset link to the registered email address.
+
+Acceptance Criteria 3 - Upon successful password reset, users are notified and redirected to the login page.
+
+**User Story - receive an Email confirmation after registering**
+
+As a Site User, receive an Email confirmation after registering so that I can verify that my account registration was successful.
+
+Acceptance Criteria 1 - An email is automatically sent to the registered email address immediately after registration.
+
+Acceptance Criteria 2 - The subject line clearly indicates it's a confirmation email.
+
+Acceptance Criteria 3 - The email is sent promptly after successful registration.
+
+**User Story - have a personalised user profile**
+
+As a Site User, have a personalised user profile so that I can view my personal order history and order confirmation and save my payment information..
+
+Acceptance Criteria 1 - Users can quickly access their profile from a dedicated menu item.
+
+Acceptance Criteria 2 - Users can edit and update their personal details through the profile page.
+
+Acceptance Criteria 3 - Users can manage their account settings, notification preferences, and privacy options.
+
+**User Story - Can access Emails sent via the website**
+
+As an admin, I Can access Emails sent via the website so that I can see what emails have been sent via the website.
+
+Acceptance Criteria 1 - Administrators have a dedicated section to view all emails sent through the website.
+
+Acceptance Criteria 2 - Email logs include sender, recipient, subject, and timestamp.
+							                                
+**User Story - **
+
+As a Shopper, contact the website admin so that I can ask any questions that I need to ask.
+
+Acceptance Criteria 1 - A prominent "Contact" link or button is visible on the website.
+
+Acceptance Criteria 2 - The contact form is simple and easy to fill out.
+
+Acceptance Criteria 3 - Users receive immediate confirmation of form submission.		
+                                    
+                                    
+**User Story - **
+
+As a Shopper, I can add items to a wish list so that I can Decide weather or not to buy it later.
+
+Acceptance Criteria 1 - A dedicated "Add to Wish List" button is visible on product pages.
+
+Acceptance Criteria 2 - Items are immediately added to the user's wish list when clicked.
+
+Acceptance Criteria 3 - Users can easily access and view their wish list from a dedicated page.	
+                                    
+#### Epic 3: Sorting and searching	    
+
+**User Story - sort the list of available products**
+
+As a Shopper, sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products.
+
+Acceptance Criteria 1 - Users can sort products by at least three criteria: best-rated and category.
+
+Acceptance Criteria 2 - Sorting options are clearly visible and easily selectable.
+
+Acceptance Criteria 3 - The sorted list updates immediately when a new sorting option is chosen.
+                                    
+**User Story - sort a specific category of product**
+                                    
+As a Shopper, I can sort a specific category of product so that I can find the best-priced or best-rated product in a specific category or sort the products in that category by name.
+
+Acceptance Criteria 1 - Sorting directions (ascending/descending) are provided for each option.
+
+Acceptance Criteria 2 - Users can easily see which sorting criterion is being applied at any given time.
+
+                             
+**User Story - sort multiple categories of products simultaneously**
+                                    
+As a Shopper, I can sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories such as "homewares" or "Jewellery".
+
+Acceptance Criteria 1 - Users can select multiple categories to sort together.
+
+Acceptance Criteria 2 - The sorting algorithm applies the chosen criteria uniformly across all selected categories.
+
+Acceptance Criteria 3 - Users can easily see the combined result of their selections.					
+                                    
+**User Story - I can search by a product name or description**
+                                    
+As a Shopper, I can search by a product name or description so that I can find a specific product I'd like to purchase.
+
+Acceptance Criteria 1 - Users can search for products using both exact matches and partial matches of names and descriptions.
+
+Acceptance Criteria 2 - A prominent search bar is easily accessible on product pages and the main site.
+
+
+**User Story - **
+                                    
+As a Shopper, I can easily see what I've searched for and the number of results so that I can quickly see whether the product I want is available.
+
+Acceptance Criteria 1 - The number of results found is prominently displayed near the search box.
+
+Acceptance Criteria 2 - A list of search results is shown on the search results page.
+
+#### Epic 4: Shopping cart management
+                                    
+**User Story - Add items to shopping cart**
+                                    
+As a Shopper, I can Add items to shopping cart so that I can Purchase the items at the same time.
+
+Acceptance Criteria 1 - Clicking the "Add to Cart" button adds the item to the cart.
+
+Acceptance Criteria 2 - The cart icon displays the number of items in the cart.
+
+Acceptance Criteria 3 - The cart total updates automatically after adding items
+    							
+                                    
+**User Story - Remove items from shopping cart**
+                                    
+As a Shopper, I can Remove items from shopping cart so that I can reduce the selection of items that I want to buy.
+
+Acceptance Criteria 1 - Clicking the "Remove" button removes the item from the cart.
+
+Acceptance Criteria 2 - The cart icon updates to reflect the new item count.
+
+Acceptance Criteria 3 - The cart total adjusts accordingly after removing items.
+                                    
+        							
+**User Story - Change quantity in shopping cart**
+                                    
+As a shopper, I can Change quantity in shopping cart so that I can change how many of individual items I wish to purchase.
+
+Acceptance Criteria 1 - Entering a value in the quantity field updates the cart total.
+
+Acceptance Criteria 2 - Clicking "Update" applies the quantity change.
+
+Acceptance Criteria 3 - The cart displays the updated quantity and price.
+
+#### Epic 5: Account management	                            
+                                    
+**User Story - View account details**
+                                    
+As a Logged in user, I can View account details so that I can check if they are correct.
+
+Acceptance Criteria 1 - My profile information is displayed on the account page.
+
+Acceptance Criteria 2 - All order history is visible.
+
+Acceptance Criteria 3 - My saved addresses and payment methods are accessible.
+
+
+**User Story - Edit account details**
+                                    
+As a Logged in user, I can Edit account details so that I can make changes if they need to be made.
+
+Acceptance Criteria 1 - I can update my name, email, and password
+
+Acceptance Criteria 2 - Changes are reflected immediately upon saving
+
+Acceptance Criteria 3 - Error messages are displayed for invalid inputs
+    								
+#### Epic 6: admin panel functionality
+                     
+**User Story - Create products**
+                                    
+As an admin, I can create products so that I can sell new products on the site.
+
+Acceptance Criteria 1 - I can add product name, description, price, and images
+
+Acceptance Criteria 2 - Categories and tags can be assigned to products
+
+Acceptance Criteria 3 - Product creation is confirmed with a success message
+    								
+                                    
+**User Story - Update product details**
+                                    
+As an admin, I can update product details so that I can make changes to products when they change.
+
+Acceptance Criteria 1 - I can modify product name, description, price, and images
+
+Acceptance Criteria 2 - Category and tag assignments can be changed
+
+Acceptance Criteria 3 - Updated product information is reflected immediately
+        						
+    					
+**User Story - Remove products from the site**
+                                    
+As an admin, I can remove products from the site so that I can remove them when they become non-stock items.
+
+Acceptance Criteria 1 - Deleting a product removes it from the catalog
+
+Acceptance Criteria 2 - Associated orders are marked as canceled
+
+Acceptance Criteria 3 - A confirmation message is displayed after deletion
+
+#### Epic 7: email communication
+								
+**User Story - Send order confirmation emails**
+                                    
+As an admin , I can Send order confirmation emails so that I can confirm to the customer that an order has been received.
+
+Acceptance Criteria 1 - Emails are sent automatically after successful checkout
+
+Acceptance Criteria 2 - Order details are included in the email
+
+Acceptance Criteria 3 - Recipients can easily access their order status
+                                    
+        						
+**User Story - send automated password reset emails**
+                                    
+As an admin, I can send automated password reset emails so that I can allow users to use the logged in functions automatically in the event of password loss.
+
+Acceptance Criteria 1 - Emails are sent automatically when a password reset request is made
+
+Acceptance Criteria 2 - Reset link is valid for a limited time
+
+Acceptance Criteria 3 - Password reset is confirmed via email after successful change
 
 ## Design
 
-The design was very much dictated by the original website. It will use predominantly dark but high contrast text. It should draw attention with images that convey the profesional yet comfortable ethos of the studio.
-
-### Color Scheme
-
-The colour scheme is chosen again, to relate to the existing website. It is felt that the main dark elements convey a modern, professional style to prospective.
+The website was designed with a clean, simple look to reflect the quality design aspect of the brand. Simple black and white colour scheme was chosen which supported this choice and provided high contrast.
 
 ### Typography
 
@@ -170,58 +345,18 @@ The typography was chosen to fit in with the design style established by the col
 
 ### Imagery
 
-Imagery was important as it signals to prospective clients what they can expect from booking the studio. They needed to highlight the design elements that make up the studios construction, the lighting choices, the equipment available and the general warm and comfortable environment that it claims to be.
+High quality imagery was important as it signals to prospective customers what they can expect. Wherever possible, lifestyle images are used to re-enforce the brand
 
 ### Wireframes
+Wireframes were made using [Balsamiq](https://balsamiq.com/) of the home page and products page. 
 
-#### Index page
+#### Home page
+![](docs/images/wireframe-landing-page.png)
 
-![Wireframe of index page](doc/wireframe-index.webp)
+#### Products page
+![](docs/images/wireframe-products.png)
 
-#### Booking Info Page
-
-![Wireframe of index page](doc/wireframe-booking-info.webp)
-
-#### Sign-In Page
-
-![Wireframe of index page](doc/wireframe-sign-in.webp)
-
-#### Sign-Out Page
-
-![Wireframe of index page](doc/wireframe-sign-out.webp)
-
-#### Make Booking Page
-
-![Wireframe of index page](doc/wireframe-make-booking.webp)
-
-#### Edit Booking Page
-
-![Wireframe of index page](doc/wireframe-edit-booking.webp)
-
-#### Manage Booking Page
-
-![Wireframe of index page](doc/wireframe-edit-booking.webp)
-
-#### Booking Success Page
-
-![Wireframe of index page](doc/wireframe-success-page.webp)
-
-#### 500 Page
-
-![Wireframe of index page](doc/wireframe-edit-500-page.webp)
-
-#### 404 Page
-
-![Wireframe of index page](doc/wireframe-edit-404-page.webp)
-
-### Entity Relationship Diagram - ERD
-
-- Only one custom model was needed to make the website.
-- As there would only ever be one artist using the studio each day as a session would be expected to use an entire day, there was no need to specify a time as well as the date.
-- Artist name was included as a user may book studio for different projects
-- A requirements field was deemed necessary to allow user to specify any specific needs or requirements for the session such as if a drum kit is need, how many musicians etc.
-
-![ERD of Booking Model](doc/erd-booking.PNG)
+<!--
 
 ## Features
 
@@ -352,8 +487,14 @@ The Register page includes fields for the user to enter their email, username, p
 ![Alert](doc/alert.PNG)
 
 - When major changes are made by the user, a high contrast alert is visible just below the header
+-->
 
 
+
+
+
+
+<!-- 
 ## Features to be Added
 
 Several features can be added in the future.
@@ -481,7 +622,24 @@ This page would not load with webAID. See Bugs section
 The [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23CACACA%2C%20%20Background%20color%0D%0A%23353535%2C%20Text%0D%0A%23411919%2C%20Cancel%20btn%20-%20background%0D%0A%23FFFFFF%2C%20Cancel%2Fconfirm%2Fdelete%20btn%20-%20text%0D%0A%23193A18%2C%20Confirm%20btn%20-%20background%0D%0A%238d3838%2C%20Delete%20btn%20-%20background%0D%0A%23000000%2C%20Footer%20icons&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA results for the combination used on the webpage. The main combination throughout the page is #000000 and #FFFFFF which has a value of 7+ which is the best result available.
 
 ![Contrast Grid of the webpage](doc/contrast-grid.PNG)
+-->
 
+### Search Engine Optimization (SEO) & Social Media Marketing
+
+#### Keywords
+
+#### Metadata
+
+#### Sitemap
+
+#### Robots
+
+#### Social Media Marketing
+
+#### Newsletter Marketing
+
+
+<!-- 
 ### Manual Testing
 
 Every page at the website has been manually tested. It is done in Google Chrome DevTools and on different devices. The devices used were one mobile phone, one laptop and one external screen:
@@ -716,7 +874,7 @@ And all the Tutors that assisted me
 Holly, Roo, John, Roman, Sean, Oisin, Mark, Sarah, Thomas and Alan -->
 
 
-
+ 
 
 
 
@@ -724,6 +882,9 @@ Holly, Roo, John, Roman, Sean, Oisin, Mark, Sarah, Thomas and Alan -->
 TEMP TO BE DELETED-----------------------------------------------------------------------------------------------------------
 
 CITATIONS
+
+My project was heavily influenced by the excellent Code institute "Boutique Ado" walk through
+
 Bootstrap mega menu -
 https://welcm.uk/blog/mega-menu-with-bootstrap-4
 
@@ -751,8 +912,16 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 https://stackoverflow.com/questions/74417399/making-a-functional-contact-form-using-django
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms
 
+PP5 project research
+https://github.com/davidindub/coffeecrew
+https://github.com/Zilvaro/adenwell-ecommerce
+https://github.com/anthonyjn08/witness_the_fitness_v1
+https://github.com/JoGorska/bonsai-shop
+https://github.com/LewisMDillon/web-piano-academy
+
+
 About Us Section:
-Code institute "I Think therefore I blog walk through
+Code institute "I Think therefore" I blog walk through
 https://github.com/Code-Institute-Solutions/blog/tree/main/15_testing/about
 
 Website research
@@ -773,6 +942,11 @@ TO DO
 - Delete all these notes at end of readme
 - Mockup image at start of readme
 - get rid of all comments in this readme
+
+
+BUGS
+- BASKET IS IN DOLLARS!!!!
+- Double hamburger on mobile
 
 
 FUTURE ADDITIONS
