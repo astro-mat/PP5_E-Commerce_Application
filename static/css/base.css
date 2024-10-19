@@ -21,7 +21,16 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+
 }
+
+.logo {
+    text-transform: uppercase;
+    font-size: 2em; 
+    margin: .67em 0;
+}
+
+
 
 .main-logo-link {
     width: fit-content;

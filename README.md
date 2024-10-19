@@ -628,7 +628,94 @@ The [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&backgro
 
 #### Keywords
 
+To enhance Google search index ratings, various tools were utilised, including Moz and QuestionDB, to identify relevant keywords for incorporation into meta tags, alt-text descriptions, and content elements of the project.
+
+The first step was to brainstorm general topics and keywords; 
+###### General Handmade Craft Items
+- Handmade crafts
+- Unique handmade items
+- Artisan goods
+•	Handcrafted products
+•	Irish handmade crafts
+•	Celtic crafts
+•	Traditional Irish crafts
+###### Specific Categories
+- Handmade jewellery
+- Knitted items
+- Woodcarvings
+- Pottery
+- Textiles
+- Glasswork
+- Metalwork
+- Leathercraft
+- Ceramics
+- Embroidery
+###### Seasonal/Holiday-Themed Crafts
+- Christmas ornaments
+- Easter decorations
+- Halloween accessories
+- St. Patrick's Day gifts
+- Valentine's Day crafts
+- Summer garden decor
+- Autumn-themed crafts
+###### Irish-Themed Crafts
+- Shamrock designs
+- Celtic knot patterns
+- Leprechaun figurines
+- Claddagh rings
+- Irish heritage crafts
+- Celtic cross jewelry
+- Triskelion symbols
+###### Long-Tail Keywords
+- Handmade Irish wool scarves
+- Customizable Celtic-inspired jewelry
+- Hand-painted Irish pottery
+- Hand-knitted Aran sweaters
+- Handmade Irish crystal jewelry
+- Hand-carved wooden Irish flutes
+- Handmade Irish linen table runners
+
+These were then assessed for relevance and authoritativeness.
+
+##### Relevance Assessment
+- General keywords: Highly relevant
+    Terms like "handmade crafts," "artisan goods," and "unique handmade items" directly relate to the website's offerings.
+- Specific categories: Moderately relevant
+    While specific categories like "knitted items" or "woodcarings" are relevant, they might be too broad for SEO purposes.
+- Seasonal/holiday-themed crafts: Relevant but limited
+    These keywords are seasonal and may have limited long-term impact.
+- Irish-themed crafts: Very relevant
+    Keywords like "Celtic crafts" and "Irish heritage crafts" are highly relevant to the target audience.
+- Long-tail keywords: Most relevant
+    These specific product descriptions are highly targeted and likely to attract relevant traffic.
+##### Authoritativeness Assessment
+- General terms: Good foundation
+    Using authoritative terms like "handmade crafts" establishes credibility.
+- Specific categories: Limited authority
+    While specific categories exist, they don't necessarily convey expertise.
+- Irish-specific terms: Strong authority
+    Terms like "Irish heritage crafts" suggest deep knowledge of Irish craft traditions.
+- Long-tail keywords: Strong authority
+    These specific product descriptions demonstrate expertise in particular craft types.
+
+Based on this, the top keywords could be identified:
+
+- Handmade Irish crafts
+- Unique Celtic-inspired jewellery
+- Traditional Irish pottery
+- Hand-knitted Aran sweaters
+- Customizable Irish crystal jewellery
+- Hand-carved wooden Irish flutes
+- Handmade Irish linen table runners
+- Shamrock designs
+- Claddagh rings
+- Irish heritage crafts
+
+
 #### Metadata
+based on this research base.html and index.html were changed in order to better represent the identified keywords. The main logo was changed from a H1 tag to a span so that our H1 could be used in the hero image with two of our identified keywords.
+
+![Span version of header logo](docs/SEO-header-logo.PNG)
 
 #### Sitemap
 
