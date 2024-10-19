@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/sitemap.xml
