@@ -366,10 +366,13 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/) of the home page an
 
 ![Navigation bar as a not logged in user](docs/images/navbar.PNG)
 
-
 - The navigation bar makes it easy for the user to navigate the site. 
 - The navbar is fixed to the top of all pages to allow easy navigation
 - The Navbar contains dropdown menus to browse the shop, the website logo and a search bar
+- The shop dropdown shows links to all the product categories
+
+![Navigation bar Shop dropdown](docs/images/navbar-shop-dropdown.PNG)
+
 - There is a "My Account" dropdown which looks different depending on the user
 
 A non logged in user sees an option to either register or login
@@ -383,8 +386,6 @@ A logged in shopper sees a link to view their profile, to view wish-lists and to
 A logged in admin level user sees the same but with the addition of a product management link
 
 ![Navigation bar as a logged in shopper](docs/images/navbar-logged-in-admin.PNG)
-
-
 
 ### Index page
 
@@ -413,12 +414,37 @@ A logged in admin level user sees the same but with the addition of a product ma
 #### Product detail page
 
 - When product is clicked, the user is taken to the product detail page
-- 
+- A more detailed description of the selected product is displayed
+- Buttons to add the item to the basket or to the wishlist are displayed together with a quantity box to select how many of the items the user would like to purchase.
 
 ![Product detail page](docs/images/product-detail.PNG)
 
+- A logged in Admin user again sees the option to edit or delete the product
 
+### Other website pages
 
+#### About Us page
+
+- The about us page gives a short description of the histary and background of company and website
+- A "Back To shop" allows users to easily navigate to the main shop page
+
+![About Us page](docs/images/about-us.PNG)
+
+#### Contact Us Page
+
+- The contact us page allows the user to contact the admin
+- The user enters name, email and a message. Form validation is present. A button allows the message to be sent
+- Once sent, a message is sent to the admin email address and a confirmation is sent to the user. THe message is also available in the website admin.
+- The page also provides all the proposed social links for the website
+
+![Contact Us page](docs/images/contact-us.PNG)
+
+#### FAQ Page
+
+- 
+- There is a "Keep shopping" button to take the user back to the shopping page
+
+![FAQ page](docs/images/faq-page.PNG)
 
 <!--
 
