@@ -611,6 +611,7 @@ All the pages were tested at the [W3C Markup Validation Service](https://validat
 - [Login Page](docs/images/register-html-valid.PNG)
 - [Log Out Page](docs/images/log-out-html-valid.PNG)
 - [Password Reset Page](docs/images/password-reset-html-valid.PNG)
+- [Wishlist Page](docs/images/wishlist-valid.PNG)
 
 <!--
 #### CSS
@@ -1212,11 +1213,7 @@ CHECKLIST
 - Detailed testing write ups, beyond results of validation tools.
 - GitHub project board set to public visibility. 
 
-What I did to validate
 
-removed id="new-image" from:
-Select Image <input id="new-image" type="{{ widget.type }}" name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
-in custom_clearable_file_input.html to validate "add_product page
 
 
 
