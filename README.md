@@ -693,6 +693,32 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 **checkout - webhooks.py**
 
 ![Python validation of webhooks.py in checkout](docs/images/pep8-checkout-webhooks.PNG)
+
+##### contact
+
+**contact - views.py**
+
+![Python validation of views.py in contact](docs/images/pep8-contact-views.PNG)
+
+**contact - models.py**
+
+![Python validation of models.py in contact](docs/images/pep8-contact-models.PNG)
+
+**contact - admin.py**
+
+![Python validation of admin.py in contact](docs/images/pep8-contact-admin.PNG)
+
+**contact - forms.py**
+
+![Python validation of forms.py in contact](docs/images/pep8-contact-forms.PNG)
+
+**contact - urls.py**
+
+![Python validation of urls.py in contact](docs/images/pep8-contact-urls.PNG)
+
+**contact - apps.py**
+
+![Python validation of apps.py in contact](docs/images/pep8-contact-apps.PNG)
 <!--
 ##### bag
 

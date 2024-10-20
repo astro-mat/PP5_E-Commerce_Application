@@ -4,12 +4,13 @@ from .models import Contact
 from django.core.mail import send_mail
 from django.conf import settings
 
+
 def contact_view(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            
+
             # Send email
             name = form.cleaned_data['name']
             email = form.cleaned_data['email']
@@ -31,7 +32,8 @@ def contact_view(request):
             user_message = f"""
             Dear {name},
 
-            Thank you for contacting us. We have received your message and will respond soon.
+            Thank you for contacting us. We have received
+            your message and will respond soon.
 
             Details of your submission:
             Name: {name}
@@ -54,8 +56,9 @@ def contact_view(request):
             return redirect('success')
     else:
         form = ContactForm()
-    
+
     return render(request, 'contact.html', {'form': form})
+
 
 def success_view(request):
     return render(request, 'success.html')
