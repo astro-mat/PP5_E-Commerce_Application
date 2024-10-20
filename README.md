@@ -604,49 +604,122 @@ All the pages were tested at the [W3C Markup Validation Service](https://validat
 - [Product Detail page](docs/images/product-detail-valid.PNG)
 - [Product page](docs/images/product-page-valid.PNG)
 - [FAQ page](docs/images/faq-page-valid.PNG)
-- [Contact us page](docs/images/contact-us-page.PNG)
-- [Contact Success](docs/images/contact-success-page.PNG)
+- [Contact us page](docs/images/contact-us-valid.PNG)
+- [Contact Success](docs/images/contact-success-valid.PNG)
 - [Profile Page](docs/images/profile-page-valid.PNG)
-- [Sign In Page](docs/images/sign-in-html-valid.PNG)
+- [Sign up Page](docs/images/sign-up-html-valid.PNG)
 - [Login Page](docs/images/register-html-valid.PNG)
 - [Log Out Page](docs/images/log-out-html-valid.PNG)
 - [Password Reset Page](docs/images/password-reset-html-valid.PNG)
 - [Wishlist Page](docs/images/wishlist-valid.PNG)
 
-<!--
+
 #### CSS
 
 ![Screenshot of CSS validation](docs/images/css-valid.PNG)
 
-The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The process completed without errors but generated one warning: "Imported style sheets are not checked in direct input and file upload modes." This warning pertains to fonts imported from Google Fonts.
+The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The process completed without errors.
 
 #### Python
 
 All Python files have been validated using the [CI Python Linter](https://pep8ci.herokuapp.com/) to ensure they meet PEP8 standards. The validation process completed without any errors.
 
-**Booking - views.py**
+##### about_us
 
-![Python validation of views.py in bookings](docs/images/pep8-booking-views.PNG)
+**about us - views.py**
 
-**Booking - models.py**
+![Python validation of views.py in about us](docs/images/pep8-about-us-views.PNG)
 
-![Python validation of models.py in booking](docs/images/pep8-booking-models.PNG)
+**about us - models.py**
 
-**Booking - admin.py**
+![Python validation of models.py in about us](docs/images/pep8-about-us-models.PNG)
 
-![Python validation of admin.py in booking](docs/images/pep8-booking-admin.PNG)
+**about us - admin.py**
 
-**Booking - forms.py**
+![Python validation of admin.py in about us](docs/images/pep8-about-us-admin.PNG)
 
-![Python validation of forms.py in booking](docs/images/pep8-booking-forms.PNG)
+**about us - urls.py**
 
-**Booking - urls.py**
+![Python validation of urls.py in about us](docs/images/pep8-about-us-urls.PNG)
 
-![Python validation of urls.py in booking](docs/images/pep8-booking-urls.PNG)
+**about us - apps.py**
 
-**Booking - apps.py**
+![Python validation of apps.py in about us](docs/images/pep8-about-us-apps.PNG)
 
-![Python validation of apps.py in booking](docs/images/pep8-booking-apps.PNG)
+##### bag
+
+**bag - views.py**
+
+![Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
+
+**bag - urls.py**
+
+![Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
+
+**bag - apps.py**
+
+![Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
+
+##### checkout
+
+**checkout - views.py**
+
+![Python validation of views.py in checkout](docs/images/pep8-checkout-views.PNG)
+
+**checkout - models.py**
+
+![Python validation of models.py in checkout](docs/images/pep8-checkout-models.PNG)
+
+**checkout - admin.py**
+
+![Python validation of admin.py in checkout](docs/images/pep8-checkout-admin.PNG)
+
+**checkout - forms.py**
+
+![Python validation of forms.py in checkout](docs/images/pep8-checkout-forms.PNG)
+
+**checkout - urls.py**
+
+![Python validation of urls.py in checkout](docs/images/pep8-checkout-urls.PNG)
+
+**checkout - apps.py**
+
+![Python validation of apps.py in checkout](docs/images/pep8-checkout-apps.PNG)
+
+**checkout - webhook_handler.py**
+
+![Python validation of webhook_handler.py in checkout](docs/images/pep8-checkout-webhookhandler.PNG)
+
+**checkout - webhooks.py**
+
+![Python validation of webhooks.py in checkout](docs/images/pep8-checkout-webhooks.PNG)
+<!--
+##### bag
+
+**bag - views.py**
+
+![Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
+
+**bag - models.py**
+
+![Python validation of models.py in bag](docs/images/pep8-bag-models.PNG)
+
+**bag - admin.py**
+
+![Python validation of admin.py in bag](docs/images/pep8-bag-admin.PNG)
+
+**bag - forms.py**
+
+![Python validation of forms.py in bag](docs/images/pep8-bag-forms.PNG)
+
+**bag - urls.py**
+
+![Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
+
+**bag - apps.py**
+
+![Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
+
 
 ### Lighthouse
 
