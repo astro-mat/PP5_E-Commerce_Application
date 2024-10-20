@@ -441,10 +441,28 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 #### FAQ Page
 
-- 
+- The FAQ page allows the admin to convey information taht is often asked to the user.
+- The questions and answers can be edited from the admin panel by the admin user.
 - There is a "Keep shopping" button to take the user back to the shopping page
 
 ![FAQ page](docs/images/faq-page.PNG)
+
+### Register / Login
+
+- Users are required to sign in in order to make a purchase on the site
+- After signing up, users need to verify their account by clicking the link in the welcome email.
+- New users can choose either to login if they already have an account, or register if they do not
+
+#### Register page
+
+- The new user is invited to enter details in order to create an account
+- Form has full validation error checking. 
+
+![Register page](docs/images/register.PNG)
+
+### Wishlist
+
+
 
 <!--
 
@@ -570,7 +588,7 @@ Several features can be added in the future.
 - Captcha verification when the user is signing up with email address.
 - Guidance when a user sign in for the first time.
 - Add more functionality to the portal. The proposed media sharing and editing function
-
+-->
 ## Testing
 
 ### Validation of Code
@@ -581,16 +599,20 @@ Several features can be added in the future.
 
 All the pages were tested at the [W3C Markup Validation Service](https://validator.w3.org/). The index page validation is above, all the other validations are linked below.
 
+- [Add product page](docs/images/add-product-valid.PNG)
+- [Edit Product page](docs/images/edit-product-valid.PNG)
+- [Product Detail page](docs/images/product-detail-valid.PNG)
+- [Product page](docs/images/product-page-valid.PNG)
+- [FAQ page](docs/images/faq-page-valid.PNG)
+- [Contact us page](docs/images/contact-us-page.PNG)
+- [Contact Success](docs/images/contact-success-page.PNG)
+- [Profile Page](docs/images/profile-page-valid.PNG)
 - [Sign In Page](docs/images/sign-in-html-valid.PNG)
 - [Login Page](docs/images/register-html-valid.PNG)
-- This page showed 4 errors. These seem to originated from AllAuth injected html and as such are not available for me to edit
-- [Booking Detail Page](docs/images/booking-detail-html-valid.PNG)
-- [Booking Successful Page](docs/images/booking-successful-html-valid.PNG)
-- [Edit Booking page](docs/images/edit-booking-html-valid.PNG)
-- [Booking delete page](docs/images/booking-delete-html-valid.PNG)
 - [Log Out Page](docs/images/log-out-html-valid.PNG)
 - [Password Reset Page](docs/images/password-reset-html-valid.PNG)
 
+<!--
 #### CSS
 
 ![Screenshot of CSS validation](docs/images/css-valid.PNG)
@@ -823,7 +845,7 @@ provided by Code Institute.
 ![](docs/images/facebook-mockup.png)
 
 
-For this business I envision a lot of the social media marketing being very visual, using the current most popular formats like Instagram Reels and TikTok. As these are primarily video based I did not mock any for the purposes of this coding project.
+For this business I envision a lot of the social media marketing being very visual, using the current most popular formats like Instagram Reels and TikTok. As these are primarily video based I did not mock any for the purposes of this coding project. -->
 
 
 
@@ -1188,4 +1210,19 @@ CHECKLIST
 - Working functionality for users to register and log in and out of the application without issues.
 - Working E-commerce functionality for users to make purchases within the application.
 - Detailed testing write ups, beyond results of validation tools.
-- GitHub project board set to public visibility. -->
+- GitHub project board set to public visibility. 
+
+What I did to validate
+
+removed id="new-image" from:
+Select Image <input id="new-image" type="{{ widget.type }}" name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
+in custom_clearable_file_input.html to validate "add_product page
+
+
+
+
+
+-->
+
+
+
