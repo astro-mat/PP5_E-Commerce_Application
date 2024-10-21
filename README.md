@@ -719,33 +719,133 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 **contact - apps.py**
 
 ![Python validation of apps.py in contact](docs/images/pep8-contact-apps.PNG)
+
+##### faq
+
+**faq - views.py**
+
+![Python validation of views.py in faq](docs/images/pep8-faq-views.PNG)
+
+**faq - models.py**
+
+![Python validation of models.py in faq](docs/images/pep8-faq-models.PNG)
+
+**faq - admin.py**
+
+![Python validation of admin.py in faq](docs/images/pep8-faq-admin.PNG)
+
+**faq - urls.py**
+
+![Python validation of urls.py in faq](docs/images/pep8-faq-urls.PNG)
+
+**faq - apps.py**
+
+![Python validation of apps.py in faq](docs/images/pep8-faq-apps.PNG)
+
+
+##### home
+
+**home - views.py**
+
+![Python validation of views.py in home](docs/images/pep8-home-views.PNG)
+
+**home - urls.py**
+
+![Python validation of urls.py in home](docs/images/pep8-home-urls.PNG)
+
+**home - apps.py**
+
+![Python validation of apps.py in home](docs/images/pep8-home-apps.PNG)
+
+##### irish_craft_house
+
+**irish_craft_house - views.py**
+
+![Python validation of views.py in irish_craft_house](docs/images/pep8-irish_craft_house-views.PNG)
+
+**irish_craft_house - urls.py**
+
+![Python validation of urls.py in irish_craft_house](docs/images/pep8-irish_craft_house-urls.PNG)
+
+**irish_craft_house - settings.py**
+
+![Python validation of settings.py in irish_craft_house](docs/images/pep8-irish_craft_house-settings.PNG)
+
+**irish_craft_house - wsgi.py**
+
+![Python validation of wsgi.py in irish_craft_house](docs/images/pep8-irish_craft_house-wsgi.PNG)
+
+##### products
+
+**products - views.py**
+
+![Python validation of views.py in products](docs/images/pep8-products-views.PNG)
+
+**products - models.py**
+
+![Python validation of models.py in products](docs/images/pep8-products-models.PNG)
+
+**products - admin.py**
+
+![Python validation of admin.py in products](docs/images/pep8-products-admin.PNG)
+
+**products - forms.py**
+
+![Python validation of forms.py in products](docs/images/pep8-products-forms.PNG)
+
+**products - urls.py**
+
+![Python validation of urls.py in products](docs/images/pep8-products-urls.PNG)
+
+**products - apps.py**
+
+![Python validation of apps.py in products](docs/images/pep8-products-apps.PNG)
+
+
+##### profiles
+
+**profiles - views.py**
+
+![Python validation of views.py in profiles](docs/images/pep8-profiles-views.PNG)
+
+**profiles - models.py**
+
+![Python validation of models.py in profiles](docs/images/pep8-profiles-models.PNG)
+
+**profiles - forms.py**
+
+![Python validation of forms.py in profiles](docs/images/pep8-profiles-forms.PNG)
+
+**profiles - urls.py**
+
+![Python validation of urls.py in profiles](docs/images/pep8-profiles-urls.PNG)
+
+**profiles - apps.py**
+
+![Python validation of apps.py in profiles](docs/images/pep8-profiles-apps.PNG)
+
+##### wishlist
+
+**wishlist - views.py**
+
+![Python validation of views.py in wishlist](docs/images/pep8-wishlist-views.PNG)
+
+**wishlist - models.py**
+
+![Python validation of models.py in wishlist](docs/images/pep8-wishlist-models.PNG)
+
+**wishlist - forms.py**
+
+![Python validation of forms.py in wishlist](docs/images/pep8-wishlist-forms.PNG)
+
+**wishlist - urls.py**
+
+![Python validation of urls.py in wishlist](docs/images/pep8-wishlist-urls.PNG)
+
+**wishlist - apps.py**
+
+![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
 <!--
-##### bag
-
-**bag - views.py**
-
-![Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
-
-**bag - models.py**
-
-![Python validation of models.py in bag](docs/images/pep8-bag-models.PNG)
-
-**bag - admin.py**
-
-![Python validation of admin.py in bag](docs/images/pep8-bag-admin.PNG)
-
-**bag - forms.py**
-
-![Python validation of forms.py in bag](docs/images/pep8-bag-forms.PNG)
-
-**bag - urls.py**
-
-![Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
-
-**bag - apps.py**
-
-![Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
-
 
 ### Lighthouse
 
