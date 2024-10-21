@@ -15,7 +15,7 @@
                 <div class="dropdown-menu dropdown-menu-left" aria-labelledby="servicesDropdown">
                     <div class="d-md-flex align-items-start justify-content-start">
                         <div>
-                            <a class="dropdown-item font-weight-bold">All Products</a>
+                            <a class="dropdown-item font-weight-bold" href="{% url 'products' %}">All Products</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
                             <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
