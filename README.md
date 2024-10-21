@@ -6,7 +6,131 @@
 
 ## Table of Contents
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+- [Introduction](#introduction)
+- [User Experience](#user-experience)
+    * [User Goals](#user-goals)
+    * [Site Owner Goals](#site-owner-goals)
+    * [User Stories](#user-stories)
+        + [Epic 1: Viewing and navigation](#epic-1-viewing-and-navigation)
+        + [Epic 2: Registration and user accounts](#epic-2-registration-and-user-accounts)
+        + [Epic 3: Sorting and searching](#epic-3-sorting-and-searching)
+        + [Epic 4: Shopping cart management](#epic-4-shopping-cart-management)
+        + [Epic 5: Account Management](#epic-5-account-management)
+        + [Epic 6: admin panel functionality](#epic-6-admin-panel-functionality)
+        + [Epic 7: email communication](#epic-7-email-communication)
+- [Design](#design)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
+- [Features](#features)
+    * [Header](#header)
+    * [Index Page](#index-page)
+    * [Product Pages](#product-pages)
+    * About us page
+    * Contact us Page
+    * FAQ Page
+    * [Register/Login/Logout](#register--login--logout)
+    * [Profile Page](#product-pages)
+    * [Wishlist Page](#wishlist)
+    * [Shopping Bag](#shopping-bag)
+    * [Checkout Page](#checkout-page)
+    * [Notifications](#notifications)
+    * [Future features](#future-features)
+
+- [Search Engine Optimization (SEO) & Social Media Marketing](#search-engine-optimization-seo--social-media-marketing)
+    * [Keyword Research](#keyword-research)
+    * [Metadata](#metadata)
+    * [Sitemap](#sitemap)
+    * [Robots](#robots)
+    * [Social Media Marketing](#social-media-marketing)
+
+- [Testing](#testing)
+    * [Validation of Code](#validation-of-code)
+        + [HTML Validation](#html-validation)
+        + [CSS Validation](#css-validation)
+        + [Python Validation](#python-validation)
+        + [Javascript validation](#javascript-validation)
+
+- [](#)
+    * [](#)
+
+
+
+
+
+
+
+
+
+
+
+
+- [User Stories](#user-stories)
+- [UX](#ux)
+  * [Typography](#typography)
+  * [Wireframes](#wireframes)
+- [Accessibility](#accessibility)
+- [Database Design](#database-design)
+- [Features](#features)
+- [Existing Features](#existing-features)
+  * [Landing Page](#landing-page)
+  * [Navbar](#navbar)
+  * [Shopping Cart](#shopping-cart)
+  * [Products List](#products-list)
+  * [Product Detail Page](#product-detail-page)
+  * [Register / Login](#register---login)
+  * [Wishlist](#wishlist)
+  * [Checkout](#checkout)
+  * [Notification Emails](#notification-emails)
+  * [Footer](#footer)
+  * [Privacy Policy](#privacy-policy)
+  * [Cookie Consent Banner](#cookie-consent-banner)
+  * [Notifications](#notifications)
+  * [Favicon](#favicon)
+- [Staff Only Features](#staff-only-features)
+  * [Shop Management Dashboard](#shop-management-dashboard)
+  * [Products Detail](#products-detail)
+  * [Printable Order Sheets](#printable-order-sheets)
+  * [Dispatch Orders](#dispatch-orders)
+  * [Custom Error Pages](#custom-error-pages)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [External Python Packages Used](#external-python-packages-used)
+- [Ecommerce Business Model](#ecommerce-business-model)
+- [Search Engine Optimization (SEO) & Social Media Marketing](#search-engine-optimization--seo----social-media-marketing)
+  * [Keywords](#keywords)
+  * [Metadata](#metadata)
+  * [Sitemap](#sitemap)
+  * [Robots](#robots)
+  * [Social Media Marketing](#social-media-marketing)
+  * [Newsletter Marketing](#newsletter-marketing)
+- [Testing](#testing)
+  * [Browser Compatibility](#browser-compatibility)
+  * [Responsiveness](#responsiveness)
+  * [Performance Testing](#performance-testing)
+  * [Accessibility Testing](#accessibility-testing)
+  * [User Story Testing](#user-story-testing)
+  * [Challenges Faced](#challenges-faced)
+  * [Code Validation](#code-validation)
+    + [HTML Validation](#html-validation)
+    + [CSS Validation](#css-validation)
+    + [Python Validation](#python-validation)
+    + [JavaScript](#javascript)
+- [Deployment](#deployment)
+  * [ElephantSQL Database](#elephantsql-database)
+  * [Amazon AWS](#amazon-aws)
+    + [S3 Bucket](#s3-bucket)
+    + [IAM](#iam)
+    + [Final AWS Setup](#final-aws-setup)
+  * [Heroku Deployment](#heroku-deployment)
+  * [Local Deployment](#local-deployment)
+    + [Cloning](#cloning)
+    + [Forking](#forking)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Code](#code)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -420,16 +544,15 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 - A logged in Admin user again sees the option to edit or delete the product
 
-### Other website pages
 
-#### About Us page
+### About Us page
 
 - The about us page gives a short description of the histary and background of company and website
 - A "Back To shop" allows users to easily navigate to the main shop page
 
 ![About Us page](docs/images/about-us.PNG)
 
-#### Contact Us Page
+### Contact Us Page
 
 - The contact us page allows the user to contact the admin
 - The user enters name, email and a message. Form validation is present. A button allows the message to be sent
@@ -438,7 +561,7 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 ![Contact Us page](docs/images/contact-us.PNG)
 
-#### FAQ Page
+### FAQ Page
 
 - The FAQ page allows the admin to convey information taht is often asked to the user.
 - The questions and answers can be edited from the admin panel by the admin user.
@@ -446,7 +569,7 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 ![FAQ page](docs/images/faq-page.PNG)
 
-### Register / Login / Logout
+### Register/Login/Logout
 
 - Users are required to sign in in order to make a purchase on the site
 - After signing up, users need to verify their account by clicking the link in the welcome email.
@@ -507,147 +630,192 @@ A logged in admin level user sees the same but with the addition of a product ma
 - This page simply informs the user that there password has been changed
 - They can now login with their new password
 
+### Profile Page
 
+- This page is accessed from the "My Account" Dropdown in the main header 
+- The user can update their address and phone number
+- The page also displays their order history listing any orders they have made, order number, date, items and total cost
 
+### Wishlist Page
 
+- If items are added to the users wishlist, they can be viewed here.
+- A simple summary of all the items in the users wishlist is displayed including item description, item image.
+- Each item has buttons that can add the item to the shopping bag or remove from the wishlist
 
+### Shopping Bag
 
+- This page displays a list of all the items that the user has selected to be eventually purchased.
+- Each product is listed in a table with its image, description, size (If applicable), SKU, price, quantity and sub total
+- The quantity can be increased or decreased
+- the item can be removed if desired
+- At the bottom is a total, a calculated shipping charge and a grand total
+- The user is then invited to either keep shopping (Back to products page) or continue to checkout
 
+### Checkout page
 
-### Wishlist
+- Here, the user can fill in their name and shipping address
+- an option is included to Save this delivery information to the users profile
+- An order summary is displayed detailing an image, description, size (If applicable), SKU, price, quantity and sub total
+- At the bottom is a total, a calculated shipping charge and a grand total
+- Payment details are to be entered before purchase can be made
+- Buttons are included which invite the user to either go back and adjust the bag contents or complete the order
 
 ### Notifications
 
-<!--
+- Notifications are given to the user for all significant events on the website. These include;
+        + asdfasd
+        + asdasdasd
 
-#### About Us Section
-
-![About us Section at index page](docs/images/about-us.PNG)
-
-- Next up is a short section of text giving a brief description of the studio and its origins.
-
-#### Gallery Section
-
-![Gallery at index page](docs/images/gallery.PNG)
-
-### Booking Info Page
-
-![Booking Info page](docs/images/booking-info.PNG)
-
-- The site user is brought to a page after clicking the hero image call to action button that details the studio opening hours
-- The user is then invited to click another to log in to the Client portal in order to see studio availability and make a booking.
-
-### Sign In Page
-
-![Sign in page with fields for email and password](docs/images/sign-in.PNG)
-
-The sign-in page allows existing users to log in, enhancing the user experience by eliminating the need to enter their email each time they want to make a booking. It also enables users to view all their bookings in one place.
-
-### Register Page
-
-![Register page with fields for email, username, password and password again](docs/images/register.PNG)
-
-The Register page includes fields for the user to enter their email, username, password, and password confirmation. This ensures the user registers a contact method and avoids typos in the password.
-
-### Booking Detail Page
-
-![Booking detail page](docs/images/booking-detail.PNG)
-
-- This is the main page that the user is brought to after logging in
-- At the top of the page, the user is invited to make a new booking. There is text inputs for Artist name, date of booking and booking requirements.
-- The date opens a date box. The user is unable to enter a date that is in the past or is booked by any other artist.
-- A button allows the user to make their booking.
-- Below this area is a list of bookings already made by this user.
-- Within this area, there are buttons to edit or delete each booking
-
-### Booking Successful Page
-
-![Booking Success page](docs/images/booking-success.PNG)
-
-- After the user has made a booking, they are brought to this page.
-- A simple summary of their booking is displayed
-- A button allows the user to be directed back to the booking detail page.
-
-### Edit Booking page
-
-![Edit Booking page](docs/images/edit-booking.PNG)
-
-- Once a user decides to edit a booking from the booking detail page, they are brought here.
-- The current details of the booking are displayed in text boxes. 
-- The user can edit any of the booking details.
-- The user can then use the buttons to either save the changes or cancel editing.
-- They are then brought back to the booking detail page and an alert informs them of their change.
-
-### Booking delete page
-
-![Edit Booking page](docs/images/booking-delete.PNG)
-
-- When a user clicks on "Delete" button on booking detail page, they are bought to this page.
-- The booking details are displayed and the user is asked if they are sure they want to delete or cancel the deleting process.
-- If they decide to delete, they are bought back to the booking detail page with confirmation that the booking was deleted and the table has updated.
-- If they change their mind and cancel, they are also brought back to the booking detail page with no changes having been made.
-
-### Log Out Page
-
-![Log Out page](docs/images/logout.PNG)
-
-- Once the user is finished, they can click the Logout button
-- They are then taken to the Log out page where they are asked to confirm that they want to log out
-- They can then choose to continue and be redirected to the index page.
-- Otherwise, they can click "Back to my bookings" or go anywhere using the navbar menu
-
-### Footer
-
-![footer](docs/images/footer.PNG)
-
-- The footer section includes links to Studio Moo Moo's Facebook, Instagram and twitter pages.
-- The design colour and styling reflect those of the header
-- The links open to a new tab to allow easy navigation for the user. 
-- The footer is valuable to the user as it allows them to find and follow on social media.
-- There is also a small piece of stating the copyright restriction
-
-### Password Reset Page
-
-![password Reset Page](docs/images/password-reset.PNG)
-
-- In the event of a user forgetting their password and being unable to login, on the login page, there is a link labeled "forgot password?"
-- On clicking this link, they are brought to this page.
-- Here they are prompted to enter their email. once submitted, an email is sent with instructions on how to change password.
-
-![Password reset email sent](docs/images/password-reset-sent.PNG)
-
-- Once the request to reset has been submitted, the user is taken to this page and they are instructed to follow the institutions on the email when they receive it.
-
-### Alerts
-
-![Alert](docs/images/alert.PNG)
-
-- When major changes are made by the user, a high contrast alert is visible just below the header
--->
-
-
-
-
-
-
-<!-- 
-## Features to be Added
+### Future Features
 
 Several features can be added in the future.
 
 - Add more content to home page.
-- add "contact me" section.
-- Date order for bookings on booking detail page.
-- Sign in with Social media account or Google credentials.
-- Captcha verification when the user is signing up with email address.
-- Guidance when a user sign in for the first time.
-- Add more functionality to the portal. The proposed media sharing and editing function
--->
+- Add footer to home page
+- Add more functionality to the wishlist page. Ability to change quantity, better layout to more closely match the shopping bag design
+
+## Search Engine Optimization (SEO) & Social Media Marketing
+
+### Keyword Research
+
+To enhance Google search index ratings, various tools were utilised, including Moz and QuestionDB, to identify relevant keywords for incorporation into meta tags, alt-text descriptions, and content elements of the project.
+
+The first step was to brainstorm general topics and keywords; 
+**General Handmade Craft Items**
+- Handmade crafts
+- Unique handmade items
+- Artisan goods
+- Handcrafted products
+- Irish handmade crafts
+- Celtic crafts
+- Traditional Irish crafts
+**Specific Categories**
+- Handmade jewellery
+- Knitted items
+- Woodcarvings
+- Pottery
+- Textiles
+- Glasswork
+- Metalwork
+- Leathercraft
+- Ceramics
+- Embroidery
+**Seasonal/Holiday-Themed Crafts**
+- Christmas ornaments
+- Easter decorations
+- Halloween accessories
+- St. Patrick's Day gifts
+- Valentine's Day crafts
+- Summer garden decor
+- Autumn-themed crafts
+**Irish-Themed Crafts**
+- Shamrock designs
+- Celtic knot patterns
+- Leprechaun figurines
+- Claddagh rings
+- Irish heritage crafts
+- Celtic cross jewelry
+- Triskelion symbols
+**Long-Tail Keywords**
+- Handmade Irish wool scarves
+- Customizable Celtic-inspired jewelry
+- Hand-painted Irish pottery
+- Hand-knitted Aran sweaters
+- Handmade Irish crystal jewelry
+- Hand-carved wooden Irish flutes
+- Handmade Irish linen table runners
+
+These were then assessed for relevance and authoritativeness.
+
+**Relevance Assessment**
+- General keywords: Highly relevant
+    Terms like "handmade crafts," "artisan goods," and "unique handmade items" directly relate to the website's offerings.
+- Specific categories: Moderately relevant
+    While specific categories like "knitted items" or "woodcarings" are relevant, they might be too broad for SEO purposes.
+- Seasonal/holiday-themed crafts: Relevant but limited
+    These keywords are seasonal and may have limited long-term impact.
+- Irish-themed crafts: Very relevant
+    Keywords like "Celtic crafts" and "Irish heritage crafts" are highly relevant to the target audience.
+- Long-tail keywords: Most relevant
+    These specific product descriptions are highly targeted and likely to attract relevant traffic.
+**Authoritativeness Assessment**
+- General terms: Good foundation
+    Using authoritative terms like "handmade crafts" establishes credibility.
+- Specific categories: Limited authority
+    While specific categories exist, they don't necessarily convey expertise.
+- Irish-specific terms: Strong authority
+    Terms like "Irish heritage crafts" suggest deep knowledge of Irish craft traditions.
+- Long-tail keywords: Strong authority
+    These specific product descriptions demonstrate expertise in particular craft types.
+
+Based on this, the top keywords could be identified:
+
+- Handmade Irish crafts
+- Unique Celtic-inspired jewellery
+- Traditional Irish pottery
+- Hand-knitted Aran sweaters
+- Customizable Irish crystal jewellery
+- Hand-carved wooden Irish flutes
+- Handmade Irish linen table runners
+- Shamrock designs
+- Claddagh rings
+- Irish heritage crafts
+
+
+**General steps to improve SEO Results**
+based on this research base.html and index.html were changed in order to better represent the identified keywords. The main logo was changed from a H1 tag to a span so that our H1 could be used in the hero image with two of our identified keywords.
+
+![Span version of header logo](docs/images/SEO-header-logo.PNG)
+
+![New hero image H2 text](docs/images/SEO-hero-text.PNG)
+
+### Metadata
+I included Metadata to help with SEO results. Keywords, description and title were all used as opportunities to improve SEO.
+
+### Sitemap
+
+I've used [XML-Sitemaps](https://www.xml-sitemaps.com) to generate a sitemap.xml file.
+This was generated using my deployed site URL: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/
+
+After it finished crawling the entire site, it created a
+[sitemap.xml](sitemap.xml) which I've downloaded and included in the root of the repository.
+
+### Robots
+
+I've created the [robots.txt](robots.txt) file at the root-level.
+Inside, I've included the settings:
+
+```
+User-agent: *
+Disallow: /profile/
+Disallow: /bag/
+Sitemap: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/sitemap.xml
+```
+
+Further links for future implementation:
+- [Google search console](https://search.google.com/search-console)
+- [Creating and submitting a sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
+- [Managing your sitemaps and using sitemaps reports](https://support.google.com/webmasters/answer/7451001)
+- [Testing the robots.txt file](https://support.google.com/webmasters/answer/6062598)
+
+### Social Media Marketing
+
+I included links in on the contact page which could be used for potential Facebook, Twitter, Instagram and TikTok presences for the business.
+
+I've created a mockup Facebook business account using the
+[Balsamiq template](https://code-institute-org.github.io/5P-Assessments-Handbook/files/Facebook_Mockups.zip)
+provided by Code Institute.
+
+![](docs/images/facebook-mockup.png)
+
+
+For this business I envision a lot of the social media marketing being very visual, using the current most popular formats like Instagram Reels and TikTok. As these are primarily video based I did not mock any for the purposes of this coding project.
+
 ## Testing
 
 ### Validation of Code
 
-#### HTML
+#### HTML Validation
 
 ![Screenshot of HTML validation of index page](docs/images/index-html-valid.PNG)
 
@@ -668,13 +836,13 @@ All the pages were tested at the [W3C Markup Validation Service](https://validat
 - [Wishlist Page](docs/images/wishlist-valid.PNG)
 
 
-#### CSS
+#### CSS Validation
 
 ![Screenshot of CSS validation](docs/images/css-valid.PNG)
 
 The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The process completed without errors.
 
-#### Python
+#### Python Validation
 
 All Python files have been validated using the [CI Python Linter](https://pep8ci.herokuapp.com/) to ensure they meet PEP8 standards. The validation process completed without any errors.
 
@@ -900,6 +1068,15 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 ![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
 
+### Javascript validation
+
+### Browser compatibility
+
+### Responsiveness
+
+### Performance Testing
+
+### Accessibility Testing
 
 ### Lighthouse
 
@@ -916,143 +1093,6 @@ The test for desktop resulted in scores all over 90.
 ![Lighthouse test for mobile](docs/images/lighthouse-mobile.PNG)
 
 The test for mobile resulted in scores all over 90 except for the best practices which scored 74. I am confident that this could be easily improved particularly by paying attention to the use of cookies on the site
-
-### Search Engine Optimization (SEO) & Social Media Marketing
-
-#### Keywords
-
-To enhance Google search index ratings, various tools were utilised, including Moz and QuestionDB, to identify relevant keywords for incorporation into meta tags, alt-text descriptions, and content elements of the project.
-
-The first step was to brainstorm general topics and keywords; 
-###### General Handmade Craft Items
-- Handmade crafts
-- Unique handmade items
-- Artisan goods
-•	Handcrafted products
-•	Irish handmade crafts
-•	Celtic crafts
-•	Traditional Irish crafts
-###### Specific Categories
-- Handmade jewellery
-- Knitted items
-- Woodcarvings
-- Pottery
-- Textiles
-- Glasswork
-- Metalwork
-- Leathercraft
-- Ceramics
-- Embroidery
-###### Seasonal/Holiday-Themed Crafts
-- Christmas ornaments
-- Easter decorations
-- Halloween accessories
-- St. Patrick's Day gifts
-- Valentine's Day crafts
-- Summer garden decor
-- Autumn-themed crafts
-###### Irish-Themed Crafts
-- Shamrock designs
-- Celtic knot patterns
-- Leprechaun figurines
-- Claddagh rings
-- Irish heritage crafts
-- Celtic cross jewelry
-- Triskelion symbols
-###### Long-Tail Keywords
-- Handmade Irish wool scarves
-- Customizable Celtic-inspired jewelry
-- Hand-painted Irish pottery
-- Hand-knitted Aran sweaters
-- Handmade Irish crystal jewelry
-- Hand-carved wooden Irish flutes
-- Handmade Irish linen table runners
-
-These were then assessed for relevance and authoritativeness.
-
-##### Relevance Assessment
-- General keywords: Highly relevant
-    Terms like "handmade crafts," "artisan goods," and "unique handmade items" directly relate to the website's offerings.
-- Specific categories: Moderately relevant
-    While specific categories like "knitted items" or "woodcarings" are relevant, they might be too broad for SEO purposes.
-- Seasonal/holiday-themed crafts: Relevant but limited
-    These keywords are seasonal and may have limited long-term impact.
-- Irish-themed crafts: Very relevant
-    Keywords like "Celtic crafts" and "Irish heritage crafts" are highly relevant to the target audience.
-- Long-tail keywords: Most relevant
-    These specific product descriptions are highly targeted and likely to attract relevant traffic.
-##### Authoritativeness Assessment
-- General terms: Good foundation
-    Using authoritative terms like "handmade crafts" establishes credibility.
-- Specific categories: Limited authority
-    While specific categories exist, they don't necessarily convey expertise.
-- Irish-specific terms: Strong authority
-    Terms like "Irish heritage crafts" suggest deep knowledge of Irish craft traditions.
-- Long-tail keywords: Strong authority
-    These specific product descriptions demonstrate expertise in particular craft types.
-
-Based on this, the top keywords could be identified:
-
-- Handmade Irish crafts
-- Unique Celtic-inspired jewellery
-- Traditional Irish pottery
-- Hand-knitted Aran sweaters
-- Customizable Irish crystal jewellery
-- Hand-carved wooden Irish flutes
-- Handmade Irish linen table runners
-- Shamrock designs
-- Claddagh rings
-- Irish heritage crafts
-
-
-#### General steps to improve SEO Results
-based on this research base.html and index.html were changed in order to better represent the identified keywords. The main logo was changed from a H1 tag to a span so that our H1 could be used in the hero image with two of our identified keywords.
-
-![Span version of header logo](docs/images/SEO-header-logo.PNG)
-
-![New hero image H2 text](docs/images/SEO-hero-text.PNG)
-
-#### Metadata
-I included Metadata to help with SEO results. Keywords, description and title were all used as opportunities to improve SEO.
-
-#### Sitemap
-
-I've used [XML-Sitemaps](https://www.xml-sitemaps.com) to generate a sitemap.xml file.
-This was generated using my deployed site URL: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/
-
-After it finished crawling the entire site, it created a
-[sitemap.xml](sitemap.xml) which I've downloaded and included in the root of the repository.
-
-#### Robots
-
-I've created the [robots.txt](robots.txt) file at the root-level.
-Inside, I've included the settings:
-
-```
-User-agent: *
-Disallow: /profile/
-Disallow: /bag/
-Sitemap: https://irishdesignhousepp5-45c81a68233a.herokuapp.com/sitemap.xml
-```
-
-Further links for future implementation:
-- [Google search console](https://search.google.com/search-console)
-- [Creating and submitting a sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
-- [Managing your sitemaps and using sitemaps reports](https://support.google.com/webmasters/answer/7451001)
-- [Testing the robots.txt file](https://support.google.com/webmasters/answer/6062598)
-
-#### Social Media Marketing
-
-I included links in on the contact page which could be used for potential Facebook, Twitter, Instagram and TikTok presences for the business.
-
-I've created a mockup Facebook business account using the
-[Balsamiq template](https://code-institute-org.github.io/5P-Assessments-Handbook/files/Facebook_Mockups.zip)
-provided by Code Institute.
-
-![](docs/images/facebook-mockup.png)
-
-
-For this business I envision a lot of the social media marketing being very visual, using the current most popular formats like Instagram Reels and TikTok. As these are primarily video based I did not mock any for the purposes of this coding project. -->
 
 
 
@@ -1359,10 +1399,12 @@ TO DO
 - Delete all these notes at end of readme
 - Mockup image at start of readme
 - get rid of all comments in this readme
+- Have you mentioned custom models?
 
 
 BUGS
 - Double hamburger on mobile
+- account menu needs refreshing in certain circumstances and cannot select links
 
 
 FUTURE ADDITIONS
