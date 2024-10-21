@@ -357,7 +357,6 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/) of the home page an
 ![](docs/images/wireframe-products.png)
 
 
-
 ## Features
 
 ### Header
@@ -447,7 +446,7 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 ![FAQ page](docs/images/faq-page.PNG)
 
-### Register / Login
+### Register / Login / Logout
 
 - Users are required to sign in in order to make a purchase on the site
 - After signing up, users need to verify their account by clicking the link in the welcome email.
@@ -457,12 +456,67 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 - The new user is invited to enter details in order to create an account
 - Form has full validation error checking. 
+- A notice states that if the user already have an account, Then please sign in. A link is provided for this (See below)
+- Once a user registers, they are sent a confirmation email with a link that needs to be clicked to allow login
 
 ![Register page](docs/images/register.PNG)
 
+#### Verify Your E-mail Address Page
+
+- After registering for an account, the user reaches this page instructing them to check emails for a confirmation
+- The Email contains a link to Confirm E-mail Address
+
+#### Confirm E-mail Address page
+
+- The user can select a button that confirms the email.
+- They are then taken to the Login page where they can now login
+
+#### Login page
+
+- If the user has an existing account, they can enter their details here to login
+- There is an option to "Remember me" so that the user can chose to not have to enter their details in future sessions
+- A link is provided for if the user has forgotten their password (See below)
+- Once successfully signed in, they are taken to the index page
+
+#### Log Out Page
+
+- A simple page that the user can either choose to logout with (via button)
+- If the user changes their mind, they can select "Cancel"
+- Both options take the user to the index page
+
+#### Reset Password Page
+
+- The user is prompted to enter email address
+- Once Email is entered and "Reset my password" button is pressed, an email is sent to the email address with further instructions
+- The user can also choose to go back to login page if they realise that they have remembered their password.
+
+#### Password reset success page
+
+- Once the email has been entered on Reset Password Page and submitted, the user is taken to this page.
+- The user is asked to check their email
+- The email contains a link
+- The link leads to the change password page
+
+#### Change Password Page
+
+- The user is invited to change there password
+- Warnings are given if the new password does not pass the validation
+
+#### Change password Success Page
+
+- This page simply informs the user that there password has been changed
+- They can now login with their new password
+
+
+
+
+
+
+
+
 ### Wishlist
 
-
+### Notifications
 
 <!--
 
@@ -845,7 +899,7 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 **wishlist - apps.py**
 
 ![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
-<!--
+
 
 ### Lighthouse
 
@@ -861,54 +915,7 @@ The test for desktop resulted in scores all over 90.
 
 ![Lighthouse test for mobile](docs/images/lighthouse-mobile.PNG)
 
-The test for mobile resulted in scores all over 90. The performance rating could be further improved by adopting responsive images in order to reduce mobile load time.
-
-### Wave Webaim - accessibility testing
-
-The accessibility test at [Wave Webaim](https://wave.webaim.org/) resulted without errors and contrast errors on all pages.
-
-#### Index page
-
-![Wave webaim test of index page](docs/images/wave-webaim.PNG)
-
-#### Sign In
-
-![Wave webaim test of Sign In page](docs/images/wave-webaim-sign-in.PNG)
-
-#### Register page
-
-![Wave webaim test of Login page](docs/images/wave-webaim-Register.PNG)
-
-#### Booking Detail page
-
-![Wave webaim test of Booking Detail page](docs/images/wave-webaim-booking-detail.PNG)
-
-#### Booking Successful page
-
-![Wave webaim test of Booking Successful page](docs/images/wave-webaim-booking-successful.PNG)
-
-#### Edit Booking page
-
-This page would not load with webAID. See Bugs section
-
-#### Booking delete page
-
-![Wave webaim test of Booking delete page](docs/images/wave-webaim-booking-delete.PNG)
-
-#### Log Out page
-
-This page would not load with webAID. See Bugs section
-
-#### Password Reset page
-
-![Wave webaim test of Password Reset page](docs/images/wave-webaim-password-reset.PNG)
-
-### Contrast Grid
-
-The [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23CACACA%2C%20%20Background%20color%0D%0A%23353535%2C%20Text%0D%0A%23411919%2C%20Cancel%20btn%20-%20background%0D%0A%23FFFFFF%2C%20Cancel%2Fconfirm%2Fdelete%20btn%20-%20text%0D%0A%23193A18%2C%20Confirm%20btn%20-%20background%0D%0A%238d3838%2C%20Delete%20btn%20-%20background%0D%0A%23000000%2C%20Footer%20icons&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) resulted in only AAA results for the combination used on the webpage. The main combination throughout the page is #000000 and #FFFFFF which has a value of 7+ which is the best result available.
-
-![Contrast Grid of the webpage](docs/images/contrast-grid.PNG)
--->
+The test for mobile resulted in scores all over 90 except for the best practices which scored 74. I am confident that this could be easily improved particularly by paying attention to the use of cookies on the site
 
 ### Search Engine Optimization (SEO) & Social Media Marketing
 
@@ -1355,7 +1362,6 @@ TO DO
 
 
 BUGS
-- BASKET IS IN DOLLARS!!!!
 - Double hamburger on mobile
 
 
