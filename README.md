@@ -26,9 +26,9 @@
     * [Header](#header)
     * [Index Page](#index-page)
     * [Product Pages](#product-pages)
-    * About us page
-    * Contact us Page
-    * FAQ Page
+    * [About us page](#about-us-page)
+    * [Contact us Page](#contact-us-page)
+    * [FAQ Page](#faq-page)
     * [Register/Login/Logout](#register--login--logout)
     * [Profile Page](#product-pages)
     * [Wishlist Page](#wishlist)
@@ -51,19 +51,10 @@
         + [Python Validation](#python-validation)
         + [Javascript validation](#javascript-validation)
 
-- [](#)
-    * [](#)
 
 
 
-
-
-
-
-
-
-
-
+<!-- 
 
 - [User Stories](#user-stories)
 - [UX](#ux)
@@ -130,7 +121,7 @@
   * [Content](#content)
   * [Code](#code)
   * [Media](#media)
-  * [Acknowledgements](#acknowledgements)
+  * [Acknowledgements](#acknowledgements) -->
 
 ## Introduction
 
@@ -547,7 +538,7 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 ### About Us page
 
-- The about us page gives a short description of the histary and background of company and website
+- The about us page gives a short description of the history and background of company and website
 - A "Back To shop" allows users to easily navigate to the main shop page
 
 ![About Us page](docs/images/about-us.PNG)
@@ -663,8 +654,14 @@ A logged in admin level user sees the same but with the addition of a product ma
 ### Notifications
 
 - Notifications are given to the user for all significant events on the website. These include;
-        + asdfasd
-        + asdasdasd
+    - Add to bag
+    - Add to Wishlist
+    - Remove from Wishlist
+    - Log Out
+    - Log In
+    - Complete Purchase
+    - Update Totals
+    - Add to bag notifications features link to go to checkout
 
 ### Future Features
 
@@ -850,223 +847,223 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 **about us - views.py**
 
-![Python validation of views.py in about us](docs/images/pep8-about-us-views.PNG)
+[Python validation of views.py in about us](docs/images/pep8-about-us-views.PNG)
 
 **about us - models.py**
 
-![Python validation of models.py in about us](docs/images/pep8-about-us-models.PNG)
+[Python validation of models.py in about us](docs/images/pep8-about-us-models.PNG)
 
 **about us - admin.py**
 
-![Python validation of admin.py in about us](docs/images/pep8-about-us-admin.PNG)
+[Python validation of admin.py in about us](docs/images/pep8-about-us-admin.PNG)
 
 **about us - urls.py**
 
-![Python validation of urls.py in about us](docs/images/pep8-about-us-urls.PNG)
+[Python validation of urls.py in about us](docs/images/pep8-about-us-urls.PNG)
 
 **about us - apps.py**
 
-![Python validation of apps.py in about us](docs/images/pep8-about-us-apps.PNG)
+[Python validation of apps.py in about us](docs/images/pep8-about-us-apps.PNG)
 
 ##### bag
 
 **bag - views.py**
 
-![Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
+[Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
 
 **bag - urls.py**
 
-![Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
+[Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
 
 **bag - apps.py**
 
-![Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
+[Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
 
 ##### checkout
 
 **checkout - views.py**
 
-![Python validation of views.py in checkout](docs/images/pep8-checkout-views.PNG)
+[Python validation of views.py in checkout](docs/images/pep8-checkout-views.PNG)
 
 **checkout - models.py**
 
-![Python validation of models.py in checkout](docs/images/pep8-checkout-models.PNG)
+[Python validation of models.py in checkout](docs/images/pep8-checkout-models.PNG)
 
 **checkout - admin.py**
 
-![Python validation of admin.py in checkout](docs/images/pep8-checkout-admin.PNG)
+[Python validation of admin.py in checkout](docs/images/pep8-checkout-admin.PNG)
 
 **checkout - forms.py**
 
-![Python validation of forms.py in checkout](docs/images/pep8-checkout-forms.PNG)
+[Python validation of forms.py in checkout](docs/images/pep8-checkout-forms.PNG)
 
 **checkout - urls.py**
 
-![Python validation of urls.py in checkout](docs/images/pep8-checkout-urls.PNG)
+[Python validation of urls.py in checkout](docs/images/pep8-checkout-urls.PNG)
 
 **checkout - apps.py**
 
-![Python validation of apps.py in checkout](docs/images/pep8-checkout-apps.PNG)
+[Python validation of apps.py in checkout](docs/images/pep8-checkout-apps.PNG)
 
 **checkout - webhook_handler.py**
 
-![Python validation of webhook_handler.py in checkout](docs/images/pep8-checkout-webhookhandler.PNG)
+[Python validation of webhook_handler.py in checkout](docs/images/pep8-checkout-webhookhandler.PNG)
 
 **checkout - webhooks.py**
 
-![Python validation of webhooks.py in checkout](docs/images/pep8-checkout-webhooks.PNG)
+[Python validation of webhooks.py in checkout](docs/images/pep8-checkout-webhooks.PNG)
 
 ##### contact
 
 **contact - views.py**
 
-![Python validation of views.py in contact](docs/images/pep8-contact-views.PNG)
+[Python validation of views.py in contact](docs/images/pep8-contact-views.PNG)
 
 **contact - models.py**
 
-![Python validation of models.py in contact](docs/images/pep8-contact-models.PNG)
+[Python validation of models.py in contact](docs/images/pep8-contact-models.PNG)
 
 **contact - admin.py**
 
-![Python validation of admin.py in contact](docs/images/pep8-contact-admin.PNG)
+[Python validation of admin.py in contact](docs/images/pep8-contact-admin.PNG)
 
 **contact - forms.py**
 
-![Python validation of forms.py in contact](docs/images/pep8-contact-forms.PNG)
+[Python validation of forms.py in contact](docs/images/pep8-contact-forms.PNG)
 
 **contact - urls.py**
 
-![Python validation of urls.py in contact](docs/images/pep8-contact-urls.PNG)
+[Python validation of urls.py in contact](docs/images/pep8-contact-urls.PNG)
 
 **contact - apps.py**
 
-![Python validation of apps.py in contact](docs/images/pep8-contact-apps.PNG)
+[Python validation of apps.py in contact](docs/images/pep8-contact-apps.PNG)
 
 ##### faq
 
 **faq - views.py**
 
-![Python validation of views.py in faq](docs/images/pep8-faq-views.PNG)
+[Python validation of views.py in faq](docs/images/pep8-faq-views.PNG)
 
 **faq - models.py**
 
-![Python validation of models.py in faq](docs/images/pep8-faq-models.PNG)
+[Python validation of models.py in faq](docs/images/pep8-faq-models.PNG)
 
 **faq - admin.py**
 
-![Python validation of admin.py in faq](docs/images/pep8-faq-admin.PNG)
+[Python validation of admin.py in faq](docs/images/pep8-faq-admin.PNG)
 
 **faq - urls.py**
 
-![Python validation of urls.py in faq](docs/images/pep8-faq-urls.PNG)
+[Python validation of urls.py in faq](docs/images/pep8-faq-urls.PNG)
 
 **faq - apps.py**
 
-![Python validation of apps.py in faq](docs/images/pep8-faq-apps.PNG)
+[Python validation of apps.py in faq](docs/images/pep8-faq-apps.PNG)
 
 
 ##### home
 
 **home - views.py**
 
-![Python validation of views.py in home](docs/images/pep8-home-views.PNG)
+[Python validation of views.py in home](docs/images/pep8-home-views.PNG)
 
 **home - urls.py**
 
-![Python validation of urls.py in home](docs/images/pep8-home-urls.PNG)
+[Python validation of urls.py in home](docs/images/pep8-home-urls.PNG)
 
 **home - apps.py**
 
-![Python validation of apps.py in home](docs/images/pep8-home-apps.PNG)
+[Python validation of apps.py in home](docs/images/pep8-home-apps.PNG)
 
 ##### irish_craft_house
 
 **irish_craft_house - views.py**
 
-![Python validation of views.py in irish_craft_house](docs/images/pep8-irish_craft_house-views.PNG)
+[Python validation of views.py in irish_craft_house](docs/images/pep8-irish_craft_house-views.PNG)
 
 **irish_craft_house - urls.py**
 
-![Python validation of urls.py in irish_craft_house](docs/images/pep8-irish_craft_house-urls.PNG)
+[Python validation of urls.py in irish_craft_house](docs/images/pep8-irish_craft_house-urls.PNG)
 
 **irish_craft_house - settings.py**
 
-![Python validation of settings.py in irish_craft_house](docs/images/pep8-irish_craft_house-settings.PNG)
+[Python validation of settings.py in irish_craft_house](docs/images/pep8-irish_craft_house-settings.PNG)
 
 **irish_craft_house - wsgi.py**
 
-![Python validation of wsgi.py in irish_craft_house](docs/images/pep8-irish_craft_house-wsgi.PNG)
+[Python validation of wsgi.py in irish_craft_house](docs/images/pep8-irish_craft_house-wsgi.PNG)
 
 ##### products
 
 **products - views.py**
 
-![Python validation of views.py in products](docs/images/pep8-products-views.PNG)
+[Python validation of views.py in products](docs/images/pep8-products-views.PNG)
 
 **products - models.py**
 
-![Python validation of models.py in products](docs/images/pep8-products-models.PNG)
+[Python validation of models.py in products](docs/images/pep8-products-models.PNG)
 
 **products - admin.py**
 
-![Python validation of admin.py in products](docs/images/pep8-products-admin.PNG)
+[Python validation of admin.py in products](docs/images/pep8-products-admin.PNG)
 
 **products - forms.py**
 
-![Python validation of forms.py in products](docs/images/pep8-products-forms.PNG)
+[Python validation of forms.py in products](docs/images/pep8-products-forms.PNG)
 
 **products - urls.py**
 
-![Python validation of urls.py in products](docs/images/pep8-products-urls.PNG)
+[Python validation of urls.py in products](docs/images/pep8-products-urls.PNG)
 
 **products - apps.py**
 
-![Python validation of apps.py in products](docs/images/pep8-products-apps.PNG)
+[Python validation of apps.py in products](docs/images/pep8-products-apps.PNG)
 
 
 ##### profiles
 
 **profiles - views.py**
 
-![Python validation of views.py in profiles](docs/images/pep8-profiles-views.PNG)
+[Python validation of views.py in profiles](docs/images/pep8-profiles-views.PNG)
 
 **profiles - models.py**
 
-![Python validation of models.py in profiles](docs/images/pep8-profiles-models.PNG)
+[Python validation of models.py in profiles](docs/images/pep8-profiles-models.PNG)
 
 **profiles - forms.py**
 
-![Python validation of forms.py in profiles](docs/images/pep8-profiles-forms.PNG)
+[Python validation of forms.py in profiles](docs/images/pep8-profiles-forms.PNG)
 
 **profiles - urls.py**
 
-![Python validation of urls.py in profiles](docs/images/pep8-profiles-urls.PNG)
+[Python validation of urls.py in profiles](docs/images/pep8-profiles-urls.PNG)
 
 **profiles - apps.py**
 
-![Python validation of apps.py in profiles](docs/images/pep8-profiles-apps.PNG)
+[Python validation of apps.py in profiles](docs/images/pep8-profiles-apps.PNG)
 
 ##### wishlist
 
 **wishlist - views.py**
 
-![Python validation of views.py in wishlist](docs/images/pep8-wishlist-views.PNG)
+[Python validation of views.py in wishlist](docs/images/pep8-wishlist-views.PNG)
 
 **wishlist - models.py**
 
-![Python validation of models.py in wishlist](docs/images/pep8-wishlist-models.PNG)
+[Python validation of models.py in wishlist](docs/images/pep8-wishlist-models.PNG)
 
 **wishlist - forms.py**
 
-![Python validation of forms.py in wishlist](docs/images/pep8-wishlist-forms.PNG)
+[Python validation of forms.py in wishlist](docs/images/pep8-wishlist-forms.PNG)
 
 **wishlist - urls.py**
 
-![Python validation of urls.py in wishlist](docs/images/pep8-wishlist-urls.PNG)
+[Python validation of urls.py in wishlist](docs/images/pep8-wishlist-urls.PNG)
 
 **wishlist - apps.py**
 
-![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
+[Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
 
 ### Javascript validation
 
