@@ -35,6 +35,8 @@
     * [Shopping Bag](#shopping-bag)
     * [Checkout Page](#checkout-page)
     * [Notifications](#notifications)
+    * [Shop Management Features](#shop-management-features)
+      + [Product management Page](#product-management-page)
     * [Future features](#future-features)
 
 - [Search Engine Optimization (SEO) & Social Media Marketing](#search-engine-optimization-seo--social-media-marketing)
@@ -50,12 +52,35 @@
         + [CSS Validation](#css-validation)
         + [Python Validation](#python-validation)
         + [Javascript validation](#javascript-validation)
+    * [Manual Testing]
+        + [Header](#header)
+        + [Index Page](#index-page)
+        + [Product Pages](#product-pages)
+        + [About us page](#about-us-page)
+        + [Contact us Page](#contact-us-page)
+        + [FAQ Page](#faq-page)
+        + [Register/Login/Logout](#register--login--logout)
+        + [Profile Page](#product-pages)
+        + [Wishlist Page](#wishlist)
+        + [Shopping Bag](#shopping-bag)
+        + [Checkout Page](#checkout-page)
+        + [Notifications](#notifications)
+        + [Shop Management Features](#shop-management-features)
+          + [Product management Page]
+
+- [](#)
+    * [](#)
+
+
+
+
+
+
 
 
 
 
 <!-- 
-
 - [User Stories](#user-stories)
 - [UX](#ux)
   * [Typography](#typography)
@@ -538,7 +563,7 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 ### About Us page
 
-- The about us page gives a short description of the history and background of company and website
+- The about us page gives a short description of the histary and background of company and website
 - A "Back To shop" allows users to easily navigate to the main shop page
 
 ![About Us page](docs/images/about-us.PNG)
@@ -654,14 +679,22 @@ A logged in admin level user sees the same but with the addition of a product ma
 ### Notifications
 
 - Notifications are given to the user for all significant events on the website. These include;
-    - Add to bag
-    - Add to Wishlist
-    - Remove from Wishlist
-    - Log Out
-    - Log In
-    - Complete Purchase
-    - Update Totals
-    - Add to bag notifications features link to go to checkout
+        + asdfasd
+        + asdasdasd
+        + When editing/adding/deleting a product
+
+### Shop Management Features
+
+- There are several features of the website that are only accessible to logged in users with admin rights
+- Staff users can only be created within the Django Admin panel
+
+#### Product management Page
+
+- Here a user can add a product by entering in the details and choosing an image
+- Only valid entries are allowed otherwise a warning notification is issued
+- The page is accessed via the "My Account" Drop down menu (Logged in staff users only)
+- The page is also accessed when either "Edit" or "Delete" is clicked on any product. When this happens, the page is populated with the details of the relevant product
+- For more detailed editing features, the user can log into the Django admin interface
 
 ### Future Features
 
@@ -847,223 +880,223 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 **about us - views.py**
 
-[Python validation of views.py in about us](docs/images/pep8-about-us-views.PNG)
+![Python validation of views.py in about us](docs/images/pep8-about-us-views.PNG)
 
 **about us - models.py**
 
-[Python validation of models.py in about us](docs/images/pep8-about-us-models.PNG)
+![Python validation of models.py in about us](docs/images/pep8-about-us-models.PNG)
 
 **about us - admin.py**
 
-[Python validation of admin.py in about us](docs/images/pep8-about-us-admin.PNG)
+![Python validation of admin.py in about us](docs/images/pep8-about-us-admin.PNG)
 
 **about us - urls.py**
 
-[Python validation of urls.py in about us](docs/images/pep8-about-us-urls.PNG)
+![Python validation of urls.py in about us](docs/images/pep8-about-us-urls.PNG)
 
 **about us - apps.py**
 
-[Python validation of apps.py in about us](docs/images/pep8-about-us-apps.PNG)
+![Python validation of apps.py in about us](docs/images/pep8-about-us-apps.PNG)
 
 ##### bag
 
 **bag - views.py**
 
-[Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
+![Python validation of views.py in bag](docs/images/pep8-bag-views.PNG)
 
 **bag - urls.py**
 
-[Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
+![Python validation of urls.py in bag](docs/images/pep8-bag-urls.PNG)
 
 **bag - apps.py**
 
-[Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
+![Python validation of apps.py in bag](docs/images/pep8-bag-apps.PNG)
 
 ##### checkout
 
 **checkout - views.py**
 
-[Python validation of views.py in checkout](docs/images/pep8-checkout-views.PNG)
+![Python validation of views.py in checkout](docs/images/pep8-checkout-views.PNG)
 
 **checkout - models.py**
 
-[Python validation of models.py in checkout](docs/images/pep8-checkout-models.PNG)
+![Python validation of models.py in checkout](docs/images/pep8-checkout-models.PNG)
 
 **checkout - admin.py**
 
-[Python validation of admin.py in checkout](docs/images/pep8-checkout-admin.PNG)
+![Python validation of admin.py in checkout](docs/images/pep8-checkout-admin.PNG)
 
 **checkout - forms.py**
 
-[Python validation of forms.py in checkout](docs/images/pep8-checkout-forms.PNG)
+![Python validation of forms.py in checkout](docs/images/pep8-checkout-forms.PNG)
 
 **checkout - urls.py**
 
-[Python validation of urls.py in checkout](docs/images/pep8-checkout-urls.PNG)
+![Python validation of urls.py in checkout](docs/images/pep8-checkout-urls.PNG)
 
 **checkout - apps.py**
 
-[Python validation of apps.py in checkout](docs/images/pep8-checkout-apps.PNG)
+![Python validation of apps.py in checkout](docs/images/pep8-checkout-apps.PNG)
 
 **checkout - webhook_handler.py**
 
-[Python validation of webhook_handler.py in checkout](docs/images/pep8-checkout-webhookhandler.PNG)
+![Python validation of webhook_handler.py in checkout](docs/images/pep8-checkout-webhookhandler.PNG)
 
 **checkout - webhooks.py**
 
-[Python validation of webhooks.py in checkout](docs/images/pep8-checkout-webhooks.PNG)
+![Python validation of webhooks.py in checkout](docs/images/pep8-checkout-webhooks.PNG)
 
 ##### contact
 
 **contact - views.py**
 
-[Python validation of views.py in contact](docs/images/pep8-contact-views.PNG)
+![Python validation of views.py in contact](docs/images/pep8-contact-views.PNG)
 
 **contact - models.py**
 
-[Python validation of models.py in contact](docs/images/pep8-contact-models.PNG)
+![Python validation of models.py in contact](docs/images/pep8-contact-models.PNG)
 
 **contact - admin.py**
 
-[Python validation of admin.py in contact](docs/images/pep8-contact-admin.PNG)
+![Python validation of admin.py in contact](docs/images/pep8-contact-admin.PNG)
 
 **contact - forms.py**
 
-[Python validation of forms.py in contact](docs/images/pep8-contact-forms.PNG)
+![Python validation of forms.py in contact](docs/images/pep8-contact-forms.PNG)
 
 **contact - urls.py**
 
-[Python validation of urls.py in contact](docs/images/pep8-contact-urls.PNG)
+![Python validation of urls.py in contact](docs/images/pep8-contact-urls.PNG)
 
 **contact - apps.py**
 
-[Python validation of apps.py in contact](docs/images/pep8-contact-apps.PNG)
+![Python validation of apps.py in contact](docs/images/pep8-contact-apps.PNG)
 
 ##### faq
 
 **faq - views.py**
 
-[Python validation of views.py in faq](docs/images/pep8-faq-views.PNG)
+![Python validation of views.py in faq](docs/images/pep8-faq-views.PNG)
 
 **faq - models.py**
 
-[Python validation of models.py in faq](docs/images/pep8-faq-models.PNG)
+![Python validation of models.py in faq](docs/images/pep8-faq-models.PNG)
 
 **faq - admin.py**
 
-[Python validation of admin.py in faq](docs/images/pep8-faq-admin.PNG)
+![Python validation of admin.py in faq](docs/images/pep8-faq-admin.PNG)
 
 **faq - urls.py**
 
-[Python validation of urls.py in faq](docs/images/pep8-faq-urls.PNG)
+![Python validation of urls.py in faq](docs/images/pep8-faq-urls.PNG)
 
 **faq - apps.py**
 
-[Python validation of apps.py in faq](docs/images/pep8-faq-apps.PNG)
+![Python validation of apps.py in faq](docs/images/pep8-faq-apps.PNG)
 
 
 ##### home
 
 **home - views.py**
 
-[Python validation of views.py in home](docs/images/pep8-home-views.PNG)
+![Python validation of views.py in home](docs/images/pep8-home-views.PNG)
 
 **home - urls.py**
 
-[Python validation of urls.py in home](docs/images/pep8-home-urls.PNG)
+![Python validation of urls.py in home](docs/images/pep8-home-urls.PNG)
 
 **home - apps.py**
 
-[Python validation of apps.py in home](docs/images/pep8-home-apps.PNG)
+![Python validation of apps.py in home](docs/images/pep8-home-apps.PNG)
 
 ##### irish_craft_house
 
 **irish_craft_house - views.py**
 
-[Python validation of views.py in irish_craft_house](docs/images/pep8-irish_craft_house-views.PNG)
+![Python validation of views.py in irish_craft_house](docs/images/pep8-irish_craft_house-views.PNG)
 
 **irish_craft_house - urls.py**
 
-[Python validation of urls.py in irish_craft_house](docs/images/pep8-irish_craft_house-urls.PNG)
+![Python validation of urls.py in irish_craft_house](docs/images/pep8-irish_craft_house-urls.PNG)
 
 **irish_craft_house - settings.py**
 
-[Python validation of settings.py in irish_craft_house](docs/images/pep8-irish_craft_house-settings.PNG)
+![Python validation of settings.py in irish_craft_house](docs/images/pep8-irish_craft_house-settings.PNG)
 
 **irish_craft_house - wsgi.py**
 
-[Python validation of wsgi.py in irish_craft_house](docs/images/pep8-irish_craft_house-wsgi.PNG)
+![Python validation of wsgi.py in irish_craft_house](docs/images/pep8-irish_craft_house-wsgi.PNG)
 
 ##### products
 
 **products - views.py**
 
-[Python validation of views.py in products](docs/images/pep8-products-views.PNG)
+![Python validation of views.py in products](docs/images/pep8-products-views.PNG)
 
 **products - models.py**
 
-[Python validation of models.py in products](docs/images/pep8-products-models.PNG)
+![Python validation of models.py in products](docs/images/pep8-products-models.PNG)
 
 **products - admin.py**
 
-[Python validation of admin.py in products](docs/images/pep8-products-admin.PNG)
+![Python validation of admin.py in products](docs/images/pep8-products-admin.PNG)
 
 **products - forms.py**
 
-[Python validation of forms.py in products](docs/images/pep8-products-forms.PNG)
+![Python validation of forms.py in products](docs/images/pep8-products-forms.PNG)
 
 **products - urls.py**
 
-[Python validation of urls.py in products](docs/images/pep8-products-urls.PNG)
+![Python validation of urls.py in products](docs/images/pep8-products-urls.PNG)
 
 **products - apps.py**
 
-[Python validation of apps.py in products](docs/images/pep8-products-apps.PNG)
+![Python validation of apps.py in products](docs/images/pep8-products-apps.PNG)
 
 
 ##### profiles
 
 **profiles - views.py**
 
-[Python validation of views.py in profiles](docs/images/pep8-profiles-views.PNG)
+![Python validation of views.py in profiles](docs/images/pep8-profiles-views.PNG)
 
 **profiles - models.py**
 
-[Python validation of models.py in profiles](docs/images/pep8-profiles-models.PNG)
+![Python validation of models.py in profiles](docs/images/pep8-profiles-models.PNG)
 
 **profiles - forms.py**
 
-[Python validation of forms.py in profiles](docs/images/pep8-profiles-forms.PNG)
+![Python validation of forms.py in profiles](docs/images/pep8-profiles-forms.PNG)
 
 **profiles - urls.py**
 
-[Python validation of urls.py in profiles](docs/images/pep8-profiles-urls.PNG)
+![Python validation of urls.py in profiles](docs/images/pep8-profiles-urls.PNG)
 
 **profiles - apps.py**
 
-[Python validation of apps.py in profiles](docs/images/pep8-profiles-apps.PNG)
+![Python validation of apps.py in profiles](docs/images/pep8-profiles-apps.PNG)
 
 ##### wishlist
 
 **wishlist - views.py**
 
-[Python validation of views.py in wishlist](docs/images/pep8-wishlist-views.PNG)
+![Python validation of views.py in wishlist](docs/images/pep8-wishlist-views.PNG)
 
 **wishlist - models.py**
 
-[Python validation of models.py in wishlist](docs/images/pep8-wishlist-models.PNG)
+![Python validation of models.py in wishlist](docs/images/pep8-wishlist-models.PNG)
 
 **wishlist - forms.py**
 
-[Python validation of forms.py in wishlist](docs/images/pep8-wishlist-forms.PNG)
+![Python validation of forms.py in wishlist](docs/images/pep8-wishlist-forms.PNG)
 
 **wishlist - urls.py**
 
-[Python validation of urls.py in wishlist](docs/images/pep8-wishlist-urls.PNG)
+![Python validation of urls.py in wishlist](docs/images/pep8-wishlist-urls.PNG)
 
 **wishlist - apps.py**
 
-[Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
+![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
 
 ### Javascript validation
 
@@ -1093,7 +1126,7 @@ The test for mobile resulted in scores all over 90 except for the best practices
 
 
 
-<!-- 
+
 ### Manual Testing
 
 Every page at the website has been manually tested. It is done in Google Chrome DevTools and on different devices. The devices used were one mobile phone, one laptop and one external screen:
@@ -1102,7 +1135,60 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 - HP 250 G4 Notebook PC (1366 x 768)
 - HP 2309v LCD Screen (1920 x 1080)
 
-#### Navigation bar
+
+#### Header
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Home/logo link | When clicked, directs the user to the home page | Click at "Home" | Got directed to the home page | Pass |
+
+##### Nav Menu
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Shop drop-down | When clicked, dropdown appears with further links to product categories | Click at "SHOP" | Dropdown appeared | Pass |
+| Products link | When clicked, directs the user to a filtered list of all products | Click at "products" | Got directed to a filtered list of all products | Pass |
+| By Price link | When clicked, directs the user to a filtered list of By Price | Click at "By Price" | Got directed to a filtered list of By Price | Pass |
+| By Rating link | When clicked, directs the user to a filtered list of By Rating | Click at "By Rating" | Got directed to a filtered list of By Rating | Pass |
+| By Category link | When clicked, directs the user to a filtered list of By Category | Click at "By Category" | Got directed to a filtered list of By Category | Pass |
+| All Products link | When clicked, directs the user to a filtered list of all products | Click at "All products" | Got directed to a filtered list of all products | Pass |
+| Jewellery link | When clicked, directs the user to a filtered list of Jewellery | Click at "Jewellery" | Got directed to a filtered list of All Jewellery | Pass |
+| Pendants & Earings link | When clicked, directs the user to a filtered list of Pendants & Earings | Click at "Pendants & Earings" | Got directed to a filtered list of Pendants & Earings | Pass |
+| Cufflinks, Tie clips & Lapel Pins link | When clicked, directs the user to a filtered list of Cufflinks, Tie clips & Lapel Pinss | Click at "Cufflinks, Tie clips & Lapel Pins" | Got directed to a filtered list of Cufflinks, Tie clips & Lapel Pins | Pass |
+| All Jewellery link | When clicked, directs the user to a filtered list of Jewellery | Click at "All Jewellery" | Got directed to a filtered list of All Jewellery | Pass |
+| Baby & Kids link | When clicked, directs the user to a filtered list of Baby & Kids | Click at "Baby & Kids" | Got directed to a filtered list of Baby & Kids | Pass |
+| Skincare link | When clicked, directs the user to a filtered list of Skincare | Click at "Skincare" | Got directed to a filtered list of Skincare | Pass |
+| Face, Body, Bath & Balms link | When clicked, directs the user to a filtered list of Face, Body, Bath & Balms | Click at "Face, Body, Bath & Balms" | Got directed to a filtered list of Face, Body, Bath & Balms | Pass |
+| Soap & Shaving Soaps link | When clicked, directs the user to a filtered list of Soap & Shaving Soaps | Click at "Soap & Shaving Soaps" | Got directed to a filtered list of Soap & Shaving Soaps | Pass |
+| All Skincare link | When clicked, directs the user to a filtered list of Skincare | Click at "All Skincare" | Got directed to a filtered list of Skincare | Pass |
+| Unique Pieces link | When clicked, directs the user to a filtered list of Unique Pieces | Click at "Unique Pieces" | Got directed to a filtered list Unique Pieces | Pass |
+| Prints & Books link | When clicked, directs the user to a filtered list of Prints & Books | Click at "Prints & Books" | Got directed to a filtered list Prints & Books | Pass |
+| Bags link | When clicked, directs the user to a filtered list of Bags | Click at "Bags" | Got directed to a filtered list Bags | Pass |
+
+##### Search Box
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Search Box | When clicked, redirects to item in text box | Search for known item | Got directed to desired item | Pass | 
+| Search Box | When clicked, redirects to item in text box | Search for keyword item | Got directed to list of items containing keyword | Pass | 
+
+##### My Account Dropdown
+
+<!-- 
+
+
+
+
+#### Index
+#### Product
+#### About us
+#### Contact us
+#### FAQ Page
+#### Register/Login/Logout
+#### Profile Page
+#### Wishlist Page
+#### Shopping Bag
+#### Checkout Page
+#### Notifications
+#### Shop Management Features
+##### Product management Page
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
@@ -1228,8 +1314,7 @@ When the PEP8 validation of the Python code was made, 48 errors occurred. Most o
 - trailing whitespace
 - line too long
 - blank line contains whitespace
-
-The first lighthouse tests performed resulted in a 82 performance. This was improved by resizeng the images to its biggest dimension being 800px. Performance could be improved further by introducing responsive images
+The first lighthouse tests performed resulted in a 82 performance. This was improved by resizing the images to its biggest dimension being 800px. Performance could be improved further by introducing responsive images
 
 ## Technologies Used
 
@@ -1415,7 +1500,7 @@ Further keywords additions are limited here due to the lack of text on our home 
 
 Future additions could also include external links to further improve our SEO results.
 
-Further improvements could be made to the images on the site. Currently, they are all named after the stock code of the item. This is not helpfull for search engine optimisation. WOrk could be done in renaming these to more meaningful descriptions of the items. Also, there is no allowance for alt tags and this should be added in future versions.
+Further improvements could be made to the images on the site. Currently, they are all named after the stock code of the item. This is not helpful for search engine optimisation. WOrk could be done in renaming these to more meaningful descriptions of the items. Also, there is no allowance for alt tags and this should be added in future versions.
 
 The Meta data does not yet include an imgae to be displayed when the site is shared on social media
 

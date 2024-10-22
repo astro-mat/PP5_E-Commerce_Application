@@ -23,7 +23,7 @@
                             <a class="dropdown-item" href="{% url 'products' %}">All Products</a>                          
                         </div>
                         <div>
-                            <a class="dropdown-item font-weight-bold">Jewellery</a>
+                            <a class="dropdown-item font-weight-bold" href="{% url 'products' %}?category=pendants_and_earrings,cufflinks_tieclips_lapelpins">Jewellery</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{% url 'products' %}?category=pendants_and_earrings">Pendants &amp; Earrings</a>
                             <a class="dropdown-item" href="{% url 'products' %}?category=cufflinks_tieclips_lapelpins">Cufflinks, Tie clips &amp; Lapel Pins</a>
@@ -32,7 +32,7 @@
                             <a class="dropdown-item font-weight-bold" href="{% url 'products' %}?category=baby_and_kids">Baby &amp; Kids</a>
                         </div>
                         <div>
-                            <div class="dropdown-item font-weight-bold">Skincare</div>
+                            <a class="dropdown-item font-weight-bold" href="{% url 'products' %}?category=face_body_bath_balms,soap_and_shaving_soaps">Skincare</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{% url 'products' %}?category=face_body_bath_balms">Face, Body, Bath &amp; Balms</a>
                             <a class="dropdown-item" href="{% url 'products' %}?category=soap_and_shaving_soaps">Soap &amp; Shaving Soaps</a>
