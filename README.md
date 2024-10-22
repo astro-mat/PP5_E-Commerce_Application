@@ -1170,14 +1170,89 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 | Search Box | When clicked, redirects to item in text box | Search for keyword item | Got directed to list of items containing keyword | Pass | 
 
 ##### My Account Dropdown
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| My account dropdown | The menu drops down | Click on the Button | The menu dropped down | Pass |
+| Register link | The link takes me to the Register page | Click on link | Link takes user to the Register page | Pass |
+| Login Link |  The link takes me to the Login page | Click on link | Link takes user to the Login page | Pass |
+
+##### My Account Dropdown (Logged in shoppers)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| View Wishlist Link | The link takes me to the Wishlist page | Click on link | Link takes user to the Wish page | Pass |
+| The Log-out Link | The link takes me to the Logout page page | Click on link | Link takes user to the Wish page | Pass |
+| Log-Out | Loose access to logged in content | Click on log-out link | Lost access to logged in content | Pass |
+| Log-Out | Redirect to Log-Out Page | Click on log-out link | Redirected to Log-Out Page | Pass | 
+| Log-Out | Toast notification that you have logged out | Click on log-out link | Toast notification is visible | Pass |
+
+##### My Account Dropdown (Logged in Admin)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Product Management Link | The link takes me to the Wishlist page | Click on link | Link takes user to the Wish page | Pass |
+
+##### Shopping Bag (Logged in Admin)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Shopping Bag Link | The link takes me to the Shopping Bag page | Click on link | Link takes user to the Shopping Bag | Pass |
+
+#### Index Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The index page was responsive and changed depending on screen size | Pass |
+| "Shop Now" button | Directs the user to the "Shop Now" page | Click at the "Shop Now" button | Got directed to the Shop Now page | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+
+#### Products Page (Guest shopper and Logged in shopper)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Redirected after clicking on a product | When user clicks on product image, the user gets redirected to the product detail Page  | CLick on product image | The user got redirected to Product detail page | Pass |
+| Sort by... Function Price (Low to high) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Function Price (high to Low) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Function Price (Low to High) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Rating (high to Low) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Rating (Low to High) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Name (A-Z) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Name (Z-A) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Category (A-Z) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+| Sort by... Category (Z-A) | Select the option and page filters product list accordingly | Click on the option | Pages features the correct filtered list | Pass |
+
+#### Products Page (Logged In Admin)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+Edit Product Redirect| When the "Edit" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a item to edit, Click "Edit" | The user got redirected to Product Management Page for that item | Pass |
+Delete Product |  When the "Delete" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a booking to delete, Click "Delete" | The user got redirected to Product Management Page for that item | Pass |
+
+#### Product Detail Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Quantity Button | Changes the quantity desired before adding to the bag | Click on "+" "&" - buttons | Quantity changed in increments up and down | Pass |
+| "Keep Shopping" button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
+| "Add to Bag" button | Adds item to the shopping bag | Click on the "Add to Bag" Button | Item is added to the shopping bag | Pass |
+| "Add to Bag" Notification | Notification pops up indicating item is added to the shopping bag | Click on the "Add to Bag" Button | Notification pops up indicating item is added to the shopping bag | Pass |
+| "Add to Bag" Notification | Notification shows updated contents of shopping bag and total cost | Click on the "Add to Bag" Button | Notification pops up showing updated contents of shopping bag and total cost | Pass |
+
+
+#### Product Detail Page (Logged In Shopper)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| "Wishlist" button | Adds item to the wishlist | Click on the "Wishlist" Button | Item is added to the wishlist | Pass |
+| "Wishlist" Notification | Notification pops up indicating item is added to the wishlist | Click on the "Wishlist" Button | Notification pops up indicating item is added to the wishlist | Pass |
+
+#### Product Detail Page (Logged In Admin)
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+Edit Product Redirect| When the "Edit" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a item to edit, Click "Edit" | The user got redirected to Product Management Page for that item | Pass |
+Delete Product |  When the "Delete" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a booking to delete, Click "Delete" | The user got redirected to Product Management Page for that item | Pass |
+
 
 <!-- 
 
 
+| Keep Shopping button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
 
-
-#### Index
-#### Product
+#### Product Detail Page
 #### About us
 #### Contact us
 #### FAQ Page
@@ -1188,29 +1263,8 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 #### Checkout Page
 #### Notifications
 #### Shop Management Features
-##### Product management Page
+##### Product Management Page
 
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Home link | When clicked, directs the user to the home page | Click at "Home" | Got directed to the home page | Pass |
-| Logo link | When clicked, directs the user to the home page | Click at "Logo" | Got directed to the home page | Pass |
-| About link | When clicked, directs the user to the about section of the Home page | Click at "About" | Got directed to the about section of the Home page | Pass |
-| Gallery link | When clicked, directs the user to the Gallery section of the home page | Click at "Gallery" | Got directed to the Gallery section of the home page | Pass |
-| Register/Log in link | When clicked, directs the user to the Log in page | Click at "Register/Log in" | Got directed to the Log in page | Pass |
-| Bookings link not visible (signed out) | Bookings link not visible as a signed out user | Sign out and inspect navigation bar | Bookings link not visible | Pass |
-| Bookings link visible (signed in user) | Bookings link visible as a signed in user | Sign in, check navigation bar | Bookings link visible | Pass |
-| Bookings link | When clicked, directs the signed in user to the Bookings page | Sign in, click at "Bookings" | Got directed to the Bookings page | Pass |
-| Log Out link not visible (signed out) | Log Out link not visible as a signed out user | Log Out and inspect navigation bar | Log Out link not visible | Pass |
-| Log Out link visible (signed in user) | When clicked, directs the user to the Log Out page | Click at "Log Out" | Got directed to the Log Out page | Pass |
-| Log Out link | When clicked, directs the signed in user to the Log Out page | Sign in as a staff or superuser, click at "Log Out" | Got directed to the Log Out page | Pass |
-
-#### Index page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The index page was responsive and changed depending on screen size | Pass |
-| "Click to make booking" button | Directs the user to the Register/Login page | Click at the "Click to make booking" button | Got directed to the Register/Login page | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 
 #### Log In Page
 
