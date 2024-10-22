@@ -1247,9 +1247,10 @@ Edit Product Redirect| When the "Edit" button is pressed, User is redirected to 
 Delete Product |  When the "Delete" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a booking to delete, Click "Delete" | The user got redirected to Product Management Page for that item | Pass |
 
 
+
+
+
 <!-- 
-
-
 | Keep Shopping button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
 
 #### Product Detail Page
