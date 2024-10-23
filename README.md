@@ -1246,18 +1246,20 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 Edit Product Redirect| When the "Edit" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a item to edit, Click "Edit" | The user got redirected to Product Management Page for that item | Pass |
 Delete Product |  When the "Delete" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a booking to delete, Click "Delete" | The user got redirected to Product Management Page for that item | Pass |
 
+#### About us Page
+| Back to shop Button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+
+
 
 
 
 
 <!-- 
-| Keep Shopping button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
-
-#### Product Detail Page
-#### About us
-#### Contact us
+#### Contact us Page
 #### FAQ Page
-#### Register/Login/Logout
+#### Register/Login/Logout Pages
 #### Profile Page
 #### Wishlist Page
 #### Shopping Bag
