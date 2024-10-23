@@ -572,8 +572,9 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 - The contact us page allows the user to contact the admin
 - The user enters name, email and a message. Form validation is present. A button allows the message to be sent
-- Once sent, a message is sent to the admin email address and a confirmation is sent to the user. THe message is also available in the website admin.
+- Once sent, a message is sent to the admin email address and a confirmation is sent to the user. The message is also available in the website admin.
 - The page also provides all the proposed social links for the website
+- After the message is sent, the user is re-directed to the "contact us" success page. THe user is invited to return to the main shop via the "Keep Shopping" button
 
 ![Contact Us page](docs/images/contact-us.PNG)
 
@@ -1247,18 +1248,39 @@ Edit Product Redirect| When the "Edit" button is pressed, User is redirected to 
 Delete Product |  When the "Delete" button is pressed, User is redirected to Product Management Page | Visit Product Page, Select a booking to delete, Click "Delete" | The user got redirected to Product Management Page for that item | Pass |
 
 #### About us Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Back to shop Button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 
+#### FAQ Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Back to shop Button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 
+#### Contact us Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Send Message Button | Directs user to the Contact us success page | Click on the "Send Message" Button | Re-directed to the Contact us success page | Pass |
+| Send Message Button | A Email is sent to Admin Email address | A temp Email is used and test message and name | A Email is recieved in Admin | Pass
+| Send Message Button | A Confirmation Email is sent to Email address entered on form | A temp Email is used and test message and name | A confirmation email is recieved at Temp email address | Pass
+| Send Message Button | The message details are available on the Django admin panel | A temp Email is used and test message and name | The message details are available on the Django admin panel | Pass
+
+#### Contact Us Success Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 
 
 
 
 <!-- 
-#### Contact us Page
-#### FAQ Page
+
+
 #### Register/Login/Logout Pages
 #### Profile Page
 #### Wishlist Page
@@ -1267,6 +1289,7 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 #### Notifications
 #### Shop Management Features
 ##### Product Management Page
+
 
 
 #### Log In Page
