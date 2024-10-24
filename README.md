@@ -1267,21 +1267,106 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 | Send Message Button | Directs user to the Contact us success page | Click on the "Send Message" Button | Re-directed to the Contact us success page | Pass |
-| Send Message Button | A Email is sent to Admin Email address | A temp Email is used and test message and name | A Email is recieved in Admin | Pass
-| Send Message Button | A Confirmation Email is sent to Email address entered on form | A temp Email is used and test message and name | A confirmation email is recieved at Temp email address | Pass
+| Send Message Button | A Email is sent to Admin Email address | A temp Email is used and test message and name | A Email is received in Admin | Pass
+| Send Message Button | A Confirmation Email is sent to Email address entered on form | A temp Email is used and test message and name | A confirmation email is received at Temp email address | Pass
 | Send Message Button | The message details are available on the Django admin panel | A temp Email is used and test message and name | The message details are available on the Django admin panel | Pass
 
 #### Contact Us Success Page
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Back to shop Button | Re-Directs user back to the "All Products" Page | Click on the "Keep Shopping" Button | Re-directed to the "All Products" Page | Pass |
 
+#### Register/Login/Logout Pages
+
+##### Register Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Email address validation (Missing @ Symbol) | User is warned of missing symbol | Address entered that is missing symbol | User is warned of missing symbol and is unable to continue | Pass |
+| Email address validation (Emails do not match) | User is warned of Miss-match | Address entered that is different | User is warned of miss-match and is unable to continue | Pass |
+| Password validation (Password is too similar to the email address.) | User is warned of Miss-match | Password entered that is different | User is warned of miss-match and is unable to continue | Pass |
+| Password validation (Password is too short) | User is warned that password is too short | Password entered that is too short | User is warned password is too short and is unable to continue | Pass |
+| Password validation (Password is too common) | User is warned that password is too common | Password entered that is too common| User is warned password is too common and is unable to continue | Pass |
+| Password validation (Password is entirely numeric) | User is warned that password is entirely numeric | Password entered that is entirely numeric | User is warned password is entirely numeric and is unable to continue | Pass |
+| Back to login Button | Re-Directs user to the "Login" Page | Click on the "Back to login" Button | Re-directed to the Login Page | Pass |
+| Sign Up Button (Redirects) | Re-Directs user to the "Verify Your E-mail Address" Page | Click on the "Back to login" Button | Re-directed to the Login Page | Pass |
+| Sign Up button (Sends Verification) | Verification email is sent to email address | User registered using temp email address | Verification Email received at Temp email address | Pass 
+
+##### Verify Your E-mail Address Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+
+##### Confirm E-mail Address Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Confirm Button (Redirects) | Re-Directs user to the "Login" Page | Click on the "Confirm" Button | Re-directed to the "Login" Page | Pass |
+
+##### Login Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Link to sign up if you have not created an account yet | Re-Directs user to the "Login" Page | Click on the link | Re-directed to the Login Page | Pass |
+| Back to login Button | Re-Directs user to the "Login" Page | Click on the "Back to login" Button | Re-directed to the Login Page | Pass |
+| Sign Up Button (Redirects) | Re-Directs user to the index Page | Click on the "Sign up" Button | Re-directed to the index Page | Pass |
+| Sign Up button (Toast Notification) | Notification is displayed stating login success | User signs in with valid user details | Notification is displayed stating login success | Pass 
+
+##### Log Out Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Sign out Button (Redirects) | Re-Directs user to the index Page | Click on the "Sign out" Button | Re-directed to the index Page | Pass |
+| Sign out button (Toast Notification) | Notification is displayed stating logout success | User signs out | Notification is displayed stating logout success | Pass |
+| Cancel Button | Re-Directs user to the index Page | Click on the "Cancel" Button | Re-directed to the index Page | Pass |
+
+##### Reset Password Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Back to login Button | Re-Directs user to the "Login" Page | Click on the "Back to login" Button | Re-directed to the Login Page | Pass |
+| Reset my password Button (Redirect) | Redirects user to password reset page | Click on the "Reset My Password" Button | User redirected to password reset page | Pass
+| Reset my password button (Sends email) | Sends user email with link to reset password | Click on the "Reset My Password" Button | User Recieves email with correct link | Pass
+
+##### Reset Password Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Back to login Button | Re-Directs user to the "Login" Page | Click on the "Back to login" Button | Re-directed to the Login Page | Pass |
+| Password validation (Password is too similar to the email address.) | User is warned of Miss-match | Password entered that is different | User is warned of miss-match and is unable to continue | Pass |
+| Password validation (Password is too short) | User is warned that password is too short | Password entered that is too short | User is warned password is too short and is unable to continue | Pass |
+| Password validation (Password is too common) | User is warned that password is too common | Password entered that is too common| User is warned password is too common and is unable to continue | Pass |
+| Password validation (Password is entirely numeric) | User is warned that password is entirely numeric | Password entered that is entirely numeric | User is warned password is entirely numeric and is unable to continue | Pass |
+| Change password Button (redirect) | Re-Directs user to the Reset Password Success Page | Click on the "Change Password" Button | Re-directed to the Login Page | Pass | 
+
+
+##### Reset Password Success Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Reset Success (Toast Notification) | Notification is displayed stating Password has been reset | Password is reset | Notification is displayed stating password has been reset | Pass |
+
+#### Profile Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 
 
 
 <!-- 
 
 
-#### Register/Login/Logout Pages
 #### Profile Page
 #### Wishlist Page
 #### Shopping Bag
@@ -1292,95 +1377,7 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 
 
 
-#### Log In Page
 
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| All fields required | An error message appears when the user tries to sign in but leaves one field empty | Leave one field empty one by one and try to Sign In | An error message appeared when a field was left empty | Pass |
-| Remember me button | when selected when logging in, user details are remembered at next login | select when logging in, log out and return | User details were remembered on returning to the page | Pass |
-| Sign In button | When the "Sign In" button is pressed, the user gets signed in | Click at "Sign In" button | The user gets signed in | Pass |
-| Redirected | When the "Sign In" button is pressed, the user gets redirected to the booking detail page | Visit Register page, click Sign in, press "Sign In" button | The user got redirected to Booking Detail page | Pass |
-| Sign Up button | When the "Sign Up" button is pressed, the user redirected to Register page | Click at "Sign Up" button | The user gets redirected to Register/Login page | Pass |
-| Forgotten Password Link | When link is clicked, user is redirected to password reset page | Visit Log In page, click on "Forgot password" Link | When link is clicked, user is redirected to password reset page | Pass
-
-### Register page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| All fields required | An error message appears when the user tries to sign up but leaves one field empty | Leave one field empty one by one and try to Sign Up | An error message appeared when a field was left empty | Pass |
-| Redirected | When the "Sign Up" button is pressed, the user gets redirected to the Booking Detail Page  | Visit Register page, fill out all required fields, press "Sign Up" button | The user got redirected to Booking Detail page | Pass |
-
-#### Booking Detail page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| All fields required | An error message appears when the user tries to make a booking but leaves one field empty | Leave one field empty one by one and try to Make a booking | An error message appeared when a field was left empty | Pass |
-| Redirected after "Make A Booking" | When the "Make a booking" button is pressed, the user gets redirected to the Booking Success Page  | Visit Booking Detail page, fill out all required fields, press "Make a booking" button | The user got redirected to Booking Success page | Pass |
-Edit Booking Redirect| When the "Edit" button is pressed, User is redirected to Edit Booking page | Visit Booking Detail Page, Select a booking to edit, Click "Edit" | The user got redirected to Edit Booking page for that booking | Pass |
-Delete Booking |  When the "Delete" button is pressed, User is redirected to Edit Delete Booking page | Visit Booking Detail Page, Select a booking to delete, Click "Delete" | The user got redirected to Delete Booking page for that booking | Pass |
-Date Validation | If the user attempts to make a booking on a date that there is already a booking booked, An error message appears and user is unable to proceed with that date | Visit Booking Detail Page, Fill in all fields, Select a date that is already booked, Click "Make A Booking" |  An error message appears when the user tries to click "Make A Booking if that date is unavailable | Pass
-
-#### Booking Successful page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Correct Information displayed | The page should display the details of the booking that the user just made | Visit "Booking Detail" page, click "Make A booking" | Booking Successful Page displays the information of the booking just made | Pass
-| "Back to bookings" Button | When the "Back to Bookings" button is pressed, the user gets redirected to "Booking Detail" page | Click at "Back to bookings" button | The user gets redirected to "Booking Detail" page | Pass |
-
-#### Edit Booking page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Correct Information displayed | The page should display the details of the booking that the user just made | Visit "Booking Detail" page, click "Edit" |  Edit Booking Page displays the information of the booking to be edited | Pass
-| Edit Booking | Any field can be edited | Visit Booking detail Page, select a booking to edit, click "Edit booking", Make changes to every field | All Fields are able to be edited | Pass
-| "Save Booking" Button | After making a change, Clicking on "Save booking" button redirects user to Booking detail page and changes are displayed | Visit Edit Booking page, make a change to booking, click "Save Booking" | User is redirected to Booking detail page and changes are displayed | Pass
-
-#### Booking delete page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Correct Information displayed | The page should display the details of the booking that the user wants to delete | Visit "Booking Detail" page, click "Delete" |  Delete Booking Page displays the information of the booking to be Deleted | Pass
-| "Delete Booking" Button | User is redirected back to Booking detail page, desired booking has been deleted | From delete booking page, click "Delete" | User is redirected back to Booking Detail page and the booking has been deleted | Pass 
-| "Cancel" Button | User is redirected back to Booking detail page, desired booking has not been deleted | From delete booking page, click "Cancel" | User is redirected back to Booking Detail page and the booking has not been deleted | Pass 
-
-#### Log Out page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| "Sign Out" Button | User is redirected to index page, Navbar menu has changed, user no longer has access to Bookings detail page | From Log out page, click "Sign out" button | User is redirected to index page, Navbar menu has changed, user no longer has access to Bookings detail page | Pass 
-| "Back to my Bookings" | User is redirected back to Booking Detail page, Navbar menu has not changed, user still has access to Bookings detail page | From Log out page, click "Back to my Bookings" button | User is redirected to Booking Detail page, Navbar menu has not changed, user still has access to Bookings detail page | Pass 
-
-
-#### Password Reset page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| All fields required | An error message appears when the user tries to reset password with field empty | Leave password field empty try to reset password | An error message appeared when a field was left empty | Pass |
-| "Rest my Password" Button | 
-
-#### Password reset done page
-
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
-| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Reset Email is sent and received | User receives an email with further instructions | Click on "Forgot Password" link from Log in page, enter email, click reset password, check if email is received | Email is received with instructions to reset | Pass
 
 ### Bugs
 
