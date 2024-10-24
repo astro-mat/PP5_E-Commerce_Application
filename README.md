@@ -1361,15 +1361,38 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Edit Address details | All details in the address can be edited | Existing profile text is changed | Text is changed | Pass
+| Update information button (Function) | Address information is saved to account | Existing profile is changed | Information is different when account is re-accessed | Pass |
+| Update information button (Notification) | Notification is displayed saying details have been changed | Button is pressed after details are changed | Notification is displayed with correct information | Pass |
+| Order number Link | Link displayed next to order in list is to the details of that order | Several test orders are made and links are manually tested | Links were correct | Pass
+
+#### Wishlist Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Add to bag Button | Item is added to bag and removed from wishlist | Click on add to bag button | Item is added to bag and removed from wishlist | Pass
+| Add to bag Button (Notification) | Notification is displayed saying item has been added to bag | Click on add to bag button | Notification is displayed with correct information | Pass |
+| Remove from wishlist Button | Item is removed from wishlist | Click on Remove from wishlist button | Item is removed from wishlist | Pass
+| Remove from wishlist  Button (Notification) | Notification is displayed saying item has been removed from wishlist | Click on remove from wishlist button | Notification is displayed with correct information | Pass |
+
+#### Shopping Bag
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+
+| Update Quantity Button |
+| Remove Button |
+| Secure Checkout Button |
+| Keep Shopping Button |
 
 
 
 <!-- 
 
 
-#### Profile Page
-#### Wishlist Page
-#### Shopping Bag
+
 #### Checkout Page
 #### Notifications
 #### Shop Management Features
@@ -1548,6 +1571,8 @@ https://leitrimdesignhouse.ie/
 
 TO DO
 
+
+- ADD TO BAG FROM WISHLIST DOESNT WORK
 - Go back to Shopping bag and apply fix that allows minus bag items in mobile view
 - Check that nothing says "Boutique ado"
 - mobile header matches full screen
@@ -1564,6 +1589,7 @@ TO DO
 BUGS
 - Double hamburger on mobile
 - account menu needs refreshing in certain circumstances and cannot select links
+- ADD TO BAG FROM WISHLIST DOESNT WORK
 
 
 FUTURE ADDITIONS
