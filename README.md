@@ -1410,9 +1410,7 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | Order summary | Page contains summary of the order | Complete a test purchase | summary of the order is listed | Pass |
 | Order success Notification | Toast notification that order was successful | Complete a test purchase | Toast notification that order was successful | Pass
 | Order confirmation email | Email confirmation of order sent to users email address | Complete a test purchase | Email confirmation of order received to users email address | Pass |
-
-
-| Now checkout the latest deals Button | 
+| "Now checkout the latest deals" Button | When clicked, redirects to product page filtered for deals | Click on "Now checkout the latest deals" button | Got directed to product page filtered for deals | Pass | 
 
 
 
@@ -1612,6 +1610,7 @@ TO DO
 - Mockup image at start of readme
 - get rid of all comments in this readme
 - Have you mentioned custom models?
+- No items in deals and clearance
 
 
 BUGS
@@ -1626,6 +1625,8 @@ Special offers menu item
 more text on home page for better SEO results
 footer to include social links
 Hero image could be upgraded to an image slider
+- More products - Can be done by client
+- No items in deals and clearance
 
 SEO
 Further keywords additions are limited here due to the lack of text on our home page. Future improvements of the site would be to include more text. Keywords were included in the about us text. This text can be edited by the shop editors if they feel they need to.
