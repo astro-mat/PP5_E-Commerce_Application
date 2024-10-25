@@ -1414,17 +1414,17 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 
 
 
-
-<!-- 
-
-
-
-
-#### Notifications
 #### Shop Management Features
 ##### Product Management Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Select Image Button | Opens system window to allow image selection | Click button, select image | Image selected and attached to item | Pass
+| Cancel Button | When clicked, redirects to product page | Click on "Cancel" button | Got directed to product page | Pass | 
+| Add Product Button | Uses the details to add product to the database and redirects to product detail page | Test product added | New product is created and user is redirected to the relevant product detail page | Pass 
 
-
+<!-- 
 
 
 
@@ -1440,7 +1440,9 @@ When the PEP8 validation of the Python code was made, 48 errors occurred. Most o
 - trailing whitespace
 - line too long
 - blank line contains whitespace
+
 The first lighthouse tests performed resulted in a 82 performance. This was improved by resizing the images to its biggest dimension being 800px. Performance could be improved further by introducing responsive images
+-->
 
 ## Technologies Used
 
@@ -1450,6 +1452,22 @@ The first lighthouse tests performed resulted in a 82 performance. This was impr
 - [Heroku](https://www.heroku.com/)
 - [Balsamiq](https://balsamiq.com/)
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/)
+- [Python](https://www.python.org/)
+- [Django](https://www.djangoproject.com) used as the Python framework for the site.
+- [Git](https://git-scm.com/) for version control.
+- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+- [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) used as the relational database management.
+- [pip](https://pip.pypa.io/en/stable/) for installing Python packages.
+- [GitHub](https://github.com/) for storing the repository online during development.
+- [GitPod](https://gitpod.io/) as a cloud based IDE.
+- [Balsamiq](https://balsamiq.com/wireframes/) for wireframing.
+- [Bootstrap 5](https://getbootstrap.com/) as a front end framework.
+- [Google Chrome](https://www.google.com/intl/en_ie/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) and [Safari](https://www.apple.com/safari/) for testing on macOS Monterey.
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge) for testing on Windows 11.
+- [Safari](https://www.apple.com/safari/) on iOS and iPadOS 15.
+- [Google Chrome](https://www.google.com/intl/en_ie/chrome/) on Android 12.
+- [Font Awesome](https://fontawesome.com/) - For all icons on the website
+- [W3Schools](https://www.w3schools.com/howto/howto_js_read_more.asp) - Used to troubleshoot/questions about code
 
 The code languages used in this project are HTML, CSS, JavaScript and Python. The main frameworks used are Django and Bootstrap.
 
@@ -1492,8 +1510,153 @@ The code languages used in this project are HTML, CSS, JavaScript and Python. Th
 - Press "Connect"
 - Under "Manual deploy", choose which branch to deploy and press "Deploy Branch"
 
-Link to deployed website: <https://frisa-booking-e7f1e4a00ea9.herokuapp.com/>
+Link to deployed website: <https://irishdesignhousepp5-45c81a68233a.herokuapp.com/>
 
+### PostgreSQL from Code Institute Database
+
+This project uses [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) for the PostgreSQL Database.
+
+To obtain your own Postgres Database, follow these steps:
+
+- Input your email
+- Create a database
+- Receive your link
+- Paste it in as your DATABASE_URL value in your Heroku
+
+### Amazon AWS
+
+This project uses [AWS](https://aws.amazon.com) to store media and static files online, due to the fact that Heroku doesn't persist this type of data.
+
+Once you've created an AWS account and logged-in, follow these series of steps to get your project connected.
+Make sure you're on the **AWS Management Console** page.
+
+<details>
+<summary>Full details of setting up AWS for deployment</summary>
+
+#### S3 Bucket
+
+- Search for **S3**.
+- Create a new bucket, give it a name (matching your Heroku app name), and choose the region closest to you.
+- Uncheck **Block all public access**, and acknowledge that the bucket will be public (required for it to work on Heroku).
+- From **Object Ownership**, make sure to have **ACLs enabled**, and **Bucket owner preferred** selected.
+- From the **Properties** tab, turn on static website hosting, and type `index.html` and `error.html` in their respective fields, then click **Save**.
+- From the **Permissions** tab, paste in the following CORS configuration:
+
+	```shell
+	[
+		{
+			"AllowedHeaders": [
+				"Authorization"
+			],
+			"AllowedMethods": [
+				"GET"
+			],
+			"AllowedOrigins": [
+				"*"
+			],
+			"ExposeHeaders": []
+		}
+	]
+	```
+
+- Copy your **ARN** string.
+- From the **Bucket Policy** tab, select the **Policy Generator** link, and use the following steps:
+	- Policy Type: **S3 Bucket Policy**
+	- Effect: **Allow**
+	- Principal: `*`
+	- Actions: **GetObject**
+	- Amazon Resource Name (ARN): **paste-your-ARN-here**
+	- Click **Add Statement**
+	- Click **Generate Policy**
+	- Copy the entire Policy, and paste it into the **Bucket Policy Editor**
+
+		```shell
+		{
+			"Id": "Policy1234567890",
+			"Version": "2012-10-17",
+			"Statement": [
+				{
+					"Sid": "Stmt1234567890",
+					"Action": [
+						"s3:GetObject"
+					],
+					"Effect": "Allow",
+					"Resource": "arn:aws:s3:::your-bucket-name/*"
+					"Principal": "*",
+				}
+			]
+		}
+		```
+
+	- Before you click "Save", add `/*` to the end of the Resource key in the Bucket Policy Editor (like above).
+	- Click **Save**.
+- From the **Access Control List (ACL)** section, click "Edit" and enable **List** for **Everyone (public access)**, and accept the warning box.
+	- If the edit button is disabled, you need to change the **Object Ownership** section above to **ACLs enabled** (mentioned above).
+
+#### IAM
+
+Back on the AWS Services Menu, search for and open **IAM** (Identity and Access Management).
+Once on the IAM page, follow these steps:
+
+- From **User Groups**, click **Create New Group**.
+	- Suggested Name: `group-coffeecrew` (group + the project name)
+- Tags are optional, but you must click it to get to the **review policy** page.
+- From **User Groups**, select your newly created group, and go to the **Permissions** tab.
+- Open the **Add Permissions** dropdown, and click **Attach Policies**.
+- Select the policy, then click **Add Permissions** at the bottom when finished.
+- From the **JSON** tab, select the **Import Managed Policy** link.
+	- Search for **S3**, select the `AmazonS3FullAccess` policy, and then **Import**.
+	- You'll need your ARN from the S3 Bucket copied again, which is pasted into "Resources" key on the Policy.
+
+		```shell
+		{
+			"Version": "2012-10-17",
+			"Statement": [
+				{
+					"Effect": "Allow",
+					"Action": "s3:*",
+					"Resource": [
+						"arn:aws:s3:::your-bucket-name",
+						"arn:aws:s3:::your-bucket-name/*"
+					]
+				}
+			]
+		}
+		```
+	
+	- Click **Review Policy**.
+	- Suggested Name: `policy-coffeecrew` (policy + the project name)
+	- Provide a description:
+		- "Access to S3 Bucket for coffeecrew static files."
+	- Click **Create Policy**.
+- From **User Groups**, click your "group-coffeecrew".
+- Click **Attach Policy**.
+- Search for the policy you've just created ("policy-coffeecrew") and select it, then **Attach Policy**.
+- From **User Groups**, click **Add User**.
+	- Suggested Name: `user-coffeecrew` (user + the project name)
+- For "Select AWS Access Type", select **Programmatic Access**.
+- Select the group to add your new user to: `group-coffeecrew`
+- Tags are optional, but you must click it to get to the **review user** page.
+- Click **Create User** once done.
+- You should see a button to **Download .csv**, so click it to save a copy on your system.
+	- **IMPORTANT**: once you pass this page, you cannot come back to download it again, so do it immediately!
+	- This contains the user's **Access key ID** and **Secret access key**.
+	- `AWS_ACCESS_KEY_ID` = **Access key ID**
+	- `AWS_SECRET_ACCESS_KEY` = **Secret access key**
+
+#### Final AWS Setup
+
+- If Heroku Config Vars has `DISABLE_COLLECTSTATIC` still, this can be removed now, so that AWS will handle the static files.
+- Back within **S3**, create a new folder called: `media`.
+- Select any existing media images for your project to prepare them for being uploaded into the new folder.
+- Under**Manage Public Permissions**, select**Grant public read access to this object(s)**.
+- No further settings are required, so click**Upload**.
+
+</details>
+
+
+
+<!-- 
 ## Credits
 
 ### Libraries Used
@@ -1505,8 +1668,7 @@ Link to deployed website: <https://frisa-booking-e7f1e4a00ea9.herokuapp.com/>
 
 ### Used resources
 
-- [Font Awesome](https://fontawesome.com/) - For all icons on the website
-- [W3Schools](https://www.w3schools.com/howto/howto_js_read_more.asp) - Used to troubleshoot/questions about code
+
 - [django](https://docs.djangoproject.com/) - For all information referred to about Django
 
 ### Existing projects used for inspiration
@@ -1517,6 +1679,7 @@ Link to deployed website: <https://frisa-booking-e7f1e4a00ea9.herokuapp.com/>
 - https://github.com/FridaWikell/frisa-booking/blob/main/templates/index.html
 - https://github.com/KSDunne/statement_beauty/blob/main/makeover/forms.py
 - https://github.com/Thomas-Tomo/woodland-whispers-retreat/blob/main/cabin_bookings/models.py
+- https://github.com/davidindub/coffeecrew
 
 ### Tutorials and code snippets
 
@@ -1530,13 +1693,14 @@ Link to deployed website: <https://frisa-booking-e7f1e4a00ea9.herokuapp.com/>
 Many thanks to the following people for all their help and support
 
 - Laura Mayock - Cohort Facilitator
+- Krystina - Cohort Facilitator
 - Antonio Rodriguez - Mentor
 - Indre Vilickaite - Fellow Student
 - Patrick Hladun - Fellow Student
 
 And all the Tutors that assisted me
 
-Holly, Roo, John, Roman, Sean, Oisin, Mark, Sarah, Thomas and Alan -->
+Holly, Thomas, Tom, Roo, John, Roman, Sean, Oisin, Mark, Sarah, Thomas and Alan -->
 
 
  
@@ -1611,6 +1775,7 @@ TO DO
 - get rid of all comments in this readme
 - Have you mentioned custom models?
 - No items in deals and clearance
+Database relationship diagram - [Miro](https://www.miro.com/) for drawing database diagrams.
 
 
 BUGS
