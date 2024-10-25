@@ -1381,11 +1381,39 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Update Quantity Button | Quantity of list item updates. Total updates | Change quantity amount and click update | Quantity of list item updates. Total updates | Pass
+| Update Quantity Button (Notification) | Notification displays change | Change quantity amount and click update | Notification displays change | Pass
+| Remove Button | list item is removed. Total updates | click remove | list item is removed. Total updates | Pass |
+| Remove Button (Notification) | Notification displays change | click remove | Notification displays change | Pass |
+| Secure Checkout Button | Re-Directs user to the Secure Checkout Page | Click on the "Secure Checkout" Button | Re-directed to the Secure Checkout Page | Pass |
+| Keep Shopping Button | Re-Directs user to the index Page | Click on the "Keep Shopping" Button | Re-directed to the index Page | Pass |
+| Free delivery function | Warning that free delivery is available if spend is above threshold | Try different basket totals | Warning is displayed when valid | Pass
 
-| Update Quantity Button |
-| Remove Button |
-| Secure Checkout Button |
-| Keep Shopping Button |
+#### Checkout Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Email address (validation) (Missing @ Symbol) | User is warned of missing symbol | Address entered that is missing symbol | User is warned of missing symbol and is unable to continue | Pass |
+| Email address (validation) (Emails do not match) | User is warned of Miss-match | Address entered that is different | User is warned of miss-match and is unable to continue | Pass |
+| Field validation | Warning displayed if required field is empty | Complete order with empty field | Warning displayed when required field is empty | Pass |
+| Save this delivery information tickbox | Saves the address for later use | Complete order with button clicked and try new order | Address Saved | Pass |
+| Payment box (Validation) |  Warning displayed if card details are invalid | Attempt different invalid card details | Warning was displayed when card details were invalid | Pass
+| Adjust Bag Button | When clicked, redirects to shopping bag | Click on adjust bag button | Got directed to shopping bag | Pass |
+| Complete order button |
+
+#### Checkout Success page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Order summary | Page contains summary of the order | Complete a test purchase | summary of the order is listed | Pass |
+| Order success Notification | Toast notification that order was successful | Complete a test purchase | Toast notification that order was successful | Pass
+| Order confirmation email | Email confirmation of order sent to users email address | Complete a test purchase | Email confirmation of order received to users email address | Pass |
+
+
+| Now checkout the latest deals Button | 
+
 
 
 
@@ -1393,7 +1421,7 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 
 
 
-#### Checkout Page
+
 #### Notifications
 #### Shop Management Features
 ##### Product Management Page
@@ -1590,6 +1618,7 @@ BUGS
 - Double hamburger on mobile
 - account menu needs refreshing in certain circumstances and cannot select links
 - ADD TO BAG FROM WISHLIST DOESNT WORK
+- Update list item in bag doesnt work
 
 
 FUTURE ADDITIONS
