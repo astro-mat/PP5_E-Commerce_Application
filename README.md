@@ -1,152 +1,142 @@
 # Irish craft house
 
-![AmIResponsive image of Irish Craft House](docs/amiresponsive.PNG)
-[![](docs/images/devices-mockup.png)](https://irish-craft-house-shop.herokuapp.com/)
+![AmIResponsive image of Irish Craft House](docs/images/amiresponsive.PNG)
 [Link to Live Site](https://irishdesignhousepp5-45c81a68233a.herokuapp.com/)
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [User Experience](#user-experience)
-    * [User Goals](#user-goals)
-    * [Site Owner Goals](#site-owner-goals)
-    * [User Stories](#user-stories)
-        + [Epic 1: Viewing and navigation](#epic-1-viewing-and-navigation)
-        + [Epic 2: Registration and user accounts](#epic-2-registration-and-user-accounts)
-        + [Epic 3: Sorting and searching](#epic-3-sorting-and-searching)
-        + [Epic 4: Shopping cart management](#epic-4-shopping-cart-management)
-        + [Epic 5: Account Management](#epic-5-account-management)
-        + [Epic 6: admin panel functionality](#epic-6-admin-panel-functionality)
-        + [Epic 7: email communication](#epic-7-email-communication)
-- [Design](#design)
-    * [Typography](#typography)
-    * [Imagery](#imagery)
-    * [Wireframes](#wireframes)
-- [Features](#features)
-    * [Header](#header)
-    * [Index Page](#index-page)
-    * [Product Pages](#product-pages)
-    * [About us page](#about-us-page)
-    * [Contact us Page](#contact-us-page)
-    * [FAQ Page](#faq-page)
-    * [Register/Login/Logout](#register--login--logout)
-    * [Profile Page](#product-pages)
-    * [Wishlist Page](#wishlist)
-    * [Shopping Bag](#shopping-bag)
-    * [Checkout Page](#checkout-page)
-    * [Notifications](#notifications)
-    * [Shop Management Features](#shop-management-features)
-      + [Product management Page](#product-management-page)
-    * [Future features](#future-features)
+  - [Introduction](#introduction)
+  - [User Experience](#user-experience)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+    - [User Stories](#user-stories)
+      - [Epic 1: Viewing and navigation](#epic-1:-viewing-and-navigation)
+      - [Epic 2: Registration and user accounts](#epic-2:-registration-and-user-accounts)
+      - [Epic 3: Sorting and searching](#epic-3:-sorting-and-searching)
+      - [Epic 4: Shopping cart management](#epic-4:-shopping-cart-management)
+      - [Epic 5: Account management](#epic-5:-account-management)
+      - [Epic 6: admin panel functionality](#epic-6:-admin-panel-functionality)
+      - [Epic 7: email communication](#epic-7:-email-communication)
+  - [Design](#design)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+      - [Home page](#home-page)
+      - [Products page](#products-page)
+  - [Features](#features)
+    - [Header](#header)
+      - [Navigation bar](#navigation-bar)
+    - [Index page](#index-page)
+    - [Product Pages](#product-pages)
+      - [All products page](#all-products-page)
+      - [Product detail page](#product-detail-page)
+    - [About Us page](#about-us-page)
+    - [Contact Us Page](#contact-us-page)
+    - [FAQ Page](#faq-page)
+    - [Register/Login/Logout](#register/login/logout)
+      - [Register page](#register-page)
+      - [Verify Your E-mail Address Page](#verify-your-e-mail-address-page)
+      - [Confirm E-mail Address page](#confirm-e-mail-address-page)
+      - [Login page](#login-page)
+      - [Log Out Page](#log-out-page)
+      - [Reset Password Page](#reset-password-page)
+      - [Password reset success page](#password-reset-success-page)
+      - [Change Password Page](#change-password-page)
+      - [Change password Success Page](#change-password-success-page)
+    - [Profile Page](#profile-page)
+    - [Wishlist Page](#wishlist-page)
+    - [Shopping Bag](#shopping-bag)
+    - [Checkout page](#checkout-page)
+    - [Notifications](#notifications)
+    - [Shop Management Features](#shop-management-features)
+      - [Product management Page](#product-management-page)
+    - [404 error page.](#404-error-page.)
+    - [Future Features](#future-features)
+  - [Search Engine Optimization (SEO) & Social Media Marketing](#search-engine-optimization-(seo)-&-social-media-marketing)
+    - [Keyword Research](#keyword-research)
+    - [Metadata](#metadata)
+    - [Sitemap](#sitemap)
+    - [Robots](#robots)
+    - [Social Media Marketing](#social-media-marketing)
+  - [Testing](#testing)
+    - [Validation of Code](#validation-of-code)
+      - [HTML Validation](#html-validation)
+      - [CSS Validation](#css-validation)
+      - [Python Validation](#python-validation)
+        - [about_us](#about_us)
+        - [bag](#bag)
+        - [checkout](#checkout)
+        - [contact](#contact)
+        - [faq](#faq)
+        - [home](#home)
+        - [irish_craft_house](#irish_craft_house)
+        - [products](#products)
+        - [profiles](#profiles)
+        - [wishlist](#wishlist)
+    - [Javascript validation](#javascript-validation)
+    - [Browser compatibility](#browser-compatibility)
+    - [Responsiveness](#responsiveness)
+    - [Performance Testing](#performance-testing)
+    - [Accessibility Testing](#accessibility-testing)
+    - [Lighthouse](#lighthouse)
+      - [Desktop](#desktop)
+      - [Mobile](#mobile)
+    - [Manual Testing](#manual-testing)
+      - [Header](#header)
+        - [Nav Menu](#nav-menu)
+        - [Search Box](#search-box)
+        - [My Account Dropdown](#my-account-dropdown)
+        - [My Account Dropdown (Logged in shoppers)](#my-account-dropdown-(logged-in-shoppers))
+        - [My Account Dropdown (Logged in Admin)](#my-account-dropdown-(logged-in-admin))
+        - [Shopping Bag (Logged in Admin)](#shopping-bag-(logged-in-admin))
+      - [Index Page](#index-page)
+      - [Products Page (Guest shopper and Logged in shopper)](#products-page-(guest-shopper-and-logged-in-shopper))
+      - [Products Page (Logged In Admin)](#products-page-(logged-in-admin))
+      - [Product Detail Page](#product-detail-page)
+      - [Product Detail Page (Logged In Shopper)](#product-detail-page-(logged-in-shopper))
+      - [Product Detail Page (Logged In Admin)](#product-detail-page-(logged-in-admin))
+      - [About us Page](#about-us-page)
+      - [FAQ Page](#faq-page)
+      - [Contact us Page](#contact-us-page)
+      - [Contact Us Success Page](#contact-us-success-page)
+      - [Register/Login/Logout Pages](#register/login/logout-pages)
+        - [Register Page](#register-page)
+        - [Verify Your E-mail Address Page](#verify-your-e-mail-address-page)
+        - [Confirm E-mail Address Page](#confirm-e-mail-address-page)
+        - [Login Page](#login-page)
+        - [Log Out Page](#log-out-page)
+        - [Reset Password Page](#reset-password-page)
+        - [Reset Password Page](#reset-password-page)
+        - [Reset Password Success Page](#reset-password-success-page)
+      - [Profile Page](#profile-page)
+      - [Wishlist Page](#wishlist-page)
+      - [Shopping Bag](#shopping-bag)
+      - [Checkout Page](#checkout-page)
+      - [Checkout Success page](#checkout-success-page)
+      - [Shop Management Features](#shop-management-features)
+        - [Product Management Page](#product-management-page)
+      - [404 Error Page Page](#404-error-page-page)
+  - [Technologies Used](#technologies-used)
+  - [Deployment](#deployment)
+    - [Fork repository in GitHub](#fork-repository-in-github)
+    - [Clone repository in GitHub](#clone-repository-in-github)
+    - [Deployment to Heroku](#deployment-to-heroku)
+    - [PostgreSQL from Code Institute Database](#postgresql-from-code-institute-database)
+    - [Amazon AWS](#amazon-aws)
+      - [S3 Bucket](#s3-bucket)
+      - [IAM](#iam)
+      - [Final AWS Setup](#final-aws-setup)
+  - [Credits](#credits)
+    - [Existing projects used for inspiration](#existing-projects-used-for-inspiration)
+    - [Bootstrap mega menu -](#bootstrap-mega-menu--)
+    - [Wish List Functionality:](#wish-list-functionality:)
+    - [FAQ Functionality:](#faq-functionality:)
+    - [Contact Us section:](#contact-us-section:)
+    - [PP5 project research](#pp5-project-research)
+    - [About Us Section:](#about-us-section:)
+    - [Website research](#website-research)
+  - [Acknowledgements](#acknowledgements)
 
-- [Search Engine Optimization (SEO) & Social Media Marketing](#search-engine-optimization-seo--social-media-marketing)
-    * [Keyword Research](#keyword-research)
-    * [Metadata](#metadata)
-    * [Sitemap](#sitemap)
-    * [Robots](#robots)
-    * [Social Media Marketing](#social-media-marketing)
-
-- [Testing](#testing)
-    * [Validation of Code](#validation-of-code)
-        + [HTML Validation](#html-validation)
-        + [CSS Validation](#css-validation)
-        + [Python Validation](#python-validation)
-        + [Javascript validation](#javascript-validation)
-    * [Manual Testing]
-        + [Header](#header)
-        + [Index Page](#index-page)
-        + [Product Pages](#product-pages)
-        + [About us page](#about-us-page)
-        + [Contact us Page](#contact-us-page)
-        + [FAQ Page](#faq-page)
-        + [Register/Login/Logout](#register--login--logout)
-        + [Profile Page](#product-pages)
-        + [Wishlist Page](#wishlist)
-        + [Shopping Bag](#shopping-bag)
-        + [Checkout Page](#checkout-page)
-        + [Notifications](#notifications)
-        + [Shop Management Features](#shop-management-features)
-          + [Product management Page]
-
-- [](#)
-    * [](#)
-
-
-
-
-
-
-
-
-
-
-<!-- 
-- [User Stories](#user-stories)
-- [UX](#ux)
-  * [Typography](#typography)
-  * [Wireframes](#wireframes)
-- [Accessibility](#accessibility)
-- [Database Design](#database-design)
-- [Features](#features)
-- [Existing Features](#existing-features)
-  * [Landing Page](#landing-page)
-  * [Navbar](#navbar)
-  * [Shopping Cart](#shopping-cart)
-  * [Products List](#products-list)
-  * [Product Detail Page](#product-detail-page)
-  * [Register / Login](#register---login)
-  * [Wishlist](#wishlist)
-  * [Checkout](#checkout)
-  * [Notification Emails](#notification-emails)
-  * [Footer](#footer)
-  * [Privacy Policy](#privacy-policy)
-  * [Cookie Consent Banner](#cookie-consent-banner)
-  * [Notifications](#notifications)
-  * [Favicon](#favicon)
-- [Staff Only Features](#staff-only-features)
-  * [Shop Management Dashboard](#shop-management-dashboard)
-  * [Products Detail](#products-detail)
-  * [Printable Order Sheets](#printable-order-sheets)
-  * [Dispatch Orders](#dispatch-orders)
-  * [Custom Error Pages](#custom-error-pages)
-  * [Features Left to Implement](#features-left-to-implement)
-- [Technologies Used](#technologies-used)
-- [External Python Packages Used](#external-python-packages-used)
-- [Ecommerce Business Model](#ecommerce-business-model)
-- [Search Engine Optimization (SEO) & Social Media Marketing](#search-engine-optimization--seo----social-media-marketing)
-  * [Keywords](#keywords)
-  * [Metadata](#metadata)
-  * [Sitemap](#sitemap)
-  * [Robots](#robots)
-  * [Social Media Marketing](#social-media-marketing)
-  * [Newsletter Marketing](#newsletter-marketing)
-- [Testing](#testing)
-  * [Browser Compatibility](#browser-compatibility)
-  * [Responsiveness](#responsiveness)
-  * [Performance Testing](#performance-testing)
-  * [Accessibility Testing](#accessibility-testing)
-  * [User Story Testing](#user-story-testing)
-  * [Challenges Faced](#challenges-faced)
-  * [Code Validation](#code-validation)
-    + [HTML Validation](#html-validation)
-    + [CSS Validation](#css-validation)
-    + [Python Validation](#python-validation)
-    + [JavaScript](#javascript)
-- [Deployment](#deployment)
-  * [ElephantSQL Database](#elephantsql-database)
-  * [Amazon AWS](#amazon-aws)
-    + [S3 Bucket](#s3-bucket)
-    + [IAM](#iam)
-    + [Final AWS Setup](#final-aws-setup)
-  * [Heroku Deployment](#heroku-deployment)
-  * [Local Deployment](#local-deployment)
-    + [Cloning](#cloning)
-    + [Forking](#forking)
-- [Credits](#credits)
-  * [Content](#content)
-  * [Code](#code)
-  * [Media](#media)
-  * [Acknowledgements](#acknowledgements) -->
 
 ## Introduction
 
@@ -704,6 +694,13 @@ Several features can be added in the future.
 
 - Add more content to home page.
 - Add footer to home page
+- Special offers and clearance menu items
+- more text on home page for better SEO results
+- footer to include social links
+- Hero image could be upgraded to an image slider
+- More products - Can be done by client
+- No items in deals and clearance
+- Wishlist could allow for quantities. It could also include and add to bag button
 - Add more functionality to the wishlist page. Ability to change quantity, better layout to more closely match the shopping bag design, add to bag feature.
 
 ## Search Engine Optimization (SEO) & Social Media Marketing
@@ -1107,6 +1104,7 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 ![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
 
+<!-- 
 ### Javascript validation
 
 ### Browser compatibility
@@ -1115,7 +1113,8 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 ### Performance Testing
 
-### Accessibility Testing
+### Accessibility Testing 
+-->
 
 ### Lighthouse
 
@@ -1133,9 +1132,6 @@ The test for desktop resulted in scores all over 90.
 
 The test for mobile resulted in scores all over 90 except for the best practices which scored 74. I am confident that this could be easily improved particularly by paying attention to the use of cookies on the site
 
-
-
-
 ### Manual Testing
 
 Every page at the website has been manually tested. It is done in Google Chrome DevTools and on different devices. The devices used were one mobile phone, one laptop and one external screen:
@@ -1143,7 +1139,6 @@ Every page at the website has been manually tested. It is done in Google Chrome 
 - Samsung Galaxy A52s (1080 x 2400)
 - HP 250 G4 Notebook PC (1366 x 768)
 - HP 2309v LCD Screen (1920 x 1080)
-
 
 #### Header
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
@@ -1733,8 +1728,6 @@ Many thanks to the following people for all their help and support
 - Laura Mayock - Cohort Facilitator
 - Krystina - Cohort Facilitator
 - Antonio Rodriguez - Mentor
-- Indre Vilickaite - Fellow Student
-- Patrick Hladun - Fellow Student
 
 And all the Tutors that assisted me
 
@@ -1748,13 +1741,6 @@ Holly, Thomas, Tom, Roo, John, Roman, Sean, Oisin, Mark, Sarah, Thomas and Alan 
 <!-- 
 TEMP TO BE DELETED-----------------------------------------------------------------------------------------------------------
 
-CITATIONS
-
-
-
-
-
-
 TO DO
 
 - do/check table of contents
@@ -1763,7 +1749,6 @@ TO DO
 - mobile header matches full screen
 - delete comments from all files
 - Check that all images are there
-- fix update amount in cart
 - insert table of contents
 - Delete all these notes at end of readme
 - Mockup image at start of readme
@@ -1774,18 +1759,10 @@ Database relationship diagram - [Miro](https://www.miro.com/) for drawing databa
 
 
 BUGS
-- Double hamburger on mobile
-- Update list item in bag doesnt work
 
 
 FUTURE ADDITIONS
-Special offers menu item
-more text on home page for better SEO results
-footer to include social links
-Hero image could be upgraded to an image slider
-- More products - Can be done by client
-- No items in deals and clearance
-- Wishlist could allow for quantities. It could also include and add to bag button
+
 
 
 
