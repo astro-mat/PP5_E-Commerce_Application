@@ -679,10 +679,7 @@ A logged in admin level user sees the same but with the addition of a product ma
 
 ### Notifications
 
-- Notifications are given to the user for all significant events on the website. These include;
-        + asdfasd
-        + asdasdasd
-        + When editing/adding/deleting a product
+- Notifications are given to the user for all significant events on the website.
 
 ### Shop Management Features
 
@@ -697,13 +694,17 @@ A logged in admin level user sees the same but with the addition of a product ma
 - The page is also accessed when either "Edit" or "Delete" is clicked on any product. When this happens, the page is populated with the details of the relevant product
 - For more detailed editing features, the user can log into the Django admin interface
 
+### 404 error page.
+
+- Custom 404 error page is included to appear when the website won't load.
+
 ### Future Features
 
 Several features can be added in the future.
 
 - Add more content to home page.
 - Add footer to home page
-- Add more functionality to the wishlist page. Ability to change quantity, better layout to more closely match the shopping bag design
+- Add more functionality to the wishlist page. Ability to change quantity, better layout to more closely match the shopping bag design, add to bag feature.
 
 ## Search Engine Optimization (SEO) & Social Media Marketing
 
@@ -839,8 +840,15 @@ provided by Code Institute.
 
 ![](docs/images/facebook-mockup.png)
 
-
 For this business I envision a lot of the social media marketing being very visual, using the current most popular formats like Instagram Reels and TikTok. As these are primarily video based I did not mock any for the purposes of this coding project.
+
+Further keywords additions are limited here due to the lack of text on our home page. Future improvements of the site would be to include more text. Keywords were included in the about us text. This text can be edited by the shop editors if they feel they need to.
+
+Future additions could also include external links to further improve our SEO results.
+
+Further improvements could be made to the images on the site. Currently, they are all named after the stock code of the item. This is not helpful for search engine optimisation. WOrk could be done in renaming these to more meaningful descriptions of the items. Also, there is no allowance for alt tags and this should be added in future versions.
+
+The Meta data does not yet include an image to be displayed when the site is shared on social media
 
 ## Testing
 
@@ -1371,8 +1379,7 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
-| Add to bag Button | Item is added to bag and removed from wishlist | Click on add to bag button | Item is added to bag and removed from wishlist | Pass
-| Add to bag Button (Notification) | Notification is displayed saying item has been added to bag | Click on add to bag button | Notification is displayed with correct information | Pass |
+| Product details Button | User is redirected to product detail page for that product | Click on product detail button | User is redirected to product detail page for that product | Pass
 | Remove from wishlist Button | Item is removed from wishlist | Click on Remove from wishlist button | Item is removed from wishlist | Pass
 | Remove from wishlist  Button (Notification) | Notification is displayed saying item has been removed from wishlist | Click on remove from wishlist button | Notification is displayed with correct information | Pass |
 
@@ -1412,9 +1419,8 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | Order confirmation email | Email confirmation of order sent to users email address | Complete a test purchase | Email confirmation of order received to users email address | Pass |
 | "Now checkout the latest deals" Button | When clicked, redirects to product page filtered for deals | Click on "Now checkout the latest deals" button | Got directed to product page filtered for deals | Pass | 
 
-
-
 #### Shop Management Features
+
 ##### Product Management Page
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
@@ -1423,6 +1429,13 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | Select Image Button | Opens system window to allow image selection | Click button, select image | Image selected and attached to item | Pass
 | Cancel Button | When clicked, redirects to product page | Click on "Cancel" button | Got directed to product page | Pass | 
 | Add Product Button | Uses the details to add product to the database and redirects to product detail page | Test product added | New product is created and user is redirected to the relevant product detail page | Pass 
+
+#### 404 Error Page Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsive design | The page changes so the content fit at the smallest to the largest screens without scrolling sideways | In DevTools, select the smallest device and make it larger step by step | The page was responsive and changed depending on screen size | Pass |
+| Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
+| Return to shop Button | Redirects user to products page | Click Return to shop Button | User is redirected to products page | Pass |
 
 <!-- 
 
@@ -1656,20 +1669,8 @@ Once on the IAM page, follow these steps:
 
 
 
-<!-- 
+
 ## Credits
-
-### Libraries Used
-
-- django-allauth
-- django-summernote
-- gunicorn
-- whitenoise
-
-### Used resources
-
-
-- [django](https://docs.djangoproject.com/) - For all information referred to about Django
 
 ### Existing projects used for inspiration
 
@@ -1681,12 +1682,49 @@ Once on the IAM page, follow these steps:
 - https://github.com/Thomas-Tomo/woodland-whispers-retreat/blob/main/cabin_bookings/models.py
 - https://github.com/davidindub/coffeecrew
 
-### Tutorials and code snippets
+My project was heavily influenced by the excellent Code institute "Boutique Ado" walk through
 
-- https://stackoverflow.com/questions/31574775/move-a-bootstrap-input-element-further-down-the-page - Code to move down element in bootstrap
-- https://simpleisbetterthancomplex.com/tutorial/2019/01/03/how-to-use-date-picker-with-django.html
-- https://mdbootstrap.com/docs/standard/navigation/footer/
-- https://stackoverflow.com/questions/13881548/sticky-footer-hiding-content
+### Bootstrap mega menu -
+https://welcm.uk/blog/mega-menu-with-bootstrap-4
+
+### Wish List Functionality:
+https://stackoverflow.com/questions/56580696/how-to-implement-add-to-wishlist-for-a-product-in-django
+https://github.com/jrief/django-shop-wishlists
+https://django-oscar.readthedocs.io/en/2.1.0/_modules/oscar/apps/customer/wishlists/views.html
+https://forum.djangoproject.com/t/creating-a-simple-add-to-cart-with-simple-functionalities/21992
+https://djangopackages.org/grids/g/ecommerce/
+
+### FAQ Functionality:
+https://docs.djangoproject.com/en/5.1/faq/help/
+https://docs.djangoproject.com/en/5.1/ref/contrib/admin/
+https://medium.com/django-unleashed/complete-django-project-setup-a-comprehensive-guide-289182b75f3c
+https://stackoverflow.com/questions/54601455/add-menu-items-to-django-admin-site
+https://www.w3schools.com/django/index.php
+
+### Contact Us section:
+https://mailtrap.io/blog/django-contact-form/
+https://stackoverflow.com/questions/67678948/how-to-add-a-functional-contact-form-at-my-home-page-in-django-by-using-inclu
+https://www.twilio.com/en-us/blog/build-contact-form-python-django-twilio-sendgrid
+https://www.youtube.com/watch?v=lSgRWA4PMt4
+https://learndjango.com/tutorials/django-email-contact-form-tutorial
+https://docs.djangoproject.com/en/5.1/ref/settings/
+https://stackoverflow.com/questions/74417399/making-a-functional-contact-form-using-django
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms
+
+### PP5 project research
+https://github.com/davidindub/coffeecrew
+https://github.com/Zilvaro/adenwell-ecommerce
+https://github.com/anthonyjn08/witness_the_fitness_v1
+https://github.com/JoGorska/bonsai-shop
+https://github.com/LewisMDillon/web-piano-academy
+
+
+### About Us Section:
+Code institute "I Think therefore" I blog walk through
+https://github.com/Code-Institute-Solutions/blog/tree/main/15_testing/about
+
+### Website research
+https://leitrimdesignhouse.ie/
 
 ## Acknowledgements
 
@@ -1712,57 +1750,14 @@ TEMP TO BE DELETED--------------------------------------------------------------
 
 CITATIONS
 
-My project was heavily influenced by the excellent Code institute "Boutique Ado" walk through
 
-Bootstrap mega menu -
-https://welcm.uk/blog/mega-menu-with-bootstrap-4
-
-Wish List Functionality:
-https://stackoverflow.com/questions/56580696/how-to-implement-add-to-wishlist-for-a-product-in-django
-https://github.com/jrief/django-shop-wishlists
-https://django-oscar.readthedocs.io/en/2.1.0/_modules/oscar/apps/customer/wishlists/views.html
-https://forum.djangoproject.com/t/creating-a-simple-add-to-cart-with-simple-functionalities/21992
-https://djangopackages.org/grids/g/ecommerce/
-
-FAQ Functionality:
-https://docs.djangoproject.com/en/5.1/faq/help/
-https://docs.djangoproject.com/en/5.1/ref/contrib/admin/
-https://medium.com/django-unleashed/complete-django-project-setup-a-comprehensive-guide-289182b75f3c
-https://stackoverflow.com/questions/54601455/add-menu-items-to-django-admin-site
-https://www.w3schools.com/django/index.php
-
-Contact Us section:
-https://mailtrap.io/blog/django-contact-form/
-https://stackoverflow.com/questions/67678948/how-to-add-a-functional-contact-form-at-my-home-page-in-django-by-using-inclu
-https://www.twilio.com/en-us/blog/build-contact-form-python-django-twilio-sendgrid
-https://www.youtube.com/watch?v=lSgRWA4PMt4
-https://learndjango.com/tutorials/django-email-contact-form-tutorial
-https://docs.djangoproject.com/en/5.1/ref/settings/
-https://stackoverflow.com/questions/74417399/making-a-functional-contact-form-using-django
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms
-
-PP5 project research
-https://github.com/davidindub/coffeecrew
-https://github.com/Zilvaro/adenwell-ecommerce
-https://github.com/anthonyjn08/witness_the_fitness_v1
-https://github.com/JoGorska/bonsai-shop
-https://github.com/LewisMDillon/web-piano-academy
-
-
-About Us Section:
-Code institute "I Think therefore" I blog walk through
-https://github.com/Code-Institute-Solutions/blog/tree/main/15_testing/about
-
-Website research
-https://leitrimdesignhouse.ie/
 
 
 
 
 TO DO
 
-
-- ADD TO BAG FROM WISHLIST DOESNT WORK
+- do/check table of contents
 - Go back to Shopping bag and apply fix that allows minus bag items in mobile view
 - Check that nothing says "Boutique ado"
 - mobile header matches full screen
@@ -1780,8 +1775,6 @@ Database relationship diagram - [Miro](https://www.miro.com/) for drawing databa
 
 BUGS
 - Double hamburger on mobile
-- account menu needs refreshing in certain circumstances and cannot select links
-- ADD TO BAG FROM WISHLIST DOESNT WORK
 - Update list item in bag doesnt work
 
 
@@ -1792,15 +1785,9 @@ footer to include social links
 Hero image could be upgraded to an image slider
 - More products - Can be done by client
 - No items in deals and clearance
+- Wishlist could allow for quantities. It could also include and add to bag button
 
-SEO
-Further keywords additions are limited here due to the lack of text on our home page. Future improvements of the site would be to include more text. Keywords were included in the about us text. This text can be edited by the shop editors if they feel they need to.
 
-Future additions could also include external links to further improve our SEO results.
-
-Further improvements could be made to the images on the site. Currently, they are all named after the stock code of the item. This is not helpful for search engine optimisation. WOrk could be done in renaming these to more meaningful descriptions of the items. Also, there is no allowance for alt tags and this should be added in future versions.
-
-The Meta data does not yet include an imgae to be displayed when the site is shared on social media
 
 
 

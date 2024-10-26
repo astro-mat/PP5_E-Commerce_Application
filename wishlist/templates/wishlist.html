@@ -32,10 +32,10 @@
         <img class="img-fluid rounded wishlistimg" src="{{ MEDIA_URL }}noimage.png" alt="{{ wishlist.item.name }}">
         {% endif %}
     </div>
-    <a href="{% url 'product_detail' wishlist.item.id %}" class="btn btn-secondary ml-4">
+    <a href="{% url 'product_detail' wishlist.item.id %}" class="btn btn-secondary mt-3 mb-2 ml-4 mr-5">
         Product Details
     </a>
-    <button onclick="removeFromWishlist(this)" data-wishlist-id="{{ wishlist.id }}" class="btn btn-secondary">Remove from Wishlist</button>
+    <button onclick="removeFromWishlist(this)" data-wishlist-id="{{ wishlist.id }}" class="btn btn-secondary mt-3 mb-2 ml-4 mr-5">Remove from Wishlist</button>
 {% endfor %}
 </div>
 {% else %}
