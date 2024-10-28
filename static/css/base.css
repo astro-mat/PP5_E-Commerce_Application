@@ -30,7 +30,9 @@ body {
     margin: .67em 0;
 }
 
-
+#hero-text {
+    color: white;
+}
 
 .main-logo-link {
     width: fit-content;

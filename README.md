@@ -1158,14 +1158,24 @@ The linter listed stripe as an unknown variable here. As it is coming from anoth
 **countryfield.js**
 
 ![Javascript Validation for countryfield.js](docs/images/countryfieldjs.PNG)
-
-
-<!-- 
+ 
 ### Browser compatibility
+
+I tested the website on four different operating systems on four different types of hardware and didn't find any rendering bugs or unexpected behaviour between the browsers tested.
+
+| Operating System | Chrome | Firefox | Edge | Safari |
+|------------------|--------|---------|------|--------|
+| macOS 13.2       | ✅      | ✅       | ✅    | ✅   |
+| Windows 11       | ✅      | ✅       | ✅    | N/A   |
+| Android 10       | ✅      | ✅       | ✅    | ✅   |
+| iOS & iPadOS 16.3  | N/A   | N/A       | N/A   | ✅   |
 
 ### Responsiveness
 
-### Performance Testing
+I tested for responsiveness on many different sized viewports from 320px wide up to Ultrawide resolutions, and using different hardware (Monitors, Laptops, Phones). No rendering bugs or unexpected behaviour between the sizes was noticed.
+
+I used [Polypane](https://polypane.app/) during development to test many different viewport sizes at once.
+<!--
 
 ### Accessibility Testing 
 -->
