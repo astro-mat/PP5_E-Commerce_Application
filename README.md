@@ -594,12 +594,16 @@ A logged in admin level user sees the same but with the addition of a product ma
 #### Verify Your E-mail Address Page
 
 - After registering for an account, the user reaches this page instructing them to check emails for a confirmation
-- The Email contains a link to Confirm E-mail Address
+- The Email contains a link to Confirm E-mail Address.
+
+![Verify Your E-mail Address Page](docs/images/verify.PNG)
 
 #### Confirm E-mail Address page
 
 - The user can select a button that confirms the email.
 - They are then taken to the Login page where they can now login
+
+![Confirm E-mail Address Page](docs/images/confirm.PNG)
 
 #### Login page
 
@@ -608,17 +612,23 @@ A logged in admin level user sees the same but with the addition of a product ma
 - A link is provided for if the user has forgotten their password (See below)
 - Once successfully signed in, they are taken to the index page
 
+![Login Page](docs/images/login.PNG)
+
 #### Log Out Page
 
 - A simple page that the user can either choose to logout with (via button)
 - If the user changes their mind, they can select "Cancel"
 - Both options take the user to the index page
 
+![Logout Page](docs/images/logout.PNG)
+
 #### Reset Password Page
 
 - The user is prompted to enter email address
 - Once Email is entered and "Reset my password" button is pressed, an email is sent to the email address with further instructions
 - The user can also choose to go back to login page if they realise that they have remembered their password.
+
+![Reset Password Page](docs/images/reset.PNG)
 
 #### Password reset success page
 
@@ -627,27 +637,37 @@ A logged in admin level user sees the same but with the addition of a product ma
 - The email contains a link
 - The link leads to the change password page
 
+![Reset Success Page](docs/images/reset-success.PNG)
+
 #### Change Password Page
 
 - The user is invited to change there password
 - Warnings are given if the new password does not pass the validation
+
+![Change Password Page](docs/images/change-password.PNG)
 
 #### Change password Success Page
 
 - This page simply informs the user that there password has been changed
 - They can now login with their new password
 
+![Password Change success Page](docs/images/password-change-success.PNG)
+
 ### Profile Page
 
 - This page is accessed from the "My Account" Dropdown in the main header 
 - The user can update their address and phone number
-- The page also displays their order history listing any orders they have made, order number, date, items and total cost
+- The page also displays their order history listing any orders they have made, order number, date, items and total cost.
+
+![Profile Page](docs/images/profile.PNG)
 
 ### Wishlist Page
 
 - If items are added to the users wishlist, they can be viewed here.
 - A simple summary of all the items in the users wishlist is displayed including item description, item image.
 - Each item has buttons that can add the item to the shopping bag or remove from the wishlist
+
+![Wishlist Page](docs/images/wishlist.PNG)
 
 ### Shopping Bag
 
@@ -658,6 +678,8 @@ A logged in admin level user sees the same but with the addition of a product ma
 - At the bottom is a total, a calculated shipping charge and a grand total
 - The user is then invited to either keep shopping (Back to products page) or continue to checkout
 
+![Shopping Bag Page](docs/images/shopping-bag.PNG)
+
 ### Checkout page
 
 - Here, the user can fill in their name and shipping address
@@ -666,6 +688,9 @@ A logged in admin level user sees the same but with the addition of a product ma
 - At the bottom is a total, a calculated shipping charge and a grand total
 - Payment details are to be entered before purchase can be made
 - Buttons are included which invite the user to either go back and adjust the bag contents or complete the order
+
+![Checkout Page](docs/images/checkout1.PNG)
+![Checkout Page](docs/images/checkout2.PNG)
 
 ### Notifications
 
@@ -684,9 +709,14 @@ A logged in admin level user sees the same but with the addition of a product ma
 - The page is also accessed when either "Edit" or "Delete" is clicked on any product. When this happens, the page is populated with the details of the relevant product
 - For more detailed editing features, the user can log into the Django admin interface
 
+![Product Management Page](docs/images/product-management-1.PNG)
+![Product Management Page](docs/images/product-management-2.PNG)
+
 ### 404 error page.
 
 - Custom 404 error page is included to appear when the website won't load.
+
+![Custom 404 error Page](docs/images/404error.PNG)
 
 ### Future Features
 
@@ -874,9 +904,19 @@ All the pages were tested at the [W3C Markup Validation Service](https://validat
 
 #### CSS Validation
 
+The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The process completed without errors.
+
+**base.css**
+
 ![Screenshot of CSS validation](docs/images/css-valid.PNG)
 
-The CSS code was tested at [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). The process completed without errors.
+**contact.css**
+
+![Screenshot of contact.css validation](docs/images/contact-css-valid.PNG)
+
+**profile.css**
+
+![Screenshot of profile.css validation](docs/images/profile-css-valid.PNG)
 
 #### Python Validation
 
@@ -1104,9 +1144,23 @@ All Python files have been validated using the [CI Python Linter](https://pep8ci
 
 ![Python validation of apps.py in wishlist](docs/images/pep8-wishlist-apps.PNG)
 
-<!-- 
+
 ### Javascript validation
 
+All Javascript files have been validated using the [Javascript Linter](https://jshint.com/) to ensure they meet PEP8 standards. The validation process completed without any errors.
+
+**stripe_elements.js**
+
+The linter listed stripe as an unknown variable here. As it is coming from another script, this warning can be ignored
+
+![Javascript Validation for stripe_elements.js](docs/images/stripe_elements.PNG)
+
+**countryfield.js**
+
+![Javascript Validation for countryfield.js](docs/images/countryfieldjs.PNG)
+
+
+<!-- 
 ### Browser compatibility
 
 ### Responsiveness
@@ -1337,7 +1391,7 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 | Back to login Button | Re-Directs user to the "Login" Page | Click on the "Back to login" Button | Re-directed to the Login Page | Pass |
 | Reset my password Button (Redirect) | Redirects user to password reset page | Click on the "Reset My Password" Button | User redirected to password reset page | Pass
-| Reset my password button (Sends email) | Sends user email with link to reset password | Click on the "Reset My Password" Button | User Recieves email with correct link | Pass
+| Reset my password button (Sends email) | Sends user email with link to reset password | Click on the "Reset My Password" Button | User Receives email with correct link | Pass
 
 ##### Reset Password Page
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
@@ -1432,16 +1486,12 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 | Text readability | Enough margins and padding to make text readable | Read all text blocks at all different Bootstrap breakpoints | The text is readable at all breakpoints | Pass |
 | Return to shop Button | Redirects user to products page | Click Return to shop Button | User is redirected to products page | Pass |
 
-<!-- 
-
-
-
 ### Bugs
 
 During the testing several bugs have been discovered.
 
 When the html validation of all pages were completed, a number of errors were present but were all fixed.
-
+<!-- 
 Another validation error was when assessing for accessibility with webAID. two of the pages were unable to load in the tool and as such could not be assessed. However, since all the other pages flew through the tests, It can be assumed safely that these pages would pass as they are very similar in style
 
 When the PEP8 validation of the Python code was made, 48 errors occurred. Most of them were one of following:
