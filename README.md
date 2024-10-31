@@ -732,6 +732,7 @@ Several features can be added in the future.
 - No items in deals and clearance
 - Wishlist could allow for quantities. It could also include and add to bag button
 - Add more functionality to the wishlist page. Ability to change quantity, better layout to more closely match the shopping bag design, add to bag feature.
+- Improvements to the accessibility as detailed in [Accessibility Testing](#accessibility-testing).
 
 ## Search Engine Optimization (SEO) & Social Media Marketing
 
@@ -1175,10 +1176,21 @@ I tested the website on four different operating systems on four different types
 I tested for responsiveness on many different sized viewports from 320px wide up to Ultrawide resolutions, and using different hardware (Monitors, Laptops, Phones). No rendering bugs or unexpected behaviour between the sizes was noticed.
 
 I used [Polypane](https://polypane.app/) during development to test many different viewport sizes at once.
-<!--
 
 ### Accessibility Testing 
--->
+
+The website was tested with the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/report#/https://irishdesignhousepp5-45c81a68233a.herokuapp.com/).
+
+Minimal errors were found. Future versions of the site could add labels to the search bar and deal with the empty button issue to solve these
+
+WAVE Web Accessibility Evaluation Tool Results
+
+![WAVE Web Accessibility Evaluation Tool Results](docs/images/wave-accessibility-report.PNG)
+
+Accessibility could be improved in the future with the addition of a text box behind the text as in the following version ;
+
+![Index page with improved contrast](docs/images/improved-contrast-index.PNG)
+
 
 ### Lighthouse
 
@@ -1501,8 +1513,6 @@ Delete Product |  When the "Delete" button is pressed, User is redirected to Pro
 During the testing several bugs have been discovered.
 
 When the html validation of all pages were completed, a number of errors were present but were all fixed.
-<!-- 
-Another validation error was when assessing for accessibility with webAID. two of the pages were unable to load in the tool and as such could not be assessed. However, since all the other pages flew through the tests, It can be assumed safely that these pages would pass as they are very similar in style
 
 When the PEP8 validation of the Python code was made, 48 errors occurred. Most of them were one of following:
 - trailing whitespace
@@ -1510,7 +1520,6 @@ When the PEP8 validation of the Python code was made, 48 errors occurred. Most o
 - blank line contains whitespace
 
 The first lighthouse tests performed resulted in a 82 performance. This was improved by resizing the images to its biggest dimension being 800px. Performance could be improved further by introducing responsive images
--->
 
 ## Technologies Used
 
