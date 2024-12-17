@@ -136,6 +136,9 @@
     - [About Us Section:](#about-us-section:)
     - [Website research](#website-research)
   - [Acknowledgements](#acknowledgements)
+  - [Addendum](#addendum)
+    - [E-Commerce Business Model](#e-commerce-business-model)
+    - [Newsletter Marketing](#newsletter-marketing)
 
 
 ## Introduction
@@ -1803,83 +1806,26 @@ And all the Tutors that assisted me
 Holly, Thomas, Tom, Roo, John, Roman, Sean, Oisin, Mark, Sarah, Thomas and Alan -->
 
 
- 
+## ADDENDUM
 
+### E-commerce Business Model
 
+This website sells products directly to individual customers, operating under a Business-to-Consumer (B2C) model. It represents one of the simplest forms of B2C, focusing on one-time transactions without requiring subscription plans like monthly or annual payments.
 
-<!-- 
-TEMP TO BE DELETED-----------------------------------------------------------------------------------------------------------
+Although still in the early stages of development, the site already features a newsletter and links for social media marketing.
 
-TO DO
+Social media offers the potential to cultivate a user community around the business, increasing site traffic, especially through larger platforms like Facebook.
 
-- do/check table of contents
-- Go back to Shopping bag and apply fix that allows minus bag items in mobile view
-- Check that nothing says "Boutique ado"
-- mobile header matches full screen
-- delete comments from all files
-- Check that all images are there
-- insert table of contents
-- Delete all these notes at end of readme
-- Mockup image at start of readme
-- get rid of all comments in this readme
-- Have you mentioned custom models?
-- No items in deals and clearance
-Database relationship diagram - [Miro](https://www.miro.com/) for drawing database diagrams.
+The newsletter list allows the business to send regular updates to users who opt in, including information on special offers and new stock arrivals. See the section on Newsletter Marketing below for more details.
 
+### Newsletter Marketing
 
-BUGS
+I used Mailchimp to set up a newsletter sign-up form on my application, to allow users to supply their email address if they are interested in learning more and to drive repeat business. As the items for sale on the website are likely to change over time, I felt that a newsletter for craft enthusiasts keeping them up to date with new products and promotional offers would work well.
 
+The main sign-up for the newsletter is via a pop-up on the main page when a new user visits. This pop-up can be easily dismissed if the user desires. 
 
-FUTURE ADDITIONS
+Future versions of this could use a 10% discount code for all users that sign-up to the list.
 
+Future versions would include an option to signup up elsewhere on the site for users that dismiss the pop-up and wish to sign-up later on
 
-
-
-
-
-
-
-
-Concepts that will be required for your final project include:
-
-SEO implementation, including:
-A robots.txt file
-A sitemap.xml file
-Descriptive meta tags
-rel attributes on links to external resources
-Marketing techniques, including:
-The need for the creation of either a real Facebook business page, or a mockup of one.
-A newsletter signup form, either through a service such as MailChimp or through a custom implemented one.
-The requirements for an e-commerce business model:
-The necessity for the inclusion of an e-commerce business model, highlighting the purpose of the application as either B2B or B2C focused, and detailing the core business intents and marketing strategies for the application.
-
-
-CHECKLIST
-- At least 3 original custom models with associated functionalities, markedly different from those present in the Boutique Ado walkthrough project if they have been used as a basis for your project. (A note on custom models)
-- At least one form on the front end, which provides either admin or regular users with CRUD functionality without having to access the admin panel.
-- At least one UI element on the front end, which allows either admin or regular users to delete records in the database without having to access the admin panel.
-- Evidence of agile methodologies followed during the development of your project in the GitHub repository.
-- A robots.txt file.
-- A sitemap.xml file.
-- Descriptive meta tags in the HTML.
-- At least one link to an external resource, which makes use of a rel attribute.
-- A custom 404 error page.
-- Evidence of either a real Facebook business page, or mock up of one, for the purposes of digital marketing.
-- Evidence of a newsletter signup form for the purposes of digital marketing.
-- A description of the e-commerce business model including marketing strategies in the README file.
-- DEBUG mode set to False.
-- Working functionality for users to register and log in and out of the application without issues.
-- Working E-commerce functionality for users to make purchases within the application.
-- Detailed testing write ups, beyond results of validation tools.
-- GitHub project board set to public visibility. 
-
-
-
-
-
-
-
--->
-
-
-
+![Mailchimp home page pop-up](docs/images/mailchimp-popup.PNG)
