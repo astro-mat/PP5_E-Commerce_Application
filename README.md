@@ -1818,6 +1818,8 @@ Social media offers the potential to cultivate a user community around the busin
 
 The newsletter list allows the business to send regular updates to users who opt in, including information on special offers and new stock arrivals. See the section on Newsletter Marketing below for more details.
 
+it is felt that the business will seek to develop a reputation for high quality, designer goods for the local irish market and seek to tap into the worldwide market for handmade Irish crafts by developing its social media presence and newsletter marketing. Further development could be made by offering a lifestyle blog on the site featuring desirable, high quality "lifestyle" images and tips and suggestions for both fashion and home decor.
+
 ### Newsletter Marketing
 
 I used Mailchimp to set up a newsletter sign-up form on my application, to allow users to supply their email address if they are interested in learning more and to drive repeat business. As the items for sale on the website are likely to change over time, I felt that a newsletter for craft enthusiasts keeping them up to date with new products and promotional offers would work well.
