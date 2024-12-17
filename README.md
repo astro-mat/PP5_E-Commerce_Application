@@ -1,6 +1,7 @@
-# Irish craft house
+# Irish Craft House
 
 ![AmIResponsive image of Irish Craft House](docs/images/amiresponsive.PNG)
+
 [Link to Live Site](https://irishdesignhousepp5-45c81a68233a.herokuapp.com/)
 
 ## Table of Contents
@@ -1818,7 +1819,7 @@ Social media offers the potential to cultivate a user community around the busin
 
 The newsletter list allows the business to send regular updates to users who opt in, including information on special offers and new stock arrivals. See the section on Newsletter Marketing below for more details.
 
-it is felt that the business will seek to develop a reputation for high quality, designer goods for the local irish market and seek to tap into the worldwide market for handmade Irish crafts by developing its social media presence and newsletter marketing. Further development could be made by offering a lifestyle blog on the site featuring desirable, high quality "lifestyle" images and tips and suggestions for both fashion and home decor.
+It is felt that the business will seek to develop a reputation for high quality, designer goods for the local irish market and seek to tap into the worldwide market for handmade Irish crafts by developing its social media presence and newsletter marketing. Further development could be made by offering a lifestyle blog on the site featuring desirable, high quality "lifestyle" images and tips and suggestions for both fashion and home decor.
 
 ### Newsletter Marketing
 
